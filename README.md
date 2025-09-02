@@ -9,7 +9,7 @@
 ## 📊 This Week's Highlights
 
 - **[2025-08-20]** [Detecting and Explaining Postpartum Depression in Real-Time with Generative Artificial Intelligence](https://arxiv.org/abs/2508.10025)
-- **[2025-08-01]** [Federated Mixture of Experts on Heterogeneous Data and Tasks](https://arxiv.org/abs/2508.00304)
+- **[2025-06-28]** [GNN's Uncertainty Quantification using Self-Distillation for Artificial Intelligence in Healthcare](https://arxiv.org/abs/2506.20046)
 - **[2025-05-30]** [MedOrch: Medical Diagnosis with Tool-Augmented Reasoning Agents for Flexible Extensibility](https://arxiv.org/abs/2506.00235)
 - **[2025-05-12]** [The promise and perils of AI in medicine](https://arxiv.org/abs/2505.06971)
 - **[2025-05-10]** [Integrating Explainable AI in Medical Devices: Technical, Clinical and Regulatory Insights and Recommendations](https://arxiv.org/abs/2505.06620)
@@ -20,7 +20,7 @@
 
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
-| 2025-08-01 | [Federated Mixture of Experts on Heterogeneous Data and Tasks](https://arxiv.org/abs/2508.00304) | MIT | - |
+| 2025-06-28 | [GNN's Uncertainty Quantification using Self-Distillation for Artificial Intellig](https://arxiv.org/abs/2506.20046) | University of Cambridge | - |
 | 2025-01-01 | [MedMax: Mixed-Modal Instruction Tuning for Training Biomedical Assistants](https://arxiv.org/abs/2501.00017) | Stanford University | - |
 | 2024-09-28 | [MedEdit: Model Editing for Medical Question Answering with External Knowledge Ba](https://arxiv.org/abs/2309.16035) | UCLA | [MedEdit](https://github.com/cyzhh/MedEdit) |
 | 2024-03-08 | [Gemini 1.5: Unlocking multimodal understanding across millions of tokens of cont](https://arxiv.org/abs/2403.05530) | Google DeepMind | - |
@@ -240,14 +240,14 @@
 ### Top Organizations
 - **Stanford University**: 22 papers
 - **Google Research**: 12 papers
-- **MIT**: 8 papers
 - **Microsoft Research**: 8 papers
+- **MIT**: 7 papers
 - **Meta AI**: 6 papers
 - **Google DeepMind**: 5 papers
 - **University of Toronto**: 5 papers
 - **DeepMind**: 5 papers
 - **Harvard Medical School**: 4 papers
-- **University of Washington**: 3 papers
+- **University of Cambridge**: 3 papers
 
 ### Most Active Categories
 - 🔬 Foundation Models: 21 papers

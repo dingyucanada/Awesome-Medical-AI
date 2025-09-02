@@ -31,11 +31,10 @@
   },
   "by_organization": {
     "University of Vigo": 1,
-    "MIT": 8,
+    "University of Cambridge": 3,
     "Microsoft Research": 8,
     "Stanford University": 22,
     "UK Medicine and Healthcare products Regulatory Agency": 1,
-    "University of Cambridge": 2,
     "University of California": 1,
     "Johns Hopkins University": 2,
     "Chinese Academy of Sciences": 1,
@@ -63,6 +62,7 @@
     "Harvard Medical School": 4,
     "ETH Zurich": 2,
     "Broad Institute": 1,
+    "MIT": 7,
     "UC San Diego": 1,
     "OpenAI": 3,
     "Harvard T.H. Chan School": 1,
@@ -102,6 +102,6 @@
     "pubmed": 16,
     "cell": 1
   },
-  "last_updated": "2025-09-02T17:29:56.775534",
-  "note": "Updated with real 2025 papers from ArXiv. All titles and links verified."
+  "last_updated": "2025-09-02T17:38:06.308938",
+  "note": "Fixed incorrect paper link. All titles and links verified."
 }
