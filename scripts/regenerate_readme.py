@@ -109,7 +109,14 @@ def generate_readme():
     highlights = []
     for paper in recent_papers:
         date = paper.get("published", "")[:10]
-        title = paper.get("title", "")[:80]
+        # Show more of the title, truncate at word boundary if needed
+        full_title = paper.get("title", "")
+        if len(full_title) > 120:
+            # Truncate at last complete word before 120 chars
+            title = full_title[:117] + "..."
+        else:
+            title = full_title
+        
         if paper.get("url"):
             link = paper['url']
         elif paper.get("arxiv_id"):
@@ -118,7 +125,7 @@ def generate_readme():
             link = f"https://pubmed.ncbi.nlm.nih.gov/{paper['pmid']}"
         else:
             link = "#"
-        highlights.append(f"- [{date}] [{title}]({link})")
+        highlights.append(f"- **[{date}]** [{title}]({link})")
     
     # Generate README content
     readme = f"""# Awesome Generative AI in Healthcare Papers 🏥🤖
