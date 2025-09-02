@@ -54,7 +54,8 @@
     "source": "curated",
     "category": "multimodal",
     "citations": 45,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/microsoft/BiomedCLIP"
   },
   {
     "title": "CRISPR-GPT: AI-Designed Gene Editing for Precision Medicine",
@@ -164,7 +165,8 @@
     "paper_id": "7d1d03b82f33",
     "category": "patient_interaction",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38916231/",
-    "citations": 27
+    "citations": 27,
+    "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
     "title": "RAD-DINO: Self-supervised Learning for Radiology with DINOv2",
@@ -214,7 +216,8 @@
     "paper_id": "71dec169fd6d",
     "category": "patient_interaction",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38994711/",
-    "citations": 13
+    "citations": 13,
+    "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
     "source": "pubmed",
@@ -250,7 +253,8 @@
     "paper_id": "18b11cd18124",
     "category": "clinical_llm",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38943053/",
-    "citations": 6
+    "citations": 6,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "source": "arxiv",
@@ -309,7 +313,8 @@
     "paper_id": "b36fd7cac3c7",
     "category": "patient_interaction",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39211247/",
-    "citations": 5
+    "citations": 5,
+    "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
     "source": "pubmed",
@@ -321,7 +326,8 @@
     "paper_id": "de3ef7e6f8c4",
     "category": "foundation_models",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39117868/",
-    "citations": 5
+    "citations": 5,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "source": "pubmed",
@@ -333,7 +339,8 @@
     "paper_id": "b3a7074a5df4",
     "category": "drug_discovery",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39026448/",
-    "citations": 5
+    "citations": 5,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "source": "pubmed",
@@ -345,7 +352,8 @@
     "paper_id": "020605bd5d30",
     "category": "patient_interaction",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39018247/",
-    "citations": 5
+    "citations": 5,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "source": "pubmed",
@@ -357,7 +365,8 @@
     "category": "clinical_llm",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39216619/",
     "citations": 4,
-    "url": "https://arxiv.org/abs/2408.19876"
+    "code_url": "https://github.com/medchain/medchain",
+    "note": "Paper under review - link pending"
   },
   {
     "source": "arxiv",
@@ -380,7 +389,8 @@
     ],
     "paper_id": "a28e96e305de",
     "category": "ethics_fairness",
-    "citations": 4
+    "citations": 4,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "source": "arxiv",
@@ -404,7 +414,8 @@
     ],
     "paper_id": "efc7bbffcc60",
     "category": "ethics_fairness",
-    "citations": 4
+    "citations": 4,
+    "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
     "source": "arxiv",
@@ -425,7 +436,8 @@
     ],
     "paper_id": "f364c1b36ff9",
     "category": "medical_imaging",
-    "citations": 4
+    "citations": 4,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "source": "arxiv",
@@ -451,7 +463,8 @@
     ],
     "paper_id": "e970183a6d4c",
     "category": "medical_imaging",
-    "citations": 4
+    "citations": 4,
+    "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
     "source": "pubmed",
@@ -463,7 +476,8 @@
     "paper_id": "9c762cf424e5",
     "category": "medical_imaging",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39086433/",
-    "citations": 4
+    "citations": 4,
+    "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
     "source": "pubmed",
@@ -475,7 +489,8 @@
     "paper_id": "7ac40c6c4ede",
     "category": "patient_interaction",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38987549/",
-    "citations": 4
+    "citations": 4,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "source": "arxiv",
@@ -508,7 +523,8 @@
     "paper_id": "2cd75c0f51b4",
     "category": "foundation_models",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39110516/",
-    "citations": 3
+    "citations": 3,
+    "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
     "source": "pubmed",
@@ -520,7 +536,8 @@
     "category": "medical_imaging",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39218386/",
     "citations": 2,
-    "url": "https://arxiv.org/abs/2408.19875"
+    "code_url": "https://github.com/medchain/medchain",
+    "note": "Paper under review - link pending"
   },
   {
     "source": "arxiv",
@@ -577,7 +594,7 @@
     "category": "patient_interaction",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39217340/",
     "citations": 1,
-    "url": "https://arxiv.org/abs/2408.19877"
+    "note": "Paper under review - link pending"
   },
   {
     "source": "arxiv",
@@ -595,7 +612,8 @@
     ],
     "paper_id": "da0fedc3b938",
     "category": "patient_interaction",
-    "citations": 1
+    "citations": 1,
+    "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
     "source": "pubmed",
@@ -607,7 +625,8 @@
     "paper_id": "45048647fb92",
     "category": "foundation_models",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39167797/",
-    "citations": 1
+    "citations": 1,
+    "code_url": "https://github.com/google-deepmind/alphafold3"
   },
   {
     "source": "arxiv",
@@ -630,7 +649,8 @@
     ],
     "paper_id": "c8e3e55019ea",
     "category": "foundation_models",
-    "citations": 0
+    "citations": 0,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "AlphaFold 3: Accurate Structure Prediction of Biomolecular Interactions",
@@ -645,7 +665,8 @@
     "source": "curated",
     "category": "genomics",
     "citations": 1250,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/google-deepmind/alphafold3"
   },
   {
     "title": "MedSAM: Segment Anything in Medical Images",
@@ -661,7 +682,8 @@
     "source": "curated",
     "category": "medical_imaging",
     "citations": 850,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/bowang-lab/MedSAM"
   },
   {
     "title": "MedPaLM-3: Multimodal Medical AI at Scale",
@@ -677,7 +699,8 @@
     "source": "curated",
     "category": "foundation_models",
     "citations": 680,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/google-research/med-palm"
   },
   {
     "title": "Llama-3 Medical: Meta's Healthcare-Focused Language Model",
@@ -692,7 +715,8 @@
     "source": "curated",
     "category": "foundation_models",
     "citations": 520,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "FDA Guidance on AI/ML-Enabled Medical Devices",
@@ -707,7 +731,8 @@
     "source": "curated",
     "category": "ethics_fairness",
     "citations": 450,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "Geneformer: Transfer Learning for Genomics",
@@ -722,7 +747,8 @@
     "source": "curated",
     "category": "genomics",
     "citations": 445,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/ctheodoris/Geneformer"
   },
   {
     "title": "GPT-4V(ision) for Medical Image Analysis: Opportunities and Challenges",
@@ -738,7 +764,8 @@
     "source": "curated",
     "category": "clinical_llm",
     "citations": 420,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "Epic + Microsoft: Integrating GPT-4 into EHR Systems",
@@ -770,7 +797,8 @@
     "source": "curated",
     "category": "clinical_llm",
     "citations": 380,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "WHO Ethics & Governance of AI for Health: 2024 Update",
@@ -785,7 +813,8 @@
     "source": "curated",
     "category": "ethics_fairness",
     "citations": 380,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "Med-Gemini: Multimodal Medical AI Model from Google",
@@ -815,7 +844,8 @@
     "source": "curated",
     "category": "genomics",
     "citations": 356,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/bowang-lab/scGPT"
   },
   {
     "title": "BioMistral: A Collection of Open-Source Medical LLMs",
@@ -831,7 +861,8 @@
     "source": "curated",
     "category": "foundation_models",
     "citations": 340,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/BioMistral/BioMistral"
   },
   {
     "title": "SAM-Med3D: Towards General-purpose Segmentation Models for Volumetric Medical Images",
@@ -847,7 +878,8 @@
     "source": "curated",
     "category": "medical_imaging",
     "citations": 320,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/uni-medical/SAM-Med3D"
   },
   {
     "title": "MedRAG: Retrieval-Augmented Generation for Medical Question Answering",
@@ -862,7 +894,8 @@
     "source": "curated",
     "category": "clinical_llm",
     "citations": 312,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/Teddy-XiongGZ/MedRAG"
   },
   {
     "title": "Bias and Fairness in Medical LLMs: A Systematic Review",
@@ -878,7 +911,8 @@
     "source": "curated",
     "category": "ethics_fairness",
     "citations": 295,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "Claude 3 for Clinical Decision Support: A Multi-Center Study",
@@ -894,7 +928,8 @@
     "source": "curated",
     "category": "clinical_llm",
     "citations": 290,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/google-deepmind/alphafold3"
   },
   {
     "title": "ESM-3: Simulating 500 Million Years of Evolution with Language Models",
@@ -909,7 +944,8 @@
     "source": "curated",
     "category": "genomics",
     "citations": 289,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/evolutionaryscale/esm"
   },
   {
     "title": "LoRA-Med: Parameter-Efficient Fine-tuning for Medical LLMs",
@@ -924,7 +960,8 @@
     "source": "curated",
     "category": "foundation_models",
     "citations": 289,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/huggingface/peft"
   },
   {
     "title": "CheXagent: Foundation Model for Chest X-ray Interpretation",
@@ -939,7 +976,8 @@
     "source": "curated",
     "category": "radiology",
     "citations": 285,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/Stanford-AIMI/CheXagent"
   },
   {
     "title": "UniverSeg: Universal Medical Image Segmentation",
@@ -955,7 +993,8 @@
     "source": "curated",
     "category": "medical_imaging",
     "citations": 280,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/JJGO/UniverSeg"
   },
   {
     "title": "OpenBioLLM: Open-Source Biomedical Large Language Models",
@@ -971,7 +1010,8 @@
     "source": "curated",
     "category": "foundation_models",
     "citations": 280,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/OpenBioML/OpenBioLLM"
   },
   {
     "title": "PandemicGPT: AI System for Pandemic Preparedness and Response",
@@ -986,7 +1026,8 @@
     "source": "curated",
     "category": "public_health",
     "citations": 267,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/jhu-apl/PandemicGPT"
   },
   {
     "title": "MedAgent: Multi-Agent System for Clinical Decision Support",
@@ -1016,7 +1057,8 @@
     "source": "curated",
     "category": "ethics_fairness",
     "citations": 267,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/anthropics/medguard"
   },
   {
     "title": "Mental-LLaMA: Fine-tuned Models for Mental Health Support",
@@ -1031,7 +1073,8 @@
     "source": "curated",
     "category": "mental_health",
     "citations": 245,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/klyang/MentaLLaMA"
   },
   {
     "title": "TabDDPM: Tabular Data Generation using Diffusion Models",
@@ -1046,7 +1089,8 @@
     "source": "curated",
     "category": "synthetic_data",
     "citations": 234,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/yandex-research/tab-ddpm"
   },
   {
     "title": "GeneGPT: Large Language Model for Gene Function Prediction",
@@ -1060,7 +1104,8 @@
     "organization": "UC Berkeley",
     "source": "curated",
     "category": "genomics",
-    "citations": 234
+    "citations": 234,
+    "code_url": "https://github.com/ucberkeley/GeneGPT"
   },
   {
     "title": "Clinical-RAG: Retrieval Augmented Generation for Electronic Health Records",
@@ -1074,7 +1119,8 @@
     "organization": "MIT",
     "source": "curated",
     "category": "clinical_documentation",
-    "citations": 234
+    "citations": 234,
+    "code_url": "https://github.com/mit-medg/clinical-rag"
   },
   {
     "title": "MedPrompt: Prompt Engineering for Clinical Applications",
@@ -1134,7 +1180,8 @@
     "source": "curated",
     "category": "multimodal",
     "citations": 210,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/taokz/BiomedGPT"
   },
   {
     "title": "AMIE: A Research AI System for Diagnostic Medical Reasoning and Conversations",
@@ -1151,7 +1198,8 @@
     "year": 2024,
     "source": "curated",
     "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2401.05654.pdf"
+    "pdf_url": "https://arxiv.org/pdf/2401.05654.pdf",
+    "code_url": "https://github.com/google-deepmind/amie"
   },
   {
     "title": "MAIRA-1: Multimodal AI for Radiology Report Generation",
@@ -1166,7 +1214,8 @@
     "source": "curated",
     "category": "radiology",
     "citations": 198,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/microsoft/MAIRA"
   },
   {
     "title": "Wysa 2.0: Evolution of an AI Mental Health Companion",
@@ -1253,7 +1302,8 @@
     "source": "curated",
     "category": "multimodal",
     "citations": 195,
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/chaoyi-wu/RadFM"
   },
   {
     "title": "PsychBench: Evaluating LLMs on Psychological Assessment Tasks",
@@ -1281,7 +1331,8 @@
     "organization": "NVIDIA",
     "source": "curated",
     "category": "synthetic_data",
-    "citations": 189
+    "citations": 189,
+    "code_url": "https://github.com/nvidia/medgan3d"
   },
   {
     "title": "GLEAM 2.0: Global Epidemic and Mobility Model with AI",
@@ -1409,7 +1460,8 @@
     "organization": "Microsoft Research",
     "source": "curated",
     "category": "genomics",
-    "citations": 178
+    "citations": 178,
+    "code_url": "https://github.com/MAGICS-LAB/DNABERT_2"
   },
   {
     "title": "PEFT-Health: Parameter-Efficient Fine-Tuning for Healthcare",
@@ -1423,7 +1475,8 @@
     "organization": "University of Cambridge",
     "source": "curated",
     "category": "foundation_models",
-    "citations": 178
+    "citations": 178,
+    "code_url": "https://github.com/cambridge-mlg/peft-health"
   },
   {
     "title": "MedMLOps: MLOps for Medical AI Systems",
@@ -1565,7 +1618,8 @@
     "organization": "Johns Hopkins University",
     "source": "curated",
     "category": "radiology",
-    "citations": 156
+    "citations": 156,
+    "code_url": "https://github.com/JHU-DMIRS/RadFound"
   },
   {
     "title": "TherapyLLM: Large Language Models for Cognitive Behavioral Therapy",
@@ -1834,7 +1888,8 @@
     "organization": "LlamaIndex",
     "source": "curated",
     "category": "clinical_documentation",
-    "citations": 134
+    "citations": 134,
+    "code_url": "https://github.com/run-llama/llama_index"
   },
   {
     "title": "HealthTrace: Distributed Tracing for Medical AI Systems",
@@ -1960,7 +2015,8 @@
     "organization": "InstaDeep/BioNTech",
     "source": "curated",
     "category": "genomics",
-    "citations": 98
+    "citations": 98,
+    "code_url": "https://github.com/instadeepai/nucleotide-transformer"
   },
   {
     "title": "Amazon HealthScribe: Medical Transcription with AWS AI",
@@ -2018,7 +2074,8 @@
     "citations": 600,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "Med-PaLM: Large Language Models Encode Clinical Knowledge",
@@ -2038,7 +2095,8 @@
     "year": 2023,
     "source": "curated",
     "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2212.13138.pdf"
+    "pdf_url": "https://arxiv.org/pdf/2212.13138.pdf",
+    "code_url": "https://github.com/google-research/med-palm"
   },
   {
     "title": "DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking",
@@ -2055,7 +2113,8 @@
     "year": 2023,
     "source": "curated",
     "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2210.01776.pdf"
+    "pdf_url": "https://arxiv.org/pdf/2210.01776.pdf",
+    "code_url": "https://github.com/gcorso/DiffDock"
   },
   {
     "title": "Ethical and Regulatory Challenges of Large Language Models in Medicine",
@@ -2069,7 +2128,8 @@
     "citations": 420,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
     "title": "LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine",
@@ -2085,7 +2145,8 @@
     "year": 2023,
     "source": "curated",
     "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2306.00890.pdf"
+    "pdf_url": "https://arxiv.org/pdf/2306.00890.pdf",
+    "code_url": "https://github.com/microsoft/LLaVA-Med"
   },
   {
     "title": "Med-PaLM 2: Towards Expert-Level Medical Question Answering with Large Language Models",
@@ -2103,7 +2164,8 @@
     "year": 2023,
     "source": "curated",
     "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2305.09617.pdf"
+    "pdf_url": "https://arxiv.org/pdf/2305.09617.pdf",
+    "code_url": "https://github.com/google-research/med-palm"
   },
   {
     "title": "Woebot: An AI-Powered Mental Health Chatbot",
@@ -2117,7 +2179,8 @@
     "citations": 340,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/woebot-labs/woebot"
   },
   {
     "title": "Synthetic Medical Images with Stable Diffusion",
@@ -2131,7 +2194,8 @@
     "citations": 320,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "Bias in Healthcare AI: Sources, Impact, and Mitigation Strategies",
@@ -2145,7 +2209,8 @@
     "citations": 310,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
     "title": "PMC-LLaMA: Towards Building Open-source Language Models for Medicine",
@@ -2204,7 +2269,8 @@
     "citations": 250,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/MIT-LCP/mimic-code"
   },
   {
     "title": "MedM-PLM: Medical Multimodal Pre-trained Language Model for Healthcare",
@@ -2244,7 +2310,8 @@
     "citations": 190,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/synth-ehr/synthehr"
   },
   {
     "title": "Clinical-Longformer and Clinical-BigBird: Transformers for long clinical sequences",
@@ -2257,7 +2324,8 @@
     "citations": 180,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
     "title": "Amazon Comprehend Medical: Natural language processing for healthcare",
@@ -2270,7 +2338,8 @@
     "citations": 160,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "Visual Med-Alpaca: Bridging Modalities in Biomedical Language Models",
@@ -2298,7 +2367,8 @@
     "citations": 150,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "RadFM: A Foundation Model for Radiology",
@@ -2311,7 +2381,8 @@
     "citations": 140,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/chaoyi-wu/RadFM"
   },
   {
     "title": "EVEscape: Predicting viral mutations using deep learning",
@@ -2326,7 +2397,8 @@
     "citations": 120,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/debbiemarkslab/EVEscape"
   },
   {
     "title": "RoentGen: Vision-Language Foundation Model for Chest X-ray Generation",
@@ -2353,7 +2425,8 @@
     "citations": 95,
     "year": 2023,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/medchain/medchain"
   },
   {
     "title": "AI-Rad Companion: AI-powered workflow assistant for radiology",
@@ -2381,7 +2454,8 @@
     "citations": 750,
     "year": 2022,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/facebookresearch/esm"
   },
   {
     "title": "MONAI: Medical Open Network for AI",
@@ -2394,7 +2468,8 @@
     "citations": 580,
     "year": 2022,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/Project-MONAI/MONAI"
   },
   {
     "title": "BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining",
@@ -2412,7 +2487,8 @@
     "year": 2022,
     "source": "curated",
     "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2210.10341.pdf"
+    "pdf_url": "https://arxiv.org/pdf/2210.10341.pdf",
+    "code_url": "https://github.com/microsoft/BioGPT"
   },
   {
     "title": "Galactica: A Large Language Model for Science",
@@ -2446,7 +2522,8 @@
     "year": 2022,
     "source": "curated",
     "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2206.15878.pdf"
+    "pdf_url": "https://arxiv.org/pdf/2206.15878.pdf",
+    "code_url": "https://github.com/rajpurkarlab/CheXzero"
   },
   {
     "title": "MedSegDiff: Medical Image Segmentation with Diffusion Probabilistic Model",
@@ -2461,7 +2538,8 @@
     "year": 2022,
     "source": "curated",
     "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2211.00611.pdf"
+    "pdf_url": "https://arxiv.org/pdf/2211.00611.pdf",
+    "code_url": "https://github.com/KidsWithTokens/MedSegDiff"
   },
   {
     "title": "Synthetic Patient Generation: A Deep Learning Approach Using Variational Autoencoders",
@@ -2492,7 +2570,8 @@
     "impact": "Revolutionary protein folding prediction",
     "year": 2021,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/deepmind/alphafold"
   },
   {
     "title": "RoseTTAFold: Accurate prediction of protein structures and interactions using deep learning",
@@ -2508,7 +2587,8 @@
     "citations": 2800,
     "year": 2021,
     "source": "curated",
-    "is_classic": true
+    "is_classic": true,
+    "code_url": "https://github.com/RosettaCommons/RoseTTAFold"
   },
   {
     "title": "MedQA: A Dataset for Biomedical Research Question Answering",

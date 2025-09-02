@@ -92,7 +92,12 @@ def generate_readme():
         # Code
         code = "-"
         if paper.get("code_url"):
-            code = f"[Code]({paper['code_url']})"
+            # Shorten GitHub URLs for display
+            if "github.com" in paper["code_url"]:
+                repo_name = paper["code_url"].split("github.com/")[1].split("/")[1]
+                code = f"[{repo_name}]({paper['code_url']})"
+            else:
+                code = f"[Code]({paper['code_url']})"
         
         # Citations
         citations = paper.get("citations", "-")
@@ -117,15 +122,25 @@ def generate_readme():
         else:
             title = full_title
         
+        # Build link - only include if valid
+        link = None
         if paper.get("url"):
             link = paper['url']
         elif paper.get("arxiv_id"):
             link = f"https://arxiv.org/abs/{paper['arxiv_id']}"
         elif paper.get("pmid"):
             link = f"https://pubmed.ncbi.nlm.nih.gov/{paper['pmid']}"
+        
+        # Format highlight with or without link
+        if link:
+            highlights.append(f"- **[{date}]** [{title}]({link})")
         else:
-            link = "#"
-        highlights.append(f"- **[{date}]** [{title}]({link})")
+            # Paper without link - show note if available
+            note = paper.get("note", "")
+            if note:
+                highlights.append(f"- **[{date}]** {title} *({note})*")
+            else:
+                highlights.append(f"- **[{date}]** {title}")
     
     # Generate README content
     readme = f"""# Awesome Generative AI in Healthcare Papers 🏥🤖
