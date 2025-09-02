@@ -8,7 +8,11 @@
 
 ## 📊 This Week's Highlights
 
-*No new papers this week. Check back soon!*
+- **[2025-08-20]** [Detecting and Explaining Postpartum Depression in Real-Time with Generative Artificial Intelligence](https://arxiv.org/abs/2508.10025)
+- **[2025-06-28]** [GNN's Uncertainty Quantification using Self-Distillation for Artificial Intelligence in Healthcare](https://arxiv.org/abs/2506.20046)
+- **[2025-05-30]** [MedOrch: Medical Diagnosis with Tool-Augmented Reasoning Agents for Flexible Extensibility](https://arxiv.org/abs/2506.00235)
+- **[2025-05-12]** [The promise and perils of AI in medicine](https://arxiv.org/abs/2505.06971)
+- **[2025-05-10]** [Integrating Explainable AI in Medical Devices: Technical, Clinical and Regulatory Insights and Recommendations](https://arxiv.org/abs/2505.06620)
 
 ## 🎯 Research Categories
 
@@ -163,9 +167,9 @@
 
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
-| 2024-01-17 | [SyntheX: Scaling Up Learning from Synthetic Medical Images](https://arxiv.org/abs/2401.09168) | MIT CSAIL | - |
 | 2023-04-06 | [Synthetic Data Generation for Healthcare](https://arxiv.org/abs/2304.03243) | MIT | - |
 | 2023-04-04 | [Diffusion Models for Medical Image Synthesis](https://arxiv.org/abs/2304.01593) | Stanford University | - |
+| 2022-06-13 | [SyntheX: Scaling Up Learning-based X-ray Image Analysis Through In Silico Experi](https://arxiv.org/abs/2206.06127) | Johns Hopkins University | - |
 | 2022-10-24 | [Privacy-preserving synthetic health data](https://arxiv.org/abs/2210.13538) | University of Toronto | - |
 | 2021-06-15 | [Synthetic data in machine learning for medicine and healthcare](https://www.nature.com/articles/s41551-021-00751-8) | ETH Zurich | - |
 | 2021-05-11 | [GANs for medical image synthesis: An empirical study](https://arxiv.org/abs/2105.05318) | King's College London | - |
