@@ -8,7 +8,7 @@
 
 ## 📊 This Week's Highlights
 
-*Check back soon for new papers!*
+*No new papers this week. Check back soon!*
 
 ## 🎯 Research Categories
 
