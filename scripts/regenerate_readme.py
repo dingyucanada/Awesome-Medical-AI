@@ -168,13 +168,13 @@ def generate_readme():
                 highlights.append(f"- **[{date}]** {title}")
     
     # Generate README content
-    readme = f"""# Awesome Generative AI in Healthcare Papers 🏥🤖
+    readme = f"""# Awesome Medical AI Papers 🏥🤖
 
 ![Auto-Update](https://img.shields.io/badge/Auto%20Update-Daily-brightgreen)
 ![Papers](https://img.shields.io/badge/Papers-{len(papers)}-blue)
 ![Last Update](https://img.shields.io/badge/Last%20Update-{datetime.now().strftime('%Y--%m--%d')}-orange)
 
-> A comprehensive, auto-updating collection of papers on Generative AI applications in Healthcare, updated daily via GitHub Actions.
+> A comprehensive, auto-updating collection of cutting-edge AI research papers in medicine and healthcare, updated daily via GitHub Actions.
 
 ## 📊 This Week's Highlights
 
@@ -269,22 +269,24 @@ This repository updates automatically every day at 00:00 UTC through GitHub Acti
 - **Model Compression**: Quantization, Distillation, Pruning, ONNX
 
 ### Search Keywords (100+ terms)
-- **Generative Models**: GPT-4, Claude, Gemini, Llama, Mistral, Falcon, Mixtral
+- **Foundation Models**: GPT-4, Claude, Gemini, Llama, Mistral, Falcon, Mixtral
 - **Medical LLMs**: Med-PaLM, BioGPT, ClinicalBERT, BioBERT, PubMedBERT
-- **Techniques**: RAG, Fine-tuning, Few-shot, Zero-shot, Chain-of-Thought, RLHF
-- **Applications**: Clinical decision support, Medical Q&A, Report generation
-- **Multimodal**: Vision-language models, Medical imaging AI, Pathology AI
-- **Specialized**: Drug discovery, Genomics, Proteomics, EHR analysis
+- **AI Techniques**: RAG, Fine-tuning, Few-shot, Zero-shot, Chain-of-Thought, RLHF
+- **Machine Learning**: Deep learning, Computer vision, NLP, Federated learning
+- **Clinical Applications**: Decision support, Diagnosis, Treatment planning, Risk prediction
+- **Medical Imaging**: Radiology AI, Pathology AI, Medical computer vision
+- **Healthcare Data**: EHR analysis, Wearable devices, Genomics, Proteomics
 
 ## 📊 Key Research Areas
 
-- **Foundation Models**: Med-PaLM, BioGPT, clinical language models
-- **Medical Imaging**: SAM for medical images, diffusion models, segmentation
-- **Clinical Applications**: Decision support, diagnosis, treatment planning
-- **Drug Discovery**: AlphaFold, molecular generation, virtual screening
-- **Patient Engagement**: Medical chatbots, symptom checkers, mental health AI
-- **Documentation**: Ambient clinical intelligence, medical transcription
-- **Ethics & Safety**: Bias mitigation, privacy, FDA regulations
+- **Foundation Models**: Large language models for medicine (Med-PaLM, BioGPT, clinical LLMs)
+- **Medical Imaging & Vision**: AI for radiology, pathology, medical image analysis
+- **Clinical Decision Support**: Diagnosis assistance, treatment recommendation, risk assessment
+- **Drug Discovery & Development**: Molecular modeling, virtual screening, drug design
+- **Healthcare Data Analytics**: EHR analysis, population health, predictive modeling
+- **Wearable & Remote Monitoring**: IoT sensors, continuous monitoring, digital biomarkers
+- **Medical Data Security**: Federated learning, differential privacy, secure computation
+- **Ethics & Regulation**: AI safety, bias mitigation, FDA compliance, fairness
 
 ---
 *Maintained with ❤️ by the research community | Powered by GitHub Actions*

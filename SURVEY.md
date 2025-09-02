@@ -1,8 +1,8 @@
-# Generative AI in Healthcare: A Comprehensive Survey
+# AI in Medicine and Healthcare: A Comprehensive Survey
 *Auto-generated on 2025-09-02*
 
 ## 📊 Overview
-This automated survey covers 49 papers on generative AI applications in healthcare, with 32 papers from the last 30 days.
+This automated survey covers cutting-edge AI research in medicine and healthcare, with focus on recent developments and breakthrough applications.
 
 ## 📈 Statistical Summary
 

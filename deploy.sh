@@ -39,7 +39,7 @@ gh auth login --web
 # Create repository
 echo ""
 echo "📦 Creating GitHub repository..."
-REPO_NAME="Awesome-GenAI-Healthcare"
+REPO_NAME="Awesome-Medical-AI"
 
 # Check if repo already exists
 if gh repo view $REPO_NAME &> /dev/null; then
@@ -52,7 +52,7 @@ if gh repo view $REPO_NAME &> /dev/null; then
 fi
 
 # Create the repository
-gh repo create $REPO_NAME --public --description "🏥 Auto-updating collection of Generative AI in Healthcare papers with AI-powered surveys" --confirm
+gh repo create $REPO_NAME --public --description "🏥 Auto-updating collection of cutting-edge AI research papers in medicine and healthcare with AI-powered surveys" --confirm
 
 # Get the repository URL
 REPO_URL=$(gh repo view $REPO_NAME --json url -q .url)

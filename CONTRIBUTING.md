@@ -1,6 +1,6 @@
 # 🤝 Contributing Guidelines
 
-Thank you for your interest in contributing to Awesome Generative AI in Healthcare Papers! This repository thrives on community contributions.
+Thank you for your interest in contributing to Awesome Medical AI Papers! This repository thrives on community contributions.
 
 ## How to Contribute
 
