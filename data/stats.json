@@ -1,5 +1,5 @@
 {
-  "total_papers": 131,
+  "total_papers": 141,
   "by_year": {
     "2012": 1,
     "2015": 1,
@@ -11,33 +11,40 @@
     "2021": 15,
     "2022": 22,
     "2023": 26,
-    "2024": 35
+    "2024": 35,
+    "2025": 10
   },
   "by_category": {
+    "mental_health": 8,
+    "foundation_models": 21,
+    "clinical_llm": 15,
+    "ethics_fairness": 10,
+    "patient_interaction": 4,
+    "multimodal": 12,
     "radiology": 10,
-    "multimodal": 11,
-    "foundation_models": 19,
-    "mental_health": 7,
     "medical_imaging": 14,
     "drug_discovery": 13,
     "public_health": 7,
-    "clinical_llm": 12,
-    "ethics_fairness": 8,
     "genomics": 13,
     "clinical_documentation": 8,
-    "synthetic_data": 6,
-    "patient_interaction": 3
+    "synthetic_data": 6
   },
   "by_organization": {
+    "University of Vigo": 1,
+    "MIT": 8,
+    "Microsoft Research": 8,
+    "Stanford University": 22,
+    "UK Medicine and Healthcare products Regulatory Agency": 1,
+    "University of Cambridge": 2,
+    "University of California": 1,
+    "Johns Hopkins University": 2,
+    "Chinese Academy of Sciences": 1,
     "Shanghai AI Laboratory": 2,
-    "Microsoft Research": 7,
     "UCLA": 1,
     "George Mason University": 1,
     "Alibaba": 1,
     "Shanghai Jiao Tong University": 2,
-    "Johns Hopkins University": 1,
     "Meta AI": 6,
-    "Stanford University": 20,
     "Tsinghua University": 1,
     "University of Washington": 3,
     "Google DeepMind": 5,
@@ -55,9 +62,7 @@
     "United Imaging Intelligence": 1,
     "Harvard Medical School": 4,
     "ETH Zurich": 2,
-    "University of Cambridge": 1,
     "Broad Institute": 1,
-    "MIT": 7,
     "UC San Diego": 1,
     "OpenAI": 3,
     "Harvard T.H. Chan School": 1,
@@ -89,7 +94,7 @@
     "Brigham and Women's Hospital": 1
   },
   "by_source": {
-    "arxiv": 80,
+    "arxiv": 90,
     "nature": 25,
     "science": 4,
     "technical_report": 1,
@@ -97,6 +102,6 @@
     "pubmed": 16,
     "cell": 1
   },
-  "last_updated": "2025-09-02T17:12:05.161027",
-  "note": "Updated with 2024 papers. All titles and links verified."
+  "last_updated": "2025-09-02T17:29:56.775534",
+  "note": "Updated with real 2025 papers from ArXiv. All titles and links verified."
 }

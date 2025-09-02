@@ -1,5 +1,95 @@
 [
   {
+    "title": "Detecting and Explaining Postpartum Depression in Real-Time with Generative Artificial Intelligence",
+    "url": "https://arxiv.org/abs/2508.10025",
+    "published": "2025-08-20",
+    "year": 2025,
+    "organization": "University of Vigo",
+    "category": "mental_health",
+    "source": "arxiv"
+  },
+  {
+    "title": "Federated Mixture of Experts on Heterogeneous Data and Tasks",
+    "url": "https://arxiv.org/abs/2508.00304",
+    "published": "2025-08-01",
+    "year": 2025,
+    "organization": "MIT",
+    "category": "foundation_models",
+    "source": "arxiv"
+  },
+  {
+    "title": "MedOrch: Medical Diagnosis with Tool-Augmented Reasoning Agents for Flexible Extensibility",
+    "url": "https://arxiv.org/abs/2506.00235",
+    "published": "2025-05-30",
+    "year": 2025,
+    "organization": "Microsoft Research",
+    "category": "clinical_llm",
+    "source": "arxiv"
+  },
+  {
+    "title": "The promise and perils of AI in medicine",
+    "url": "https://arxiv.org/abs/2505.06971",
+    "published": "2025-05-12",
+    "year": 2025,
+    "organization": "Stanford University",
+    "category": "ethics_fairness",
+    "source": "arxiv"
+  },
+  {
+    "title": "Integrating Explainable AI in Medical Devices: Technical, Clinical and Regulatory Insights and Recommendations",
+    "url": "https://arxiv.org/abs/2505.06620",
+    "published": "2025-05-10",
+    "year": 2025,
+    "organization": "UK Medicine and Healthcare products Regulatory Agency",
+    "category": "ethics_fairness",
+    "source": "arxiv"
+  },
+  {
+    "title": "XAI4LLM: Let Machine Learning Models and LLMs Collaborate for Enhanced In-Context Learning in Healthcare",
+    "url": "https://arxiv.org/abs/2405.06270",
+    "published": "2025-05-10",
+    "year": 2025,
+    "organization": "University of Cambridge",
+    "category": "clinical_llm",
+    "source": "arxiv"
+  },
+  {
+    "title": "AgentPatient: Simulating Patient with Agent for Improving Health Education in Medical Consultations",
+    "url": "https://arxiv.org/abs/2501.00318",
+    "published": "2025-01-02",
+    "year": 2025,
+    "organization": "University of California",
+    "category": "patient_interaction",
+    "source": "arxiv"
+  },
+  {
+    "title": "Advancing Multimodal Large Language Models in Medical Imaging Diagnosis",
+    "url": "https://arxiv.org/abs/2501.00060",
+    "published": "2025-01-01",
+    "year": 2025,
+    "organization": "Johns Hopkins University",
+    "category": "multimodal",
+    "source": "arxiv"
+  },
+  {
+    "title": "MedMax: Mixed-Modal Instruction Tuning for Training Biomedical Assistants",
+    "url": "https://arxiv.org/abs/2501.00017",
+    "published": "2025-01-01",
+    "year": 2025,
+    "organization": "Stanford University",
+    "category": "foundation_models",
+    "source": "arxiv"
+  },
+  {
+    "title": "MedCoT: Medical Chain of Thought via Hierarchical Expert",
+    "url": "https://arxiv.org/abs/2501.00090",
+    "published": "2025-01-01",
+    "year": 2025,
+    "organization": "Chinese Academy of Sciences",
+    "category": "clinical_llm",
+    "source": "arxiv"
+  },
+  {
     "title": "RaDialog: A Large Vision-Language Model for Radiology Report Generation and Conversational Assistance",
     "url": "https://arxiv.org/abs/2311.18681",
     "published": "2024-11-30",

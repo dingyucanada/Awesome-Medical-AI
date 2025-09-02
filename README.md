@@ -1,14 +1,18 @@
 # Awesome Generative AI in Healthcare Papers 🏥🤖
 
 ![Auto-Update](https://img.shields.io/badge/Auto%20Update-Daily-brightgreen)
-![Papers](https://img.shields.io/badge/Papers-131-blue)
+![Papers](https://img.shields.io/badge/Papers-141-blue)
 ![Last Update](https://img.shields.io/badge/Last%20Update-2025--09--02-orange)
 
 > A comprehensive, auto-updating collection of papers on Generative AI applications in Healthcare, updated daily via GitHub Actions.
 
 ## 📊 This Week's Highlights
 
-*Check back soon for new papers!*
+- **[2025-08-20]** [Detecting and Explaining Postpartum Depression in Real-Time with Generative Artificial Intelligence](https://arxiv.org/abs/2508.10025)
+- **[2025-08-01]** [Federated Mixture of Experts on Heterogeneous Data and Tasks](https://arxiv.org/abs/2508.00304)
+- **[2025-05-30]** [MedOrch: Medical Diagnosis with Tool-Augmented Reasoning Agents for Flexible Extensibility](https://arxiv.org/abs/2506.00235)
+- **[2025-05-12]** [The promise and perils of AI in medicine](https://arxiv.org/abs/2505.06971)
+- **[2025-05-10]** [Integrating Explainable AI in Medical Devices: Technical, Clinical and Regulatory Insights and Recommendations](https://arxiv.org/abs/2505.06620)
 
 ## 🎯 Research Categories
 
@@ -16,6 +20,8 @@
 
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
+| 2025-08-01 | [Federated Mixture of Experts on Heterogeneous Data and Tasks](https://arxiv.org/abs/2508.00304) | MIT | - |
+| 2025-01-01 | [MedMax: Mixed-Modal Instruction Tuning for Training Biomedical Assistants](https://arxiv.org/abs/2501.00017) | Stanford University | - |
 | 2024-09-28 | [MedEdit: Model Editing for Medical Question Answering with External Knowledge Ba](https://arxiv.org/abs/2309.16035) | UCLA | [MedEdit](https://github.com/cyzhh/MedEdit) |
 | 2024-03-08 | [Gemini 1.5: Unlocking multimodal understanding across millions of tokens of cont](https://arxiv.org/abs/2403.05530) | Google DeepMind | - |
 | 2024-03-04 | [Claude 3 Technical Report](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) | Anthropic | - |
@@ -29,13 +35,14 @@
 | 2022-12-20 | [BioMedLM: A Domain-Specific Large Language Model for Biomedical Text](https://arxiv.org/abs/2212.10343) | Stanford University | - |
 | 2022-09-19 | [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mi](https://academic.oup.com/bib/article/23/6/bbac409/6713511) | Microsoft Research | [BioGPT](https://github.com/microsoft/BioGPT) |
 | 2022-04-05 | [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311) | Google Research | - |
-| 2022-03-07 | [GatorTron: A Large Clinical Language Model to Unlock Patient Information from Cl](https://arxiv.org/abs/2203.03540) | University of Florida | [GatorTron](https://github.com/uf-hobi-informatics-lab/GatorTron) |
-| 2022-01-05 | [Clinical-T5: Large Language Models Built Using MIMIC Clinical Text](https://arxiv.org/abs/2201.01424) | Columbia University | - |
 
 ### 🏥 Clinical LLMs & Decision Support
 
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
+| 2025-05-30 | [MedOrch: Medical Diagnosis with Tool-Augmented Reasoning Agents for Flexible Ext](https://arxiv.org/abs/2506.00235) | Microsoft Research | - |
+| 2025-05-10 | [XAI4LLM: Let Machine Learning Models and LLMs Collaborate for Enhanced In-Contex](https://arxiv.org/abs/2405.06270) | University of Cambridge | - |
+| 2025-01-01 | [MedCoT: Medical Chain of Thought via Hierarchical Expert](https://arxiv.org/abs/2501.00090) | Chinese Academy of Scienc | - |
 | 2024-04-29 | [Capabilities of Gemini Models in Medicine](https://arxiv.org/abs/2404.18416) | Google Research | - |
 | 2024-01-15 | [HuatuoGPT-II: One-stage Training for Medical Adaption of LLMs](https://arxiv.org/abs/2311.09774) | Chinese University of Hon | [HuatuoGPT-II](https://github.com/FreedomIntelligence/HuatuoGPT-II) |
 | 2024-01-11 | [AMIE: A research AI system for diagnostic medical reasoning and conversations](https://arxiv.org/abs/2401.05654) | Google Research | - |
@@ -72,6 +79,7 @@
 
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
+| 2025-01-02 | [AgentPatient: Simulating Patient with Agent for Improving Health Education in Me](https://arxiv.org/abs/2501.00318) | University of California | - |
 | 2023-07-15 | [Conversational AI for mental health: A systematic review](https://www.sciencedirect.com/science/article/pii/S1532046423001478) | University of Cambridge | - |
 | 2023-06-12 | [Patients' perceptions of receiving a diagnosis of a hematological malignancy fro](https://www.nature.com/articles/s41746-023-00853-4) | Harvard Medical School | - |
 | 2022-07-11 | [A digital health platform for diabetes prevention and management based on machin](https://www.nature.com/articles/s41746-022-00626-5) | Mount Sinai | - |
@@ -111,6 +119,8 @@
 
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
+| 2025-05-12 | [The promise and perils of AI in medicine](https://arxiv.org/abs/2505.06971) | Stanford University | - |
+| 2025-05-10 | [Integrating Explainable AI in Medical Devices: Technical, Clinical and Regulator](https://arxiv.org/abs/2505.06620) | UK Medicine and Healthcar | - |
 | 2024-03-11 | [Constitutional AI for Safe Medical Large Language Models](https://arxiv.org/abs/2403.06825) | Stanford University | - |
 | 2024-02-28 | [Evaluating and Mitigating Discrimination in Language Model Decisions](https://arxiv.org/abs/2402.18144) | Anthropic | - |
 | 2021-12-08 | [Ethical and social risks of harm from Language Models](https://arxiv.org/abs/2112.04359) | DeepMind | - |
@@ -124,6 +134,7 @@
 
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
+| 2025-01-01 | [Advancing Multimodal Large Language Models in Medical Imaging Diagnosis](https://arxiv.org/abs/2501.00060) | Johns Hopkins University | - |
 | 2024-10-05 | [LLaVA-Med: Large Language and Vision Assistant for Medicine](https://arxiv.org/abs/2306.00890) | Microsoft Research | [LLaVA-Med](https://github.com/microsoft/LLaVA-Med) |
 | 2024-08-22 | [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text](https://arxiv.org/abs/2308.12966) | Alibaba | [Qwen-VL](https://github.com/QwenLM/Qwen-VL) |
 | 2024-07-28 | [Med-Flamingo: a Multimodal Medical Few-shot Learner](https://arxiv.org/abs/2307.15189) | Stanford University | [med-flamingo](https://github.com/snap-stanford/med-flamingo) |
@@ -155,6 +166,7 @@
 
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
+| 2025-08-20 | [Detecting and Explaining Postpartum Depression in Real-Time with Generative Arti](https://arxiv.org/abs/2508.10025) | University of Vigo | - |
 | 2024-09-24 | [MentaLLaMA: Interpretable Mental Health Analysis on Social Media with Large Lang](https://arxiv.org/abs/2309.13567) | George Mason University | [MentaLLaMA](https://github.com/akshayg08/MentaLLaMA) |
 | 2024-07-22 | [PsyLLM: Scaling up Global Mental Health Psychological Services with AI-based Lar](https://arxiv.org/abs/2307.11991) | Tsinghua University | - |
 | 2022-05-20 | [Digital phenotyping and mobile sensing in mental health](https://www.nature.com/articles/s41386-022-01322-4) | Harvard Medical School | - |
@@ -207,11 +219,12 @@
 ## 📈 Statistics & Trends
 
 ### Collection Overview
-- **Total Papers**: 131
+- **Total Papers**: 141
 - **Papers with Code**: 57
 - **Last Updated**: 2025-09-02
 
 ### Papers by Year
+- **2025**: 10 papers
 - **2024**: 35 papers
 - **2023**: 26 papers
 - **2022**: 22 papers
@@ -225,10 +238,10 @@
 - **2012**: 1 papers
 
 ### Top Organizations
-- **Stanford University**: 20 papers
+- **Stanford University**: 22 papers
 - **Google Research**: 12 papers
-- **Microsoft Research**: 7 papers
-- **MIT**: 7 papers
+- **MIT**: 8 papers
+- **Microsoft Research**: 8 papers
 - **Meta AI**: 6 papers
 - **Google DeepMind**: 5 papers
 - **University of Toronto**: 5 papers
@@ -237,11 +250,11 @@
 - **University of Washington**: 3 papers
 
 ### Most Active Categories
-- 🔬 Foundation Models: 19 papers
+- 🔬 Foundation Models: 21 papers
+- 🏥 Clinical LLMs & Decision Support: 15 papers
 - 🩺 Medical Imaging & Vision: 14 papers
 - 💊 Drug Discovery & Development: 13 papers
 - 🧬 Genomics & Precision Medicine: 13 papers
-- 🏥 Clinical LLMs & Decision Support: 12 papers
 
 ## 🔔 Subscribe to Updates
 

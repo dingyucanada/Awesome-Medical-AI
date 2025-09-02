@@ -5,7 +5,7 @@ Complete README regeneration with correct categories
 
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
 def generate_readme():
     """Generate complete README from scratch"""
@@ -103,12 +103,33 @@ def generate_readme():
         
         return f"| {date} | {title_link} | {venue} | {code} |"
     
-    # Get recent papers for highlights
-    recent_papers = sorted(
-        [p for p in papers if p.get("published", "")[:10] >= "2025-08-25"],
+    # Get recent papers for highlights - always show 5 most recent papers
+    # If we have papers from last 30 days, prioritize them
+    thirty_days_ago = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+    
+    recent_in_30_days = sorted(
+        [p for p in papers if p.get("published", "")[:10] >= thirty_days_ago],
         key=lambda x: x.get("published", ""),
         reverse=True
+    )
+    
+    # Always get the 5 most recent papers overall
+    all_recent = sorted(
+        papers,
+        key=lambda x: x.get("published", "2020-01-01"),
+        reverse=True
     )[:5]
+    
+    # Combine recent papers from last 30 days with overall recent papers
+    # Prioritize papers from last 30 days but ensure we always have 5
+    recent_papers = recent_in_30_days[:5]
+    if len(recent_papers) < 5:
+        # Add more papers from overall recent, avoiding duplicates
+        for paper in all_recent:
+            if paper not in recent_papers:
+                recent_papers.append(paper)
+                if len(recent_papers) >= 5:
+                    break
     
     highlights = []
     for paper in recent_papers:
