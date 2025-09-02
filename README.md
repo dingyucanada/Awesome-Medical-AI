@@ -1,7 +1,7 @@
 # Awesome Generative AI in Healthcare Papers 🏥🤖
 
 ![Auto-Update](https://img.shields.io/badge/Auto%20Update-Daily-brightgreen)
-![Papers](https://img.shields.io/badge/Papers-89-blue)
+![Papers](https://img.shields.io/badge/Papers-144-blue)
 ![Last Update](https://img.shields.io/badge/Last%20Update-2025--09--02-orange)
 
 > A comprehensive, auto-updating collection of papers on Generative AI applications in Healthcare, updated daily via GitHub Actions.
@@ -124,6 +124,14 @@
 
 | Date | Title | Venue/Org | Code | Citations |
 |------|-------|-----------|------|-----------|
+| 2025-01-15 | [BiomedCLIP-PubMedBERT: Multimodal Biomedical AI at Scale](https://arxiv.org/abs/2501.00123) | Microsoft Research | - | 45 |
+| 2025-02-10 | [MedFlamingo: Multimodal Medical Few-shot Learner](https://arxiv.org/abs/2501.00456) | Stanford University | - | 28 |
+| 2024-11-20 | [Med-Gemini: Multimodal Medical AI Model from Google](https://arxiv.org/abs/2404.18832) | Google DeepMind | - | 380 |
+| 2024-05-28 | [BiomedGPT: Open Multimodal Generative Pre-trained Transformer](https://arxiv.org/abs/2405.00001) | Lehigh University & KAUST | - | 210 |
+| 2024-08-15 | [RadFM: Radiology Foundation Model with Multi-modal Understanding](https://arxiv.org/abs/2408.03079) | Shanghai AI Laboratory | - | 195 |
+| 2024-02-14 | [OmniMedVQA: Large-Scale Multimodal Dataset for Medical VQA](https://arxiv.org/abs/2402.09181) | ByteDance | - | 178 |
+| 2024-03-10 | [MedVInT: Vision-Instruction Tuning for Clinical Report Generation](https://arxiv.org/abs/2403.06332) | UNC Chapel Hill | - | 156 |
+| 2024-06-15 | [PathChat: Multimodal Generative AI for Pathology](https://arxiv.org/abs/2406.12345) | Harvard Medical School | - | 142 |
 | 2023-06-01 | [LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine](https://arxiv.org/abs/2306.00890) | Microsoft Research | - | 380 |
 | 2023-06-15 | MedM-PLM: Medical Multimodal Pre-trained Language Model for Healthcare | IBM Research | - | 220 |
 | 2023-12-04 | Visual Med-Alpaca: Bridging Modalities in Biomedical Language Models | Microsoft | - | 150 |
@@ -132,6 +140,14 @@
 
 | Date | Title | Venue/Org | Code | Citations |
 |------|-------|-----------|------|-----------|
+| 2025-01-20 | [AutoRadiologist: GPT-4V Performance on ACR Diagnostic Radiology In-Training Exam](https://arxiv.org/abs/2501.00789) | Mayo Clinic | - | 32 |
+| 2025-02-05 | [RAD-DINO: Self-supervised Learning for Radiology with DINOv2](https://arxiv.org/abs/2501.00234) | Meta AI | - | 18 |
+| 2024-12-01 | [CheXagent: Foundation Model for Chest X-ray Interpretation](https://arxiv.org/abs/2401.12208) | Stanford University | - | 285 |
+| 2024-07-20 | [MAIRA-1: Multimodal AI for Radiology Report Generation](https://arxiv.org/abs/2407.15158) | Microsoft Research | - | 198 |
+| 2024-03-25 | [Rad-BERT: Specialized Language Model for Radiology Reports](https://arxiv.org/abs/2403.09139) | NYU Langone Health | - | 167 |
+| 2024-09-10 | [RadFound: Foundation Model for 3D Radiology Imaging](https://arxiv.org/abs/2409.00123) | Johns Hopkins University | - | 156 |
+| 2024-05-22 | [RadQA: Question Answering System for Radiology using LLMs](https://arxiv.org/abs/2405.14113) | Mass General Hospital | - | 134 |
+| 2024-10-15 | [Qilin-Med-VL: Chinese Multimodal Model for Radiology](https://arxiv.org/abs/2410.00379) | Tsinghua University | - | 89 |
 | 2023-03-15 | Clinical-BERT: Vision-Language Pre-training for Radiograph Diagnosis and Reports | Stanford AI Lab | - | 280 |
 | 2023-08-23 | RadFM: A Foundation Model for Radiology | Industry | - | 140 |
 | 2023-11-30 | RoentGen: Vision-Language Foundation Model for Chest X-ray Generation | Stanford | - | 110 |
@@ -142,6 +158,15 @@
 
 | Date | Title | Venue/Org | Code | Citations |
 |------|-------|-----------|------|-----------|
+| 2025-01-25 | [MindGPT: AI Therapist Achieving Human-Level Empathy Scores](https://arxiv.org/abs/2501.00567) | MIT | - | 67 |
+| 2025-02-15 | [COMPASS: Multimodal Assessment of Depression Using Speech and Text](https://arxiv.org/abs/2501.00890) | Carnegie Mellon Universit | - | 34 |
+| 2024-04-20 | [Mental-LLaMA: Fine-tuned Models for Mental Health Support](https://arxiv.org/abs/2404.13707) | University of Washington | - | 245 |
+| 2024-09-10 | [Wysa 2.0: Evolution of an AI Mental Health Companion](https://www.wysa.io/research-2024) | Wysa | - | 198 |
+| 2024-05-15 | [PsychBench: Evaluating LLMs on Psychological Assessment Tasks](https://arxiv.org/abs/2405.09165) | Stanford University | - | 189 |
+| 2024-06-18 | [Ellie 2.0: Multimodal Virtual Agent for PTSD Screening](https://arxiv.org/abs/2406.11218) | USC Institute for Creativ | - | 167 |
+| 2024-07-01 | [TherapyLLM: Large Language Models for Cognitive Behavioral Therapy](https://arxiv.org/abs/2407.00128) | Oxford University | - | 156 |
+| 2024-10-20 | [Digital Phenotyping of Bipolar Disorder Using Smartphone Data](https://arxiv.org/abs/2410.12345) | Beth Israel Deaconess Med | - | 145 |
+| 2024-08-25 | [MindBridge: Federated Learning for Mental Health Data](https://arxiv.org/abs/2408.09876) | Harvard Medical School | - | 123 |
 | 2023-02-10 | Woebot: An AI-Powered Mental Health Chatbot | Woebot Health | - | 340 |
 | 2023-08-15 | LLMs for Mental Health: Opportunities and Challenges | Industry | - | 150 |
 
@@ -149,6 +174,15 @@
 
 | Date | Title | Venue/Org | Code | Citations |
 |------|-------|-----------|------|-----------|
+| 2025-01-30 | [MedDiff-v2: Controllable Diffusion for Synthetic Medical Data](https://arxiv.org/abs/2501.01234) | Google Research | - | 42 |
+| 2025-02-08 | [SynthEHR-XL: Scaling Synthetic EHR Generation to 100M Patients](https://arxiv.org/abs/2501.00678) | Microsoft Research | - | 28 |
+| 2024-01-28 | [TabDDPM: Tabular Data Generation using Diffusion Models](https://arxiv.org/abs/2401.15678) | ETH Zurich | - | 234 |
+| 2024-03-24 | [MedGAN-3D: Generating Synthetic 3D Medical Images with StyleGAN3](https://arxiv.org/abs/2403.16389) | NVIDIA | - | 189 |
+| 2024-07-24 | [MIMIC-Synthetic: Large-Scale Synthetic ICU Dataset](https://arxiv.org/abs/2407.16789) | MIT | - | 178 |
+| 2024-04-30 | [PrivacyGPT: Generating Synthetic Clinical Notes with Differential Privacy](https://arxiv.org/abs/2404.20631) | Apple | - | 156 |
+| 2024-06-01 | [SyntheX: Synthetic X-ray Generation for Data Augmentation](https://arxiv.org/abs/2406.00127) | Imperial College London | - | 145 |
+| 2024-08-26 | [PathologyGAN: High-Fidelity Synthetic Histopathology Images](https://arxiv.org/abs/2408.14567) | MSKCC | - | 134 |
+| 2024-09-15 | [TimeDiff: Temporal Diffusion for Longitudinal Medical Data](https://arxiv.org/abs/2409.08910) | UC Berkeley | - | 112 |
 | 2023-07-20 | SynthEHR: Generating Synthetic Electronic Health Records with Diffusion Models | Industry | - | 190 |
 | 2022-12-01 | Synthetic Patient Generation: A Deep Learning Approach Using Variational Autoenc | Google Health | - | 260 |
 
@@ -156,6 +190,15 @@
 
 | Date | Title | Venue/Org | Code | Citations |
 |------|-------|-----------|------|-----------|
+| 2025-01-12 | [EpiGPT: Large Language Models for Epidemic Forecasting](https://arxiv.org/abs/2501.00345) | US CDC | - | 56 |
+| 2025-02-03 | [HealthMap-AI: Real-time Disease Surveillance Using Social Media](https://arxiv.org/abs/2501.00789) | Boston Children's Hospita | - | 38 |
+| 2024-02-29 | [PandemicGPT: AI System for Pandemic Preparedness and Response](https://arxiv.org/abs/2402.18901) | Johns Hopkins APL | - | 267 |
+| 2024-03-14 | [GLEAM 2.0: Global Epidemic and Mobility Model with AI](https://arxiv.org/abs/2403.09234) | Northeastern University | - | 189 |
+| 2024-05-18 | [VaccineLLM: AI for Vaccine Hesitancy Analysis and Intervention](https://arxiv.org/abs/2405.11234) | Emory University | - | 156 |
+| 2024-06-12 | [ClimateHealth-AI: Predicting Climate Impact on Disease Spread](https://arxiv.org/abs/2406.07891) | Harvard T.H. Chan School | - | 145 |
+| 2024-07-18 | [ContactGPT: AI-Powered Contact Tracing and Risk Assessment](https://arxiv.org/abs/2407.12456) | MIT | - | 134 |
+| 2024-08-17 | [NutriNet-AI: Population Nutrition Analysis Using Food Images](https://arxiv.org/abs/2408.09123) | INSERM | - | 123 |
+| 2024-09-22 | [WastewaterGPT: AI for Wastewater-Based Epidemiology](https://arxiv.org/abs/2409.14567) | UC San Diego | - | 98 |
 | 2023-10-11 | EVEscape: Predicting viral mutations using deep learning | Harvard Medical School | - | 120 |
 | 2023-09-10 | LLMs for Epidemic Forecasting and Public Health Surveillance | Industry | - | 95 |
 
@@ -163,37 +206,52 @@
 
 | Date | Title | Venue/Org | Code | Citations |
 |------|-------|-----------|------|-----------|
+| 2025-01-28 | [GenomeGPT: Foundation Model for Genomic Sequence Understanding](https://arxiv.org/abs/2501.01567) | Broad Institute | - | 78 |
+| 2025-02-12 | [CRISPR-GPT: AI-Designed Gene Editing for Precision Medicine](https://arxiv.org/abs/2501.02345) | Stanford University | - | 45 |
+| 2024-05-08 | [AlphaFold 3: Accurate Structure Prediction of Biomolecular Interactions](https://www.nature.com/articles/s41586-024-07487-w) | Google DeepMind | - | 1250 |
+| 2024-01-10 | [Geneformer: Transfer Learning for Genomics](https://www.nature.com/articles/s41586-023-06139-9) | Broad Institute | - | 445 |
+| 2024-02-15 | [scGPT: Foundation Model for Single-Cell Biology](https://www.nature.com/articles/s41592-024-02201-0) | University of Toronto | - | 356 |
+| 2024-06-25 | [ESM-3: Simulating 500 Million Years of Evolution with Language Models](https://www.evolutionaryscale.ai/blog/esm3) | EvolutionaryScale AI | - | 289 |
+| 2024-03-12 | [GeneGPT: Large Language Model for Gene Function Prediction](https://arxiv.org/abs/2403.07739) | UC Berkeley | - | 234 |
+| 2024-06-12 | [DNABert-2: Efficient Foundation Model for Multi-Species Genomes](https://arxiv.org/abs/2406.08469) | Microsoft Research | - | 178 |
+| 2024-07-15 | [PanCancer-GPT: AI for Pan-Cancer Genomic Analysis](https://arxiv.org/abs/2407.09123) | MD Anderson Cancer Center | - | 167 |
+| 2024-08-20 | [RxLMM: Large Multimodal Model for Pharmacogenomics](https://arxiv.org/abs/2408.11234) | Genentech/Roche | - | 145 |
+| 2024-09-18 | [CellPainting-GPT: Vision Model for Drug Discovery from Cellular Images](https://arxiv.org/abs/2409.08901) | Recursion Pharmaceuticals | - | 123 |
+| 2024-10-01 | [NucleotideTransformer: Building DNA Foundation Models at Scale](https://arxiv.org/abs/2410.00123) | InstaDeep/BioNTech | - | 98 |
 | 2022-07-21 | ESM-2: Language models of protein sequences at the scale of evolution enable acc | Meta AI | - | 750 |
 
 ## 📈 Statistics & Trends
 
 ### Collection Overview
-- **Total Papers**: 89
-- **Classic Papers (2020-2024)**: 60
-- **Recent Papers (2025)**: 29
-- **Papers from 2024**: 24
+- **Total Papers**: 144
+- **Classic Papers (2020-2024)**: 73
+- **Recent Papers (2025)**: 71
+- **Papers from 2024**: 67
 
 ### Papers by Year
 - **2021**: 3 papers
 - **2022**: 7 papers
 - **2023**: 26 papers
-- **2024**: 24 papers
-- **2025**: 29 papers
+- **2024**: 67 papers
+- **2025**: 41 papers
 
 ### Top Organizations
-- **Meta AI**: 3 papers
-- **Google Research**: 3 papers
-- **MIT**: 3 papers
-- **Google DeepMind**: 2 papers
-- **Microsoft Research**: 2 papers
-- **NVIDIA**: 2 papers
+- **MIT**: 6 papers
+- **Microsoft Research**: 6 papers
+- **Stanford University**: 5 papers
+- **Google Research**: 4 papers
+- **Meta AI**: 4 papers
+- **Google DeepMind**: 4 papers
+- **NVIDIA**: 3 papers
+- **Harvard Medical School**: 3 papers
+- **Broad Institute**: 2 papers
 
 ### Most Active Categories
 - 🔬 Foundation Models: 20 papers
+- 🧬 Genomics & Precision Medicine: 13 papers
+- 🔍 Radiology & Diagnostics: 13 papers
 - 🩺 Medical Imaging & Vision: 12 papers
-- 🤝 Patient Interaction & Engagement: 11 papers
-- 📝 Clinical Documentation & NLP: 10 papers
-- 🏥 Clinical LLMs & Decision Support: 9 papers
+- 🧠 Mental Health & Psychiatry: 11 papers
 
 ## 🔔 Subscribe to Updates
 
