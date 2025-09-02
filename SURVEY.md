@@ -29,8 +29,8 @@ This automated survey covers 49 papers on generative AI applications in healthca
 - **privacy**: 3 papers
 
 ### 🔥 Emerging Topics
-- multimodal
 - regulation
+- multimodal
 
 ## Executive Summary
 This month's collection includes 32 significant papers in generative AI for healthcare. 
