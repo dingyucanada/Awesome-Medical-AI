@@ -16,14 +16,19 @@ class ReadmeUpdater:
         self.readme_path = self.project_dir / "README.md"
         
         self.category_mapping = {
-            "clinical_apps": "🏥 Clinical Applications",
+            "foundation_models": "🔬 Foundation Models",
+            "clinical_llm": "🏥 Clinical LLMs & Decision Support",
+            "medical_imaging": "🩺 Medical Imaging & Vision",
+            "patient_interaction": "🤝 Patient Interaction & Engagement",
+            "clinical_documentation": "📝 Clinical Documentation & NLP",
             "drug_discovery": "💊 Drug Discovery & Development",
-            "medical_imaging": "🩺 Medical Imaging",
-            "documentation": "📝 Clinical Documentation",
-            "genomics": "🧬 Genomics & Precision Medicine",
-            "patient_care": "🤝 Patient Care & Engagement",
-            "ethics": "⚖️ Ethics, Safety & Regulation",
-            "foundation": "🔬 Foundational Models"
+            "ethics_fairness": "⚖️ Ethics, Fairness & Regulation",
+            "multimodal": "🎯 Multimodal AI",
+            "radiology": "🔍 Radiology & Diagnostics",
+            "mental_health": "🧠 Mental Health & Psychiatry",
+            "synthetic_data": "📊 Synthetic Data Generation",
+            "public_health": "🌍 Public Health & Epidemiology",
+            "genomics": "🧬 Genomics & Precision Medicine"
         }
         
     def load_papers(self) -> List[Dict]:
@@ -47,7 +52,9 @@ class ReadmeUpdater:
         title = paper.get("title", "").replace("|", "-")[:100]
         
         # Create links - handle missing links properly
-        if paper.get("arxiv_id"):
+        if paper.get("url"):
+            title_link = f"[{title}]({paper['url']})"
+        elif paper.get("arxiv_id"):
             title_link = f"[{title}](https://arxiv.org/abs/{paper['arxiv_id']})"
         elif paper.get("pmid"):
             title_link = f"[{title}](https://pubmed.ncbi.nlm.nih.gov/{paper['pmid']})"
@@ -58,17 +65,22 @@ class ReadmeUpdater:
             title_link = title
         
         # Format date
-        date = paper.get("published", "")[:10]
+        date = paper.get("published", "")[:10] if paper.get("published") else str(paper.get("year", ""))
         
         # Venue (enhanced detection)
         venue = paper.get("journal", "")
-        if not venue and "arxiv" in paper.get("source", ""):
-            venue = "arXiv"
-        elif not venue and "pubmed" in paper.get("source", ""):
-            venue = "PubMed"
-        elif not venue:
-            venue = paper.get("source", "").title()
-        venue = venue[:20] if venue else "-"
+        if not venue:
+            if paper.get("organization") and paper.get("organization") != "Unknown":
+                venue = paper.get("organization", "")[:25]
+            elif "arxiv" in paper.get("source", ""):
+                venue = "arXiv"
+            elif "pubmed" in paper.get("source", ""):
+                venue = "PubMed"
+            elif paper.get("source") == "curated":
+                venue = "Industry/Lab"
+            else:
+                venue = paper.get("source", "").title()
+        venue = venue[:30] if venue else "-"
         
         # Code detection (check for common code indicators)
         code = "-"

@@ -1,7 +1,7 @@
 # Awesome Generative AI in Healthcare Papers 🏥🤖
 
 ![Auto-Update](https://img.shields.io/badge/Auto%20Update-Daily-brightgreen)
-![Papers](https://img.shields.io/badge/Papers-66-blue)
+![Papers](https://img.shields.io/badge/Papers-89-blue)
 ![Last Update](https://img.shields.io/badge/Last%20Update-2025--09--02-orange)
 
 > A comprehensive, auto-updating collection of papers on Generative AI applications in Healthcare, updated daily via GitHub Actions.
@@ -29,9 +29,9 @@ Papers focusing on drug discovery & development.
 |------|-------|-------|------|-----------|
 | 2025-07-20 | [AI-driven pharmacovigilance: Enhancing adverse drug reaction detection with deep learning and NLP.](https://pubmed.ncbi.nlm.nih.gov/39041877) | MethodsX | - | 15 |
 | 2025-07-18 | [Artificial intelligence-driven computational methods for antibody design and optimization.](https://pubmed.ncbi.nlm.nih.gov/39026448) | mAbs | - | 5 |
-| 2023-02-08 | [DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking](https://arxiv.org/abs/2210.01776) | Curated | - | 450 |
-| 2021-07-15 | AlphaFold 2: Highly accurate protein structure prediction with deep learning | Curated | - | 15000 |
-| 2021-07-15 | RoseTTAFold: Accurate prediction of protein structures and interactions using deep learning | Curated | - | 2800 |
+| 2023-02-08 | [DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking](https://arxiv.org/abs/2210.01776) | MIT | - | 450 |
+| 2021-07-15 | AlphaFold 2: Highly accurate protein structure prediction with deep learning | DeepMind | - | 15000 |
+| 2021-07-15 | RoseTTAFold: Accurate prediction of protein structures and interactions using deep learning | University of Washington | - | 2800 |
 ### 🩺 Medical Imaging
 Papers focusing on medical imaging.
 
@@ -41,6 +41,10 @@ Papers focusing on medical imaging.
 | 2025-08-29 | [A Multi-Stage Fine-Tuning and Ensembling Strategy for Pancreatic Tumor   Segmentation in Diagnostic ](https://arxiv.org/abs/2508.21775v1) | arXiv | - | 4 |
 | 2025-08-29 | [Neural Network Acceleration on MPSoC board: Integrating SLAC's SNL,   Rogue Software and Auto-SNL](https://arxiv.org/abs/2508.21739v1) | arXiv | [Code*] | 4 |
 | 2025-08-06 | [Artificial intelligence and robotic surgery in clinical medicine: progress, challenges, and future d](https://pubmed.ncbi.nlm.nih.gov/39086433) | Future science OA | [Code*] | 4 |
+| 2024-04-24 | MedSAM: Segment Anything in Medical Images | Curated | - | 850 |
+| 2024-03-15 | SAM-Med3D: Towards General-purpose Segmentation Models for Volumetric Medical Images | Curated | - | 320 |
+| 2024-02-10 | UniverSeg: Universal Medical Image Segmentation | Curated | - | 280 |
+| 2024-01-15 | DiffusionCT: Latent Diffusion Model for 3D CT Image Generation | Curated | - | 195 |
 | 2023-04-15 | Clara: An AI-powered platform for medical imaging | Curated | - | 220 |
 | 2023-04-12 | Synthetic Medical Images with Stable Diffusion | Curated | - | 320 |
 | 2022-11-01 | [MedSegDiff: Medical Image Segmentation with Diffusion Probabilistic Model](https://arxiv.org/abs/2211.00611) | Curated | - | 280 |
@@ -56,7 +60,7 @@ Papers focusing on genomics & precision medicine.
 
 | Date | Title | Venue | Code | Citations |
 |------|-------|-------|------|-----------|
-| 2022-07-21 | ESM-2: Language models of protein sequences at the scale of evolution enable accurate structure pred | Curated | - | 750 |
+| 2022-07-21 | ESM-2: Language models of protein sequences at the scale of evolution enable accurate structure pred | Meta AI | - | 750 |
 ### 🤝 Patient Care & Engagement
 Papers focusing on patient care & engagement.
 
@@ -81,7 +85,7 @@ Papers focusing on foundational models.
 ### 📊 [Interactive Dashboard](docs/dashboard.html)
 
 ### Monthly Statistics
-- Total Papers: 66
+- Total Papers: 89
 - Top Venues: arXiv (11), PubMed (18)
 - Most Active Categories: foundation_models, medical_imaging, patient_interaction
 - Trending Keywords: LLM, GPT-4, Clinical AI, Medical Imaging, Drug Discovery

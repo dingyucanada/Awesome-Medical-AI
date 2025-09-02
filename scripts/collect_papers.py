@@ -18,18 +18,65 @@ class HealthcareAIPaperCollector:
         self.data_dir = Path(__file__).parent.parent / "data"
         self.data_dir.mkdir(exist_ok=True)
         
-        # Healthcare-specific keywords
+        # Comprehensive healthcare AI keywords
         self.keywords = [
-            "generative AI healthcare",
-            "LLM medical", "LLM clinical",
-            "GPT healthcare", "GPT medical",
-            "diffusion model medical imaging",
-            "generative model drug discovery",
-            "clinical NLP", "medical text generation",
-            "AI diagnosis", "AI treatment planning",
-            "medical chatbot", "healthcare assistant",
-            "synthetic medical data",
-            "federated learning healthcare"
+            # Generative AI & LLMs
+            "generative AI healthcare", "generative AI medical",
+            "LLM medical", "LLM clinical", "LLM healthcare",
+            "GPT healthcare", "GPT medical", "GPT clinical",
+            "BERT medical", "BERT clinical", "T5 medical",
+            "medical language model", "clinical language model",
+            "biomedical language model", "healthcare transformer",
+            
+            # Medical Imaging
+            "diffusion model medical imaging", "medical image generation",
+            "radiology AI", "pathology AI", "medical image synthesis",
+            "CT scan AI", "MRI AI", "X-ray AI", "ultrasound AI",
+            "medical segmentation", "DICOM AI", "medical vision transformer",
+            "SAM medical", "segment anything medical",
+            
+            # Clinical Applications
+            "clinical NLP", "medical text generation", "medical Q&A",
+            "AI diagnosis", "AI treatment planning", "AI prognosis",
+            "clinical decision support", "EHR AI", "EMR AI",
+            "medical coding AI", "ICD coding AI", "CPT coding AI",
+            "clinical reasoning AI", "medical knowledge graph",
+            
+            # Drug Discovery
+            "generative model drug discovery", "molecular generation AI",
+            "protein folding AI", "AlphaFold", "drug design AI",
+            "ADMET prediction", "virtual screening AI", "drug repurposing AI",
+            "molecular dynamics AI", "chemical synthesis AI",
+            
+            # Patient Interaction
+            "medical chatbot", "healthcare assistant", "patient engagement AI",
+            "health chatbot", "symptom checker AI", "AI triage",
+            "mental health AI", "digital therapeutics", "patient education AI",
+            "personalized medicine AI", "precision medicine AI",
+            
+            # Documentation & Workflow
+            "clinical documentation AI", "medical transcription AI",
+            "ambient clinical intelligence", "medical summarization",
+            "clinical note generation", "voice AI healthcare",
+            "medical report generation", "discharge summary AI",
+            
+            # Data & Privacy
+            "synthetic medical data", "federated learning healthcare",
+            "privacy preserving AI medical", "differential privacy healthcare",
+            "medical data augmentation", "clinical data generation",
+            
+            # Specialized Domains
+            "genomics AI", "proteomics AI", "digital pathology",
+            "surgical AI", "robotic surgery AI", "emergency medicine AI",
+            "pediatric AI", "oncology AI", "cardiology AI",
+            "neurology AI", "psychiatry AI", "dermatology AI",
+            "ophthalmology AI", "radiology foundation model",
+            
+            # Industry & Products
+            "Med-PaLM", "BioGPT", "GatorTron", "ClinicalBERT",
+            "BioBERT", "SciBERT", "PubMedBERT", "BlueBERT",
+            "Anthropic Claude medical", "OpenAI GPT medical",
+            "Google Gemini medical", "Meta Llama medical"
         ]
         
         self.categories = {

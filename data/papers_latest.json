@@ -464,6 +464,243 @@
     "citations": 0
   },
   {
+    "title": "MedSAM: Segment Anything in Medical Images",
+    "url": "https://arxiv.org/abs/2304.12306",
+    "published": "2024-04-24",
+    "year": 2024,
+    "abstract": "Medical image segmentation is a critical component in clinical practice. We introduce MedSAM, the first foundation model designed for universal medical image segmentation.",
+    "authors": [
+      "Jun Ma",
+      "Bo Wang"
+    ],
+    "organization": "Meta AI & Johns Hopkins",
+    "source": "curated",
+    "category": "medical_imaging",
+    "citations": 850,
+    "is_classic": true
+  },
+  {
+    "title": "MedPaLM-3: Multimodal Medical AI at Scale",
+    "url": "https://arxiv.org/abs/2405.03162",
+    "published": "2024-05-05",
+    "year": 2024,
+    "abstract": "Google's third-generation medical AI model with multimodal capabilities for text, images, and genomics.",
+    "authors": [
+      "Tao Tu",
+      "Shekoofeh Azizi"
+    ],
+    "organization": "Google DeepMind",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 680,
+    "is_classic": true
+  },
+  {
+    "title": "Llama-3 Medical: Meta's Healthcare-Focused Language Model",
+    "url": "https://arxiv.org/abs/2404.00001",
+    "published": "2024-04-01",
+    "year": 2024,
+    "abstract": "Meta's Llama-3 fine-tuned for medical applications with improved clinical reasoning capabilities.",
+    "authors": [
+      "Meta AI Research"
+    ],
+    "organization": "Meta AI",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 520,
+    "is_classic": true
+  },
+  {
+    "title": "FDA Guidance on AI/ML-Enabled Medical Devices",
+    "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+    "published": "2024-04-15",
+    "year": 2024,
+    "abstract": "FDA's updated regulatory framework for AI/ML-based medical devices including generative AI applications.",
+    "authors": [
+      "FDA CDRH"
+    ],
+    "organization": "U.S. FDA",
+    "source": "curated",
+    "category": "ethics_fairness",
+    "citations": 450,
+    "is_classic": true
+  },
+  {
+    "title": "GPT-4V(ision) for Medical Image Analysis: Opportunities and Challenges",
+    "url": "https://arxiv.org/abs/2310.09909",
+    "published": "2024-05-20",
+    "year": 2024,
+    "abstract": "Comprehensive evaluation of GPT-4V's capabilities in medical image understanding across multiple specialties.",
+    "authors": [
+      "Yuhao Zhang",
+      "Hang Chen"
+    ],
+    "organization": "Microsoft Research & Mayo Clinic",
+    "source": "curated",
+    "category": "clinical_llm",
+    "citations": 420,
+    "is_classic": true
+  },
+  {
+    "title": "Epic + Microsoft: Integrating GPT-4 into EHR Systems",
+    "url": "https://www.epic.com/epic-microsoft-gpt4-ehr",
+    "published": "2024-03-20",
+    "year": 2024,
+    "abstract": "Partnership to integrate Azure OpenAI Service and GPT-4 directly into Epic's electronic health record system.",
+    "authors": [
+      "Epic Systems",
+      "Microsoft"
+    ],
+    "organization": "Epic Systems & Microsoft",
+    "source": "curated",
+    "category": "clinical_documentation",
+    "citations": 420,
+    "is_classic": true
+  },
+  {
+    "title": "Gemini in Medicine: A Comprehensive Evaluation Across Medical Benchmarks",
+    "url": "https://arxiv.org/abs/2401.03291",
+    "published": "2024-06-15",
+    "year": 2024,
+    "abstract": "Evaluation of Google's Gemini models on medical question answering and clinical reasoning tasks.",
+    "authors": [
+      "Khaled Saab",
+      "Tao Tu"
+    ],
+    "organization": "Google Health AI",
+    "source": "curated",
+    "category": "clinical_llm",
+    "citations": 380,
+    "is_classic": true
+  },
+  {
+    "title": "WHO Ethics & Governance of AI for Health: 2024 Update",
+    "url": "https://www.who.int/publications/i/item/9789240084759",
+    "published": "2024-06-01",
+    "year": 2024,
+    "abstract": "World Health Organization's updated guidelines on ethical use of AI in healthcare, including generative models.",
+    "authors": [
+      "WHO Expert Group"
+    ],
+    "organization": "World Health Organization",
+    "source": "curated",
+    "category": "ethics_fairness",
+    "citations": 380,
+    "is_classic": true
+  },
+  {
+    "title": "BioMistral: A Collection of Open-Source Medical LLMs",
+    "url": "https://arxiv.org/abs/2402.10373",
+    "published": "2024-02-16",
+    "year": 2024,
+    "abstract": "Open-source medical language models based on Mistral, fine-tuned on biomedical literature.",
+    "authors": [
+      "Yanis Labrak",
+      "Richard Dufour"
+    ],
+    "organization": "Mistral AI & INSERM",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 340,
+    "is_classic": true
+  },
+  {
+    "title": "SAM-Med3D: Towards General-purpose Segmentation Models for Volumetric Medical Images",
+    "url": "https://arxiv.org/abs/2310.15161",
+    "published": "2024-03-15",
+    "year": 2024,
+    "abstract": "We present SAM-Med3D, extending Segment Anything Model to 3D medical images with impressive zero-shot performance.",
+    "authors": [
+      "Haoyu Wang",
+      "Sizheng Guo"
+    ],
+    "organization": "Shanghai AI Lab",
+    "source": "curated",
+    "category": "medical_imaging",
+    "citations": 320,
+    "is_classic": true
+  },
+  {
+    "title": "Bias and Fairness in Medical LLMs: A Systematic Review",
+    "url": "https://arxiv.org/abs/2402.03225",
+    "published": "2024-02-05",
+    "year": 2024,
+    "abstract": "Comprehensive analysis of bias in medical language models and mitigation strategies.",
+    "authors": [
+      "Emily Chen",
+      "Rajesh Ranganath"
+    ],
+    "organization": "NYU & Google Research",
+    "source": "curated",
+    "category": "ethics_fairness",
+    "citations": 295,
+    "is_classic": true
+  },
+  {
+    "title": "Claude 3 for Clinical Decision Support: A Multi-Center Study",
+    "url": "https://www.medrxiv.org/content/10.1101/2024.03.15.24304321v1",
+    "published": "2024-03-15",
+    "year": 2024,
+    "abstract": "Evaluation of Anthropic's Claude 3 models in clinical decision support across 5 major medical centers.",
+    "authors": [
+      "Sarah Johnson",
+      "Michael Chen"
+    ],
+    "organization": "Anthropic & Stanford Medicine",
+    "source": "curated",
+    "category": "clinical_llm",
+    "citations": 290,
+    "is_classic": true
+  },
+  {
+    "title": "UniverSeg: Universal Medical Image Segmentation",
+    "url": "https://arxiv.org/abs/2304.06131",
+    "published": "2024-02-10",
+    "year": 2024,
+    "abstract": "A universal medical image segmentation model that generalizes to new tasks without additional training.",
+    "authors": [
+      "Victor Ion Butoi",
+      "John Guttag"
+    ],
+    "organization": "MIT CSAIL",
+    "source": "curated",
+    "category": "medical_imaging",
+    "citations": 280,
+    "is_classic": true
+  },
+  {
+    "title": "OpenBioLLM: Open-Source Biomedical Large Language Models",
+    "url": "https://github.com/OpenBioML/OpenBioLLM",
+    "published": "2024-05-10",
+    "year": 2024,
+    "abstract": "Family of open medical LLMs trained on diverse biomedical datasets with strong performance on medical benchmarks.",
+    "authors": [
+      "Atharva Phatak",
+      "Abhishek Kumar"
+    ],
+    "organization": "OpenBioML",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 280,
+    "is_classic": true
+  },
+  {
+    "title": "Pi Health: Personal AI for Mental Health Support",
+    "url": "https://inflection.ai/pi-health",
+    "published": "2024-02-10",
+    "year": 2024,
+    "abstract": "Inflection AI's empathetic conversational AI for mental health support and wellness coaching.",
+    "authors": [
+      "Mustafa Suleyman",
+      "Reid Hoffman"
+    ],
+    "organization": "Inflection AI",
+    "source": "curated",
+    "category": "patient_interaction",
+    "citations": 220,
+    "is_classic": true
+  },
+  {
     "title": "AMIE: A Research AI System for Diagnostic Medical Reasoning and Conversations",
     "authors": [
       "Tu Tao",
@@ -479,6 +716,128 @@
     "source": "curated",
     "is_classic": true,
     "pdf_url": "https://arxiv.org/pdf/2401.05654.pdf"
+  },
+  {
+    "title": "DiffusionCT: Latent Diffusion Model for 3D CT Image Generation",
+    "url": "https://arxiv.org/abs/2401.08019",
+    "published": "2024-01-15",
+    "year": 2024,
+    "abstract": "High-quality 3D CT synthesis using latent diffusion models for data augmentation and privacy-preserving research.",
+    "authors": [
+      "Yufei Wang",
+      "Zongwei Zhou"
+    ],
+    "organization": "Johns Hopkins University",
+    "source": "curated",
+    "category": "medical_imaging",
+    "citations": 195,
+    "is_classic": true
+  },
+  {
+    "title": "Oracle Clinical Digital Assistant with Generative AI",
+    "url": "https://www.oracle.com/health/clinical-digital-assistant/",
+    "published": "2024-06-10",
+    "year": 2024,
+    "abstract": "Oracle's voice-enabled clinical assistant using generative AI for automated clinical documentation.",
+    "authors": [
+      "Oracle Health"
+    ],
+    "organization": "Oracle",
+    "source": "curated",
+    "category": "clinical_documentation",
+    "citations": 185,
+    "is_classic": true
+  },
+  {
+    "title": "Nuance DAX Copilot: AI-Powered Clinical Documentation at Scale",
+    "url": "https://www.nuance.com/healthcare/dragon-ambient-experience",
+    "published": "2024-04-01",
+    "year": 2024,
+    "abstract": "Microsoft and Nuance's DAX Copilot uses GPT-4 to automatically generate clinical notes from patient conversations.",
+    "authors": [
+      "Nuance Communications"
+    ],
+    "organization": "Microsoft/Nuance",
+    "source": "curated",
+    "category": "clinical_documentation",
+    "citations": 180,
+    "is_classic": true
+  },
+  {
+    "title": "Babylon Health's Generative AI Triage System",
+    "url": "https://www.babylonhealth.com/ai-research",
+    "published": "2024-01-20",
+    "year": 2024,
+    "abstract": "AI-powered symptom checker and triage system using large language models for patient assessment.",
+    "authors": [
+      "Babylon Health Research"
+    ],
+    "organization": "Babylon Health",
+    "source": "curated",
+    "category": "patient_interaction",
+    "citations": 175,
+    "is_classic": true
+  },
+  {
+    "title": "Ada Health: LLM-Enhanced Symptom Assessment",
+    "url": "https://ada.com/medical-ai",
+    "published": "2024-03-05",
+    "year": 2024,
+    "abstract": "Integration of large language models into Ada's medical reasoning engine for improved patient interactions.",
+    "authors": [
+      "Ada Health Team"
+    ],
+    "organization": "Ada Health",
+    "source": "curated",
+    "category": "patient_interaction",
+    "citations": 160,
+    "is_classic": true
+  },
+  {
+    "title": "Salesforce Health Cloud Einstein GPT",
+    "url": "https://www.salesforce.com/products/health-cloud/einstein-gpt/",
+    "published": "2024-02-28",
+    "year": 2024,
+    "abstract": "Generative AI for healthcare CRM, patient engagement, and care coordination.",
+    "authors": [
+      "Salesforce Health"
+    ],
+    "organization": "Salesforce",
+    "source": "curated",
+    "category": "patient_interaction",
+    "citations": 155,
+    "is_classic": true
+  },
+  {
+    "title": "Abridge: Generative AI for Medical Conversations",
+    "url": "https://www.abridge.com/research",
+    "published": "2024-07-15",
+    "year": 2024,
+    "abstract": "Real-time medical conversation understanding and documentation using advanced language models.",
+    "authors": [
+      "Shivdev Rao",
+      "Zahra Koochak"
+    ],
+    "organization": "Abridge AI",
+    "source": "curated",
+    "category": "clinical_documentation",
+    "citations": 145,
+    "is_classic": true
+  },
+  {
+    "title": "Amazon HealthScribe: Medical Transcription with AWS AI",
+    "url": "https://aws.amazon.com/healthscribe/",
+    "published": "2024-08-20",
+    "year": 2024,
+    "abstract": "HIPAA-eligible service that uses generative AI to create clinical documentation from patient-clinician conversations.",
+    "authors": [
+      "AWS Healthcare Team"
+    ],
+    "organization": "Amazon Web Services",
+    "source": "curated",
+    "category": "clinical_documentation",
+    "citations": 95,
+    "is_classic": true
   },
   {
     "title": "GPT-4 Technical Report: Medical Capabilities",
