@@ -46,30 +46,42 @@ class ReadmeUpdater:
         """Format a paper as a markdown table row"""
         title = paper.get("title", "").replace("|", "-")[:100]
         
-        # Create links
+        # Create links - handle missing links properly
         if paper.get("arxiv_id"):
             title_link = f"[{title}](https://arxiv.org/abs/{paper['arxiv_id']})"
         elif paper.get("pmid"):
             title_link = f"[{title}](https://pubmed.ncbi.nlm.nih.gov/{paper['pmid']})"
+        elif paper.get("pdf_url"):
+            title_link = f"[{title}]({paper['pdf_url']})"
         else:
+            # For papers without links, just show title
             title_link = title
         
         # Format date
         date = paper.get("published", "")[:10]
         
-        # Venue (could be enhanced with actual venue detection)
+        # Venue (enhanced detection)
         venue = paper.get("journal", "")
         if not venue and "arxiv" in paper.get("source", ""):
             venue = "arXiv"
         elif not venue and "pubmed" in paper.get("source", ""):
             venue = "PubMed"
-        venue = venue[:20]
+        elif not venue:
+            venue = paper.get("source", "").title()
+        venue = venue[:20] if venue else "-"
         
-        # Code (placeholder - could be enhanced with GitHub search)
+        # Code detection (check for common code indicators)
         code = "-"
+        abstract = paper.get("abstract", "").lower()
+        if any(term in abstract for term in ["github.com", "code available", "implementation"]):
+            code = "[Code*]"  # Asterisk indicates potential code availability
         
-        # Citations (placeholder - could be enhanced with citation API)
-        citations = "-"
+        # Citations (show if available, otherwise dash)
+        citations = paper.get("citations", "-")
+        if citations == 0:
+            citations = "0"
+        elif citations == "-" or not citations:
+            citations = "-"
         
         return f"| {date} | {title_link} | {venue} | {code} | {citations} |"
     

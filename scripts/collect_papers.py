@@ -90,7 +90,9 @@ class HealthcareAIPaperCollector:
                     "arxiv_id": self._extract_arxiv_id(entry),
                     "pdf_url": self._extract_pdf_url(entry),
                     "categories": self._extract_categories(entry),
-                    "paper_id": None
+                    "paper_id": None,
+                    "citations": 0,  # ArXiv doesn't provide citations directly
+                    "journal": "arXiv"  # Set journal for consistency
                 }
                 
                 # Generate unique ID
@@ -210,14 +212,17 @@ class HealthcareAIPaperCollector:
         
         for article in articles[:10]:  # Process up to 10 articles
             try:
+                pmid = self._extract_xml_field(article, "PMID")
                 paper = {
                     "source": "pubmed",
                     "title": self._extract_xml_field(article, "ArticleTitle"),
                     "abstract": self._extract_xml_field(article, "AbstractText"),
                     "published": self._extract_pubmed_date(article),
                     "journal": self._extract_xml_field(article, "Title"),
-                    "pmid": self._extract_xml_field(article, "PMID"),
-                    "paper_id": None
+                    "pmid": pmid,
+                    "pdf_url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/" if pmid else "",
+                    "paper_id": None,
+                    "citations": 0  # PubMed doesn't provide citation count in basic API
                 }
                 
                 # Generate unique ID

@@ -39,8 +39,8 @@ Papers focusing on medical imaging.
 |------|-------|-------|------|-----------|
 | 2025-08-31 | Evaluation of GPT-4o for multilingual translation of radiology reports across imaging modalities. | European journal of  | - | - |
 | 2025-08-29 | [A Multi-Stage Fine-Tuning and Ensembling Strategy for Pancreatic Tumor   Segmentation in Diagnostic ](https://arxiv.org/abs/2508.21775v1) | arXiv | - | - |
-| 2025-08-29 | [Neural Network Acceleration on MPSoC board: Integrating SLAC's SNL,   Rogue Software and Auto-SNL](https://arxiv.org/abs/2508.21739v1) | arXiv | - | - |
-| 2025-08-06 | Artificial intelligence and robotic surgery in clinical medicine: progress, challenges, and future d | Future science OA | - | - |
+| 2025-08-29 | [Neural Network Acceleration on MPSoC board: Integrating SLAC's SNL,   Rogue Software and Auto-SNL](https://arxiv.org/abs/2508.21739v1) | arXiv | [Code*] | - |
+| 2025-08-06 | Artificial intelligence and robotic surgery in clinical medicine: progress, challenges, and future d | Future science OA | [Code*] | - |
 ### 📝 Clinical Documentation
 Papers focusing on clinical documentation.
 
@@ -88,7 +88,7 @@ Papers focusing on foundational models.
 | 2025-08-29 | [Unitary induced channels and Tsirelson's problem](https://arxiv.org/abs/2508.21808v1) | arXiv | - | - |
 | 2025-08-29 | [QR-LoRA: QR-Based Low-Rank Adaptation for Efficient Fine-Tuning of Large   Language Models](https://arxiv.org/abs/2508.21810v1) | arXiv | - | - |
 | 2025-08-29 | [DMGIN: How Multimodal LLMs Enhance Large Recommendation Models for   Lifelong User Post-click Behavi](https://arxiv.org/abs/2508.21801v1) | arXiv | - | - |
-| 2025-08-29 | [TMUAD: Enhancing Logical Capabilities in Unified Anomaly Detection   Models with a Text Memory Bank](https://arxiv.org/abs/2508.21795v1) | arXiv | - | - |
+| 2025-08-29 | [TMUAD: Enhancing Logical Capabilities in Unified Anomaly Detection   Models with a Text Memory Bank](https://arxiv.org/abs/2508.21795v1) | arXiv | [Code*] | - |
 | 2025-08-29 | [The properties of a Leontief production technology for Health System   Modeling: the Thanzi la Onse ](https://arxiv.org/abs/2508.21699v1) | arXiv | - | - |
 | 2025-08-29 | [HealthProcessAI: A Technical Framework and Proof-of-Concept for   LLM-Enhanced Healthcare Process Mi](https://arxiv.org/abs/2508.21540v1) | arXiv | - | - |
 | 2025-08-29 | [Sequential Fair Allocation With Replenishments: A Little Envy Goes An   Exponentially Long Way](https://arxiv.org/abs/2508.21753v1) | arXiv | - | - |
