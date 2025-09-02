@@ -1,7 +1,7 @@
 # Awesome Generative AI in Healthcare Papers 🏥🤖
 
 ![Auto-Update](https://img.shields.io/badge/Auto%20Update-Daily-brightgreen)
-![Papers](https://img.shields.io/badge/Papers-155-blue)
+![Papers](https://img.shields.io/badge/Papers-141-blue)
 ![Last Update](https://img.shields.io/badge/Last%20Update-2025--09--02-orange)
 
 > A comprehensive, auto-updating collection of papers on Generative AI applications in Healthcare, updated daily via GitHub Actions.
@@ -70,12 +70,6 @@
 | 2017-07-01 | [Deep learning for medical image analysis: A survey](https://www.sciencedirect.com/science/article/pii/S1361841517301135) | University of Amsterdam | - |
 | 2015-05-18 | [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597) | University of Freiburg | [Pytorch-UNet](https://github.com/milesial/Pytorch-UNet) |
 | 2012-01-01 | [3D Slicer: A platform for subject-specific image analysis, visualization, and cl](https://www.slicer.org/publications/) | Brigham and Women's Hospi | [Slicer](https://github.com/Slicer/Slicer) |
-
-### 🤝 Patient Interaction & Engagement
-
-| Date | Title | Venue/Org | Code |
-|------|-------|-----------|------|
-| - | *No papers yet* | - | - |
 
 ### 📝 Clinical Documentation & NLP
 
@@ -148,7 +142,6 @@
 | 2022-11-23 | [RoentGen: Vision-Language Foundation Model for Chest X-ray Generation](https://arxiv.org/abs/2211.12737) | Stanford University | - |
 | 2022-09-15 | [Expert-level detection of pathologies from unannotated chest X-ray images via se](https://www.nature.com/articles/s41551-022-00936-9) | Stanford University | [CheXzero](https://github.com/rajpurkarlab/CheXzero) |
 | 2022-07-26 | [RadImageNet: An Open Radiologic Deep Learning Research Dataset for Effective Tra](https://pubs.rsna.org/doi/10.1148/ryai.210315) | UCSF | - |
-| 2020-09-28 | [Visual Question Answering in the Medical Domain](https://arxiv.org/abs/2009.13081) | Montreal University | - |
 | 2019-01-21 | [MIMIC-CXR: A large publicly available database of labeled chest radiographs](https://arxiv.org/abs/1901.07042) | MIT | - |
 | 2018-11-20 | [Deep learning for chest radiograph diagnosis: A retrospective comparison of the ](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002686) | Stanford University | - |
 | 2017-11-14 | [CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learnin](https://arxiv.org/abs/1711.05225) | Stanford University | [CheXNet](https://github.com/arnoweng/CheXNet) |
@@ -186,7 +179,6 @@
 | 2023-10-11 | [Deep learning for viral mutation prediction](https://www.nature.com/articles/s41586-023-06617-0) | Harvard Medical School | - |
 | 2023-01-21 | [Language models can predict public health trends](https://arxiv.org/abs/2301.08986) | Harvard T.H. Chan School | - |
 | 2022-06-20 | [Using social media and internet search data for public health surveillance](https://www.nature.com/articles/s41746-022-00616-7) | Boston Children's Hospita | - |
-| 2021-12-01 | [Machine learning for public health surveillance](https://www.sciencedirect.com/science/article/pii/S1532046421002847) | Johns Hopkins | - |
 | 2021-06-02 | [COVID-19 detection from chest X-ray images using deep learning](https://www.nature.com/articles/s41598-021-90998-7) | University of Waterloo | [COVID-Net](https://github.com/lindawangg/COVID-Net) |
 
 ### 🧬 Genomics & Precision Medicine
@@ -218,33 +210,6 @@
 | 2021-05-26 | [Swarm Learning for decentralized and confidential clinical machine learning](https://www.nature.com/articles/s41586-021-03583-3) | University of Warwick | - |
 | 2020-05-11 | [A federated learning framework for healthcare IoT devices](https://arxiv.org/abs/2005.05083) | MIT | - |
 
-### 🤖 Surgical Robotics & IoMT
-
-| Date | Title | Venue/Org | Code |
-|------|-------|-----------|------|
-| 2022-01-26 | [Autonomous robotic surgery: Has the future arrived?](https://www.science.org/doi/10.1126/scirobotics.abm6519) | Johns Hopkins University | - |
-| 2021-09-01 | [Surgical robotics: Reviewing the past, analysing the present, imagining the futu](https://www.sciencedirect.com/science/article/pii/S2666991921000294) | Imperial College London | - |
-| 2021-05-13 | [Da Vinci SP robotic approach to colorectal surgery: two specific indications and](https://link.springer.com/article/10.1007/s10151-021-02449-0) | Mayo Clinic | - |
-| 2020-06-01 | [Internet of Medical Things (IoMT) for orthopaedic in COVID-19 pandemic: Roles, c](https://www.sciencedirect.com/science/article/pii/S2452414X20300029) | University of Oxford | - |
-
-### 📱 Telemedicine & Remote Monitoring
-
-| Date | Title | Venue/Org | Code |
-|------|-------|-----------|------|
-| 2023-07-10 | [Virtual care for improved global surgical care: a perspective from the COVID-19 ](https://www.nature.com/articles/s41746-023-00868-x) | Harvard Medical School | - |
-| 2023-06-14 | [A systematic review of artificial intelligence and machine learning applications](https://www.nature.com/articles/s41746-023-00852-5) | University of California  | - |
-| 2023-02-08 | [Detection of COVID-19 from smartphone-recorded coughs using artificial intellige](https://www.nature.com/articles/s41598-023-29065-2) | MIT | - |
-| 2010-11-01 | [Effectiveness of telemedicine: A systematic review of reviews](https://www.sciencedirect.com/science/article/pii/S1386505610001699) | University of Queensland | - |
-
-### 💚 Digital Therapeutics
-
-| Date | Title | Venue/Org | Code |
-|------|-------|-----------|------|
-| 2023-08-01 | [Digital Therapeutics for Mental Health and Addiction: The State of the Science a](https://www.sciencedirect.com/science/article/pii/S2772588723000905) | University of Wisconsin | - |
-| 2023-02-28 | [Digital therapeutics: an integral component of digital innovation in drug develo](https://www.nature.com/articles/s41746-023-00777-z) | Duke University | - |
-| 2022-11-02 | [Digital therapeutic care apps with decision-support interventions improve outcom](https://www.nature.com/articles/s41746-022-00703-9) | Cedars-Sinai Medical Cent | - |
-| 2022-10-14 | [Prescription digital therapeutics: A review of the current landscape and future ](https://www.frontiersin.org/articles/10.3389/fdgth.2022.1007219) | Boston University | - |
-
 ### ⌚ Wearable Devices & Health Monitoring
 
 | Date | Title | Venue/Org | Code |
@@ -256,36 +221,35 @@
 ## 📈 Statistics & Trends
 
 ### Collection Overview
-- **Total Papers**: 155
+- **Total Papers**: 141
 - **Papers with Code**: 57
 - **Last Updated**: 2025-09-02
 
 ### Papers by Year
 - **2025**: 8 papers
 - **2024**: 33 papers
-- **2023**: 30 papers
-- **2022**: 26 papers
-- **2021**: 21 papers
-- **2020**: 13 papers
+- **2023**: 25 papers
+- **2022**: 23 papers
+- **2021**: 18 papers
+- **2020**: 11 papers
 - **2019**: 8 papers
 - **2018**: 6 papers
 - **2017**: 5 papers
 - **2016**: 2 papers
 - **2015**: 1 papers
 - **2012**: 1 papers
-- **2010**: 1 papers
 
 ### Top Organizations
 - **Stanford University**: 23 papers
 - **Google Research**: 12 papers
-- **MIT**: 9 papers
 - **Microsoft Research**: 8 papers
+- **MIT**: 8 papers
 - **Meta AI**: 6 papers
 - **Google DeepMind**: 5 papers
 - **University of Toronto**: 5 papers
 - **DeepMind**: 5 papers
-- **Harvard Medical School**: 4 papers
 - **University of Washington**: 3 papers
+- **Harvard Medical School**: 3 papers
 
 ### Most Active Categories
 - 🔬 Foundation Models: 19 papers

@@ -184,26 +184,26 @@ def generate_readme():
 
 """
     
-    # Add each category section
-    for cat_key in ["foundation_models", "clinical_llm", "medical_imaging", "patient_interaction", 
+    # Add each category section - only show categories with papers
+    categories_to_check = ["foundation_models", "clinical_llm", "medical_imaging", "patient_interaction", 
                    "clinical_documentation", "drug_discovery", "ethics_fairness", "multimodal",
                    "radiology", "mental_health", "synthetic_data", "public_health", "genomics",
-                   "data_security_privacy", "surgical_robotics", "telemedicine", "digital_therapeutics", "wearables"]:
-        
-        cat_name = category_names.get(cat_key, cat_key)
+                   "data_security_privacy", "surgical_robotics", "telemedicine", "digital_therapeutics", "wearables"]
+    
+    for cat_key in categories_to_check:
         cat_papers = papers_by_category.get(cat_key, [])[:15]  # Top 15 per category
         
-        readme += f"### {cat_name}\n\n"
-        readme += "| Date | Title | Venue/Org | Code |\n"
-        readme += "|------|-------|-----------|------|\n"
-        
+        # Only include categories that have papers
         if cat_papers:
+            cat_name = category_names.get(cat_key, cat_key)
+            readme += f"### {cat_name}\n\n"
+            readme += "| Date | Title | Venue/Org | Code |\n"
+            readme += "|------|-------|-----------|------|\n"
+            
             for paper in cat_papers:
                 readme += format_paper(paper) + "\n"
-        else:
-            readme += "| - | *No papers yet* | - | - |\n"
-        
-        readme += "\n"
+            
+            readme += "\n"
     
     # Add statistics section
     papers_with_code = len([p for p in papers if p.get("code_url")])
