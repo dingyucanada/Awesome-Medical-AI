@@ -305,19 +305,6 @@
   },
   {
     "source": "pubmed",
-    "title": "Visual art and representation in cardiology: Past, present, and future.",
-    "abstract": "Cardiovascular diseases (CVD) have been the leading causes of morbidity and mortality for over three decades, highlighting the necessity of integrating creative methods with traditional and innovative approaches for patient care, education, and prevention. Historically, artistic representations have played a crucial role in shaping our understanding of the anatomy, physiology, and pathologies of the human heart and cardiovascular system. Creative expressions, including visual arts, are linked to improved overall well-being for individuals of all ages. This review explores the evolution of visual arts in cardiovascular medicine over time, the understanding, diagnosis, and communication of cardiovascular disease and health through major domains of visual arts - education (medical illustrations, interactive anatomic models), symbolism (healing), advocacy (heart disease awareness, cardiac-focused exhibitions, interactive murals or art installations) and innovation (3D modeling, digital art, generative art, advanced medical visualization and imaging). We also reviewed the latest advancements in incorporating visual art into personalized cardiac care, the role of portraits in recognizing underrepresented groups, and future applications of visual representations and concepts through artificial intelligence aimed at enhancing cardiovascular care, medical education, and cardiac research.",
-    "published": "2025-08-29",
-    "journal": "American heart journal",
-    "pmid": "39211247",
-    "paper_id": "b36fd7cac3c7",
-    "category": "patient_interaction",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39211247/",
-    "citations": 5,
-    "code_url": "https://github.com/allenai/clinical-longformer"
-  },
-  {
-    "source": "pubmed",
     "title": "Analyses of different prescriptions for health using artificial intelligence: a critical approach based on the international guidelines of health institutions.",
     "abstract": "",
     "published": "2025-08-27",
@@ -354,19 +341,6 @@
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39018247/",
     "citations": 5,
     "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "source": "pubmed",
-    "title": "Clinical decision support for pharmacologic management of treatment-resistant depression with augmented large language models.",
-    "abstract": "",
-    "published": "2025-08-30",
-    "journal": "Journal of mood and anxiety disorders",
-    "paper_id": "cf6bdad1c26d",
-    "category": "clinical_llm",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39216619/",
-    "citations": 4,
-    "code_url": "https://github.com/medchain/medchain",
-    "note": "Paper under review - link pending"
   },
   {
     "source": "arxiv",
@@ -527,19 +501,6 @@
     "code_url": "https://github.com/allenai/clinical-longformer"
   },
   {
-    "source": "pubmed",
-    "title": "Evaluation of GPT-4o for multilingual translation of radiology reports across imaging modalities.",
-    "abstract": "",
-    "published": "2025-08-31",
-    "journal": "European journal of radiology",
-    "paper_id": "3d26b707e15b",
-    "category": "medical_imaging",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39218386/",
-    "citations": 2,
-    "code_url": "https://github.com/medchain/medchain",
-    "note": "Paper under review - link pending"
-  },
-  {
     "source": "arxiv",
     "title": "Automated Clinical Problem Detection from SOAP Notes using a   Collaborative Multi-Agent LLM Architecture",
     "abstract": "Accurate interpretation of clinical narratives is critical for patient care, but the complexity of these notes makes automation challenging. While Large Language Models (LLMs) show promise, single-model approaches can lack the robustness required for high-stakes clinical tasks. We introduce a collaborative multi-agent system (MAS) that models a clinical consultation team to address this gap. The system is tasked with identifying clinical problems by analyzing only the Subjective (S) and Objective (O) sections of SOAP notes, simulating the diagnostic reasoning process of synthesizing raw data into an assessment. A Manager agent orchestrates a dynamically assigned team of specialist agents who engage in a hierarchical, iterative debate to reach a consensus. We evaluated our MAS against a single-agent baseline on a curated dataset of 420 MIMIC-III notes. The dynamic multi-agent configuration demonstrated consistently improved performance in identifying congestive heart failure, acute kidney injury, and sepsis. Qualitative analysis of the agent debates reveals that this structure effectively surfaces and weighs conflicting evidence, though it can occasionally be susceptible to groupthink. By modeling a clinical team's reasoning process, our system offers a promising path toward more accurate, robust, and interpretable clinical decision support tools.",
@@ -583,18 +544,6 @@
     "paper_id": "85e4a860a42e",
     "category": "foundation_models",
     "citations": 2
-  },
-  {
-    "source": "pubmed",
-    "title": "Assessing LLM-generated vs. expert-created clinical anatomy MCQs: a student perception-based comparative study in medical education.",
-    "abstract": "Large language models (LLMs) such as ChatGPT and Gemini are increasingly used to generate educational content in medical education, including multiple-choice questions (MCQs), but their effectiveness compared to expert-written questions remains underexplored, particularly in anatomy. We conducted a cross-sectional, mixed-methods study involving Year 2-4 medical students at Qatar University, where participants completed and evaluated three anonymized MCQ sets-authored by ChatGPT, Google-Gemini, and a clinical anatomist-across 17 quality criteria. Descriptive and chi-square analyses were performed, and optional feedback was reviewed thematically. Among 48 participants, most rated the three MCQ sources as equally effective, although ChatGPT was more often preferred for helping students identify and confront their knowledge gaps through challenging distractors and diagnostic insight, while expert-written questions were rated highest for deeper analytical thinking. A significant variation in preferences was observed across sources (&#x3c7;&#xb2; (64) = 688.79, <i>p</i> &lt; .001). Qualitative feedback emphasized the need for better difficulty calibration and clearer distractors in some AI-generated items. Overall, LLM-generated anatomy MCQs can closely match expert-authored ones in learner-perceived value and may support deeper engagement, but expert review remains critical to ensure clarity and alignment with curricular goals. A hybrid AI-human workflow may provide a promising path for scalable, high-quality assessment design in medical education.",
-    "published": "2025-08-30",
-    "journal": "Medical education online",
-    "paper_id": "ae55a0350f3b",
-    "category": "patient_interaction",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39217340/",
-    "citations": 1,
-    "note": "Paper under review - link pending"
   },
   {
     "source": "arxiv",
@@ -1030,21 +979,6 @@
     "code_url": "https://github.com/jhu-apl/PandemicGPT"
   },
   {
-    "title": "MedAgent: Multi-Agent System for Clinical Decision Support",
-    "url": "https://arxiv.org/abs/2404.07890",
-    "published": "2024-04-15",
-    "year": 2024,
-    "abstract": "Multi-agent framework with specialist agents for diagnosis, treatment, and drug interactions.",
-    "authors": [
-      "Google Research"
-    ],
-    "organization": "Google Research",
-    "source": "curated",
-    "category": "clinical_llm",
-    "citations": 267,
-    "is_classic": true
-  },
-  {
     "title": "MedGuard: Guardrails for Safe Medical AI Deployment",
     "url": "https://arxiv.org/abs/2404.23789",
     "published": "2024-04-28",
@@ -1123,21 +1057,6 @@
     "code_url": "https://github.com/mit-medg/clinical-rag"
   },
   {
-    "title": "MedPrompt: Prompt Engineering for Clinical Applications",
-    "url": "https://arxiv.org/abs/2403.18901",
-    "published": "2024-03-30",
-    "year": 2024,
-    "abstract": "Systematic prompt engineering techniques for medical AI including CoT and few-shot.",
-    "authors": [
-      "Microsoft"
-    ],
-    "organization": "Microsoft Research",
-    "source": "curated",
-    "category": "clinical_llm",
-    "citations": 234,
-    "is_classic": true
-  },
-  {
     "title": "MedVec: Medical Knowledge Embeddings at Scale",
     "url": "https://arxiv.org/abs/2402.14567",
     "published": "2024-02-25",
@@ -1150,22 +1069,6 @@
     "source": "curated",
     "category": "foundation_models",
     "citations": 223
-  },
-  {
-    "title": "Pi Health: Personal AI for Mental Health Support",
-    "url": "https://inflection.ai/pi-health",
-    "published": "2024-02-10",
-    "year": 2024,
-    "abstract": "Inflection AI's empathetic conversational AI for mental health support and wellness coaching.",
-    "authors": [
-      "Mustafa Suleyman",
-      "Reid Hoffman"
-    ],
-    "organization": "Inflection AI",
-    "source": "curated",
-    "category": "patient_interaction",
-    "citations": 220,
-    "is_classic": true
   },
   {
     "title": "BiomedGPT: Open Multimodal Generative Pre-trained Transformer",
@@ -1216,48 +1119,6 @@
     "citations": 198,
     "is_classic": true,
     "code_url": "https://github.com/microsoft/MAIRA"
-  },
-  {
-    "title": "Wysa 2.0: Evolution of an AI Mental Health Companion",
-    "url": "https://www.wysa.io/research-2024",
-    "published": "2024-09-10",
-    "year": 2024,
-    "abstract": "Clinical trial results of AI chatbot reducing depression scores by 31%.",
-    "authors": [
-      "Wysa Research"
-    ],
-    "organization": "Wysa",
-    "source": "curated",
-    "category": "mental_health",
-    "citations": 198
-  },
-  {
-    "title": "AutoMed: Autonomous Medical AI Agents with Tool Use",
-    "url": "https://arxiv.org/abs/2406.12890",
-    "published": "2024-06-20",
-    "year": 2024,
-    "abstract": "Autonomous agents using medical tools, APIs, and databases for clinical tasks.",
-    "authors": [
-      "OpenAI Research"
-    ],
-    "organization": "OpenAI",
-    "source": "curated",
-    "category": "clinical_llm",
-    "citations": 198
-  },
-  {
-    "title": "Chain-of-Diagnosis: Reasoning Chains for Medical AI",
-    "url": "https://arxiv.org/abs/2406.09123",
-    "published": "2024-06-10",
-    "year": 2024,
-    "abstract": "Chain-of-thought prompting specialized for medical diagnosis and reasoning.",
-    "authors": [
-      "DeepMind Health"
-    ],
-    "organization": "Google DeepMind",
-    "source": "curated",
-    "category": "clinical_llm",
-    "citations": 198
   },
   {
     "title": "MedGraph: Large-Scale Medical Knowledge Graph with LLM Integration",
@@ -1363,34 +1224,6 @@
     "citations": 189
   },
   {
-    "title": "SafeHealth: Constitutional AI for Medical Applications",
-    "url": "https://arxiv.org/abs/2407.89012",
-    "published": "2024-07-15",
-    "year": 2024,
-    "abstract": "Constitutional AI principles applied to healthcare for safe and ethical AI systems.",
-    "authors": [
-      "Anthropic"
-    ],
-    "organization": "Anthropic",
-    "source": "curated",
-    "category": "ethics_fairness",
-    "citations": 189
-  },
-  {
-    "title": "AutoHealth: AutoML for Medical AI Development",
-    "url": "https://arxiv.org/abs/2404.34567",
-    "published": "2024-04-10",
-    "year": 2024,
-    "abstract": "Automated machine learning pipeline for healthcare applications with minimal coding.",
-    "authors": [
-      "Google Cloud"
-    ],
-    "organization": "Google Cloud AI",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 189
-  },
-  {
     "title": "Oracle Clinical Digital Assistant with Generative AI",
     "url": "https://www.oracle.com/health/clinical-digital-assistant/",
     "published": "2024-06-10",
@@ -1479,35 +1312,6 @@
     "code_url": "https://github.com/cambridge-mlg/peft-health"
   },
   {
-    "title": "MedMLOps: MLOps for Medical AI Systems",
-    "url": "https://arxiv.org/abs/2405.45678",
-    "published": "2024-05-25",
-    "year": 2024,
-    "abstract": "End-to-end MLOps platform for medical AI including monitoring and compliance.",
-    "authors": [
-      "Weights & Biases"
-    ],
-    "organization": "Weights & Biases",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 178
-  },
-  {
-    "title": "Babylon Health's Generative AI Triage System",
-    "url": "https://www.babylonhealth.com/ai-research",
-    "published": "2024-01-20",
-    "year": 2024,
-    "abstract": "AI-powered symptom checker and triage system using large language models for patient assessment.",
-    "authors": [
-      "Babylon Health Research"
-    ],
-    "organization": "Babylon Health",
-    "source": "curated",
-    "category": "patient_interaction",
-    "citations": 175,
-    "is_classic": true
-  },
-  {
     "title": "Rad-BERT: Specialized Language Model for Radiology Reports",
     "url": "https://arxiv.org/abs/2403.09139",
     "published": "2024-03-25",
@@ -1576,21 +1380,6 @@
     "source": "curated",
     "category": "foundation_models",
     "citations": 167
-  },
-  {
-    "title": "Ada Health: LLM-Enhanced Symptom Assessment",
-    "url": "https://ada.com/medical-ai",
-    "published": "2024-03-05",
-    "year": 2024,
-    "abstract": "Integration of large language models into Ada's medical reasoning engine for improved patient interactions.",
-    "authors": [
-      "Ada Health Team"
-    ],
-    "organization": "Ada Health",
-    "source": "curated",
-    "category": "patient_interaction",
-    "citations": 160,
-    "is_classic": true
   },
   {
     "title": "MedVInT: Vision-Instruction Tuning for Clinical Report Generation",
@@ -1678,35 +1467,6 @@
     "citations": 156
   },
   {
-    "title": "TinyMed: Compressed Medical LLMs for Edge Deployment",
-    "url": "https://arxiv.org/abs/2407.18234",
-    "published": "2024-07-25",
-    "year": 2024,
-    "abstract": "Quantization and distillation of medical LLMs for deployment on mobile devices.",
-    "authors": [
-      "Apple ML"
-    ],
-    "organization": "Apple",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 156
-  },
-  {
-    "title": "Salesforce Health Cloud Einstein GPT",
-    "url": "https://www.salesforce.com/products/health-cloud/einstein-gpt/",
-    "published": "2024-02-28",
-    "year": 2024,
-    "abstract": "Generative AI for healthcare CRM, patient engagement, and care coordination.",
-    "authors": [
-      "Salesforce Health"
-    ],
-    "organization": "Salesforce",
-    "source": "curated",
-    "category": "patient_interaction",
-    "citations": 155,
-    "is_classic": true
-  },
-  {
     "title": "Abridge: Generative AI for Medical Conversations",
     "url": "https://www.abridge.com/research",
     "published": "2024-07-15",
@@ -1776,48 +1536,6 @@
     "organization": "Genentech/Roche",
     "source": "curated",
     "category": "genomics",
-    "citations": 145
-  },
-  {
-    "title": "HospitalGPT: Agent-Based Simulation of Hospital Operations",
-    "url": "https://arxiv.org/abs/2407.23456",
-    "published": "2024-07-30",
-    "year": 2024,
-    "abstract": "Multi-agent system simulating hospital workflows for optimization and training.",
-    "authors": [
-      "Microsoft Health"
-    ],
-    "organization": "Microsoft Research",
-    "source": "curated",
-    "category": "clinical_llm",
-    "citations": 145
-  },
-  {
-    "title": "MedFlow: Orchestrating Medical AI Workflows with Apache Airflow",
-    "url": "https://arxiv.org/abs/2405.67890",
-    "published": "2024-05-15",
-    "year": 2024,
-    "abstract": "Workflow orchestration for complex medical AI pipelines and data processing.",
-    "authors": [
-      "Databricks Health"
-    ],
-    "organization": "Databricks",
-    "source": "curated",
-    "category": "clinical_llm",
-    "citations": 145
-  },
-  {
-    "title": "H2O-Health: AutoML Platform for Clinical Predictions",
-    "url": "https://arxiv.org/abs/2407.45678",
-    "published": "2024-07-20",
-    "year": 2024,
-    "abstract": "No-code AutoML platform specialized for healthcare predictive modeling.",
-    "authors": [
-      "H2O.ai"
-    ],
-    "organization": "H2O.ai",
-    "source": "curated",
-    "category": "clinical_llm",
     "citations": 145
   },
   {
@@ -1892,20 +1610,6 @@
     "code_url": "https://github.com/run-llama/llama_index"
   },
   {
-    "title": "HealthTrace: Distributed Tracing for Medical AI Systems",
-    "url": "https://arxiv.org/abs/2408.12789",
-    "published": "2024-08-20",
-    "year": 2024,
-    "abstract": "Observability and debugging tools for complex medical AI pipelines.",
-    "authors": [
-      "Datadog AI"
-    ],
-    "organization": "Datadog",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 134
-  },
-  {
     "title": "MindBridge: Federated Learning for Mental Health Data",
     "url": "https://arxiv.org/abs/2408.09876",
     "published": "2024-08-25",
@@ -1948,20 +1652,6 @@
     "citations": 123
   },
   {
-    "title": "EdgeHealth: On-Device Medical AI with 2B Parameters",
-    "url": "https://arxiv.org/abs/2408.23456",
-    "published": "2024-08-30",
-    "year": 2024,
-    "abstract": "Optimized medical models running locally on smartphones and IoT devices.",
-    "authors": [
-      "Qualcomm AI"
-    ],
-    "organization": "Qualcomm",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 123
-  },
-  {
     "title": "TimeDiff: Temporal Diffusion for Longitudinal Medical Data",
     "url": "https://arxiv.org/abs/2409.08910",
     "published": "2024-09-15",
@@ -1973,20 +1663,6 @@
     "organization": "UC Berkeley",
     "source": "curated",
     "category": "synthetic_data",
-    "citations": 112
-  },
-  {
-    "title": "HealthKube: Kubernetes for Medical AI Deployment",
-    "url": "https://arxiv.org/abs/2406.34567",
-    "published": "2024-06-25",
-    "year": 2024,
-    "abstract": "Container orchestration and scaling for medical AI services in production.",
-    "authors": [
-      "Red Hat"
-    ],
-    "organization": "Red Hat/IBM",
-    "source": "curated",
-    "category": "foundation_models",
     "citations": 112
   },
   {
