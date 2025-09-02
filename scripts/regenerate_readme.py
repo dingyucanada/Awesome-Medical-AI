@@ -33,7 +33,12 @@ def generate_readme():
         "mental_health": "🧠 Mental Health & Psychiatry",
         "synthetic_data": "📊 Synthetic Data Generation",
         "public_health": "🌍 Public Health & Epidemiology",
-        "genomics": "🧬 Genomics & Precision Medicine"
+        "genomics": "🧬 Genomics & Precision Medicine",
+        "data_security_privacy": "🔒 Medical Data Security & Privacy",
+        "surgical_robotics": "🤖 Surgical Robotics & IoMT",
+        "telemedicine": "📱 Telemedicine & Remote Monitoring",
+        "digital_therapeutics": "💚 Digital Therapeutics",
+        "wearables": "⌚ Wearable Devices & Health Monitoring"
     }
     
     # Group papers by category
@@ -182,7 +187,8 @@ def generate_readme():
     # Add each category section
     for cat_key in ["foundation_models", "clinical_llm", "medical_imaging", "patient_interaction", 
                    "clinical_documentation", "drug_discovery", "ethics_fairness", "multimodal",
-                   "radiology", "mental_health", "synthetic_data", "public_health", "genomics"]:
+                   "radiology", "mental_health", "synthetic_data", "public_health", "genomics",
+                   "data_security_privacy", "surgical_robotics", "telemedicine", "digital_therapeutics", "wearables"]:
         
         cat_name = category_names.get(cat_key, cat_key)
         cat_papers = papers_by_category.get(cat_key, [])[:15]  # Top 15 per category

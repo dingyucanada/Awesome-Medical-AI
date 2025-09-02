@@ -1,7 +1,7 @@
 # Awesome Generative AI in Healthcare Papers 🏥🤖
 
 ![Auto-Update](https://img.shields.io/badge/Auto%20Update-Daily-brightgreen)
-![Papers](https://img.shields.io/badge/Papers-141-blue)
+![Papers](https://img.shields.io/badge/Papers-155-blue)
 ![Last Update](https://img.shields.io/badge/Last%20Update-2025--09--02-orange)
 
 > A comprehensive, auto-updating collection of papers on Generative AI applications in Healthcare, updated daily via GitHub Actions.
@@ -21,8 +21,6 @@
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
 | 2025-06-28 | [GNN's Uncertainty Quantification using Self-Distillation for Artificial Intellig](https://arxiv.org/abs/2506.20046) | University of Cambridge | - |
-| 2025-01-01 | [MedMax: Mixed-Modal Instruction Tuning for Training Biomedical Assistants](https://arxiv.org/abs/2501.00017) | Stanford University | - |
-| 2024-09-28 | [MedEdit: Model Editing for Medical Question Answering with External Knowledge Ba](https://arxiv.org/abs/2309.16035) | UCLA | [MedEdit](https://github.com/cyzhh/MedEdit) |
 | 2024-03-08 | [Gemini 1.5: Unlocking multimodal understanding across millions of tokens of cont](https://arxiv.org/abs/2403.05530) | Google DeepMind | - |
 | 2024-03-04 | [Claude 3 Technical Report](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) | Anthropic | - |
 | 2023-12-19 | [Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/abs/2312.11805) | Google DeepMind | - |
@@ -35,6 +33,8 @@
 | 2022-12-20 | [BioMedLM: A Domain-Specific Large Language Model for Biomedical Text](https://arxiv.org/abs/2212.10343) | Stanford University | - |
 | 2022-09-19 | [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mi](https://academic.oup.com/bib/article/23/6/bbac409/6713511) | Microsoft Research | [BioGPT](https://github.com/microsoft/BioGPT) |
 | 2022-04-05 | [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311) | Google Research | - |
+| 2022-03-07 | [GatorTron: A Large Clinical Language Model to Unlock Patient Information from Cl](https://arxiv.org/abs/2203.03540) | University of Florida | [GatorTron](https://github.com/uf-hobi-informatics-lab/GatorTron) |
+| 2022-01-05 | [Clinical-T5: Large Language Models Built Using MIMIC Clinical Text](https://arxiv.org/abs/2201.01424) | Columbia University | - |
 
 ### 🏥 Clinical LLMs & Decision Support
 
@@ -47,6 +47,7 @@
 | 2024-01-15 | [HuatuoGPT-II: One-stage Training for Medical Adaption of LLMs](https://arxiv.org/abs/2311.09774) | Chinese University of Hon | [HuatuoGPT-II](https://github.com/FreedomIntelligence/HuatuoGPT-II) |
 | 2024-01-11 | [AMIE: A research AI system for diagnostic medical reasoning and conversations](https://arxiv.org/abs/2401.05654) | Google Research | - |
 | 2024-01-11 | [Towards Conversational Diagnostic AI](https://arxiv.org/abs/2401.05654) | Google DeepMind | - |
+| 2023-09-28 | [MKRAG: Medical Knowledge Retrieval Augmented Generation for Medical Question Ans](https://arxiv.org/abs/2309.16035) | UCLA | [MKRAG](https://github.com/cyzhh/MKRAG) |
 | 2023-05-16 | [Towards Expert-Level Medical Question Answering with Large Language Models](https://arxiv.org/abs/2305.09617) | Google Research | - |
 | 2023-03-24 | [ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (L](https://arxiv.org/abs/2303.14070) | UC San Diego | [ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor) |
 | 2023-03-20 | [Capabilities of GPT-4 on Medical Challenge Problems](https://arxiv.org/abs/2303.13375) | Microsoft Research | - |
@@ -54,7 +55,6 @@
 | 2019-09-25 | [A comparison of deep learning performance against health-care professionals in d](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(19)30123-2/fulltext) | University College London | - |
 | 2018-08-13 | [Clinically applicable deep learning for diagnosis and referral in retinal diseas](https://www.nature.com/articles/s41591-018-0107-6) | DeepMind | - |
 | 2017-01-25 | [Dermatologist-level classification of skin cancer with deep neural networks](https://www.nature.com/articles/nature21056) | Stanford University | - |
-| 2016-11-29 | [Development and validation of a deep learning algorithm for detection of diabeti](https://jamanetwork.com/journals/jama/fullarticle/2588763) | Google Research | - |
 
 ### 🩺 Medical Imaging & Vision
 
@@ -79,16 +79,12 @@
 
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
-| 2025-01-02 | [AgentPatient: Simulating Patient with Agent for Improving Health Education in Me](https://arxiv.org/abs/2501.00318) | University of California | - |
-| 2023-07-15 | [Conversational AI for mental health: A systematic review](https://www.sciencedirect.com/science/article/pii/S1532046423001478) | University of Cambridge | - |
-| 2023-06-12 | [Patients' perceptions of receiving a diagnosis of a hematological malignancy fro](https://www.nature.com/articles/s41746-023-00853-4) | Harvard Medical School | - |
-| 2022-07-11 | [A digital health platform for diabetes prevention and management based on machin](https://www.nature.com/articles/s41746-022-00626-5) | Mount Sinai | - |
+| - | *No papers yet* | - | - |
 
 ### 📝 Clinical Documentation & NLP
 
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
-| 2024-01-24 | [EHRXQA: A Multi-Modal Question Answering Dataset for Electronic Health Records](https://arxiv.org/abs/2401.13120) | University of Illinois | - |
 | 2024-01-13 | [EHRAgent: Code Empowers Large Language Models for Complex Tabular Reasoning on E](https://arxiv.org/abs/2401.07128) | Ohio State University | [EhrAgent](https://github.com/wshi83/EhrAgent) |
 | 2022-12-01 | [FHIR-based clinical data repository for machine learning: Implementation and eva](https://www.sciencedirect.com/science/article/pii/S1532046422002349) | Mayo Clinic | - |
 | 2022-01-27 | [Clinical-Longformer and Clinical-BigBird: Transformers for long clinical sequenc](https://arxiv.org/abs/2201.11838) | Allen Institute for AI | [Code](https://huggingface.co/yikuan8/Clinical-Longformer) |
@@ -134,7 +130,6 @@
 
 | Date | Title | Venue/Org | Code |
 |------|-------|-----------|------|
-| 2025-01-01 | [Advancing Multimodal Large Language Models in Medical Imaging Diagnosis](https://arxiv.org/abs/2501.00060) | Johns Hopkins University | - |
 | 2024-10-05 | [LLaVA-Med: Large Language and Vision Assistant for Medicine](https://arxiv.org/abs/2306.00890) | Microsoft Research | [LLaVA-Med](https://github.com/microsoft/LLaVA-Med) |
 | 2024-08-22 | [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text](https://arxiv.org/abs/2308.12966) | Alibaba | [Qwen-VL](https://github.com/QwenLM/Qwen-VL) |
 | 2024-07-28 | [Med-Flamingo: a Multimodal Medical Few-shot Learner](https://arxiv.org/abs/2307.15189) | Stanford University | [med-flamingo](https://github.com/snap-stanford/med-flamingo) |
@@ -216,42 +211,89 @@
 | 2018-09-24 | [DeepVariant: a universal SNP and small-indel variant caller using deep neural ne](https://www.nature.com/articles/nbt.4235) | Google Research | [deepvariant](https://github.com/google/deepvariant) |
 | 2018-05-02 | [Deep learning for genomics: A concise overview](https://arxiv.org/abs/1802.00810) | Princeton University | - |
 
+### 🔒 Medical Data Security & Privacy
+
+| Date | Title | Venue/Org | Code |
+|------|-------|-----------|------|
+| 2025-01-09 | [Privacy-preserving federated learning for collaborative medical data mining in m](https://www.nature.com/articles/s41598-025-97565-4) | Stanford University | - |
+| 2022-02-01 | [Federated learning and differential privacy for medical image analysis](https://www.nature.com/articles/s41598-022-05539-7) | University of Pennsylvani | - |
+| 2021-10-06 | [Truly privacy-preserving federated analytics for precision medicine with multipa](https://www.nature.com/articles/s41467-021-25972-y) | EPFL | - |
+| 2021-09-15 | [Federated learning for predicting clinical outcomes in patients with COVID-19](https://www.nature.com/articles/s41591-021-01506-3) | Mass General Brigham | - |
+| 2021-05-26 | [Swarm Learning for decentralized and confidential clinical machine learning](https://www.nature.com/articles/s41586-021-03583-3) | University of Warwick | - |
+| 2020-05-11 | [A federated learning framework for healthcare IoT devices](https://arxiv.org/abs/2005.05083) | MIT | - |
+
+### 🤖 Surgical Robotics & IoMT
+
+| Date | Title | Venue/Org | Code |
+|------|-------|-----------|------|
+| 2022-01-26 | [Autonomous robotic surgery: Has the future arrived?](https://www.science.org/doi/10.1126/scirobotics.abm6519) | Johns Hopkins University | - |
+| 2021-09-01 | [Surgical robotics: Reviewing the past, analysing the present, imagining the futu](https://www.sciencedirect.com/science/article/pii/S2666991921000294) | Imperial College London | - |
+| 2021-05-13 | [Da Vinci SP robotic approach to colorectal surgery: two specific indications and](https://link.springer.com/article/10.1007/s10151-021-02449-0) | Mayo Clinic | - |
+| 2020-06-01 | [Internet of Medical Things (IoMT) for orthopaedic in COVID-19 pandemic: Roles, c](https://www.sciencedirect.com/science/article/pii/S2452414X20300029) | University of Oxford | - |
+
+### 📱 Telemedicine & Remote Monitoring
+
+| Date | Title | Venue/Org | Code |
+|------|-------|-----------|------|
+| 2023-07-10 | [Virtual care for improved global surgical care: a perspective from the COVID-19 ](https://www.nature.com/articles/s41746-023-00868-x) | Harvard Medical School | - |
+| 2023-06-14 | [A systematic review of artificial intelligence and machine learning applications](https://www.nature.com/articles/s41746-023-00852-5) | University of California  | - |
+| 2023-02-08 | [Detection of COVID-19 from smartphone-recorded coughs using artificial intellige](https://www.nature.com/articles/s41598-023-29065-2) | MIT | - |
+| 2010-11-01 | [Effectiveness of telemedicine: A systematic review of reviews](https://www.sciencedirect.com/science/article/pii/S1386505610001699) | University of Queensland | - |
+
+### 💚 Digital Therapeutics
+
+| Date | Title | Venue/Org | Code |
+|------|-------|-----------|------|
+| 2023-08-01 | [Digital Therapeutics for Mental Health and Addiction: The State of the Science a](https://www.sciencedirect.com/science/article/pii/S2772588723000905) | University of Wisconsin | - |
+| 2023-02-28 | [Digital therapeutics: an integral component of digital innovation in drug develo](https://www.nature.com/articles/s41746-023-00777-z) | Duke University | - |
+| 2022-11-02 | [Digital therapeutic care apps with decision-support interventions improve outcom](https://www.nature.com/articles/s41746-022-00703-9) | Cedars-Sinai Medical Cent | - |
+| 2022-10-14 | [Prescription digital therapeutics: A review of the current landscape and future ](https://www.frontiersin.org/articles/10.3389/fdgth.2022.1007219) | Boston University | - |
+
+### ⌚ Wearable Devices & Health Monitoring
+
+| Date | Title | Venue/Org | Code |
+|------|-------|-----------|------|
+| 2022-04-22 | [Machine learning for healthcare wearable devices: The big picture](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9038375/) | University of Edinburgh | - |
+| 2021-01-07 | [Wearable sensor data and self-reported symptoms for COVID-19 detection](https://www.nature.com/articles/s41591-020-1123-x) | Scripps Research | - |
+| 2019-11-14 | [Large-scale assessment of a smartwatch to identify atrial fibrillation](https://www.nejm.org/doi/full/10.1056/NEJMoa1901183) | Stanford University | - |
+
 ## 📈 Statistics & Trends
 
 ### Collection Overview
-- **Total Papers**: 141
+- **Total Papers**: 155
 - **Papers with Code**: 57
 - **Last Updated**: 2025-09-02
 
 ### Papers by Year
-- **2025**: 10 papers
-- **2024**: 35 papers
-- **2023**: 26 papers
-- **2022**: 22 papers
-- **2021**: 15 papers
-- **2020**: 11 papers
-- **2019**: 7 papers
+- **2025**: 8 papers
+- **2024**: 33 papers
+- **2023**: 30 papers
+- **2022**: 26 papers
+- **2021**: 21 papers
+- **2020**: 13 papers
+- **2019**: 8 papers
 - **2018**: 6 papers
 - **2017**: 5 papers
 - **2016**: 2 papers
 - **2015**: 1 papers
 - **2012**: 1 papers
+- **2010**: 1 papers
 
 ### Top Organizations
-- **Stanford University**: 22 papers
+- **Stanford University**: 23 papers
 - **Google Research**: 12 papers
+- **MIT**: 9 papers
 - **Microsoft Research**: 8 papers
-- **MIT**: 7 papers
 - **Meta AI**: 6 papers
 - **Google DeepMind**: 5 papers
 - **University of Toronto**: 5 papers
 - **DeepMind**: 5 papers
 - **Harvard Medical School**: 4 papers
-- **University of Cambridge**: 3 papers
+- **University of Washington**: 3 papers
 
 ### Most Active Categories
-- 🔬 Foundation Models: 21 papers
-- 🏥 Clinical LLMs & Decision Support: 15 papers
+- 🔬 Foundation Models: 19 papers
+- 🏥 Clinical LLMs & Decision Support: 16 papers
 - 🩺 Medical Imaging & Vision: 14 papers
 - 💊 Drug Discovery & Development: 13 papers
 - 🧬 Genomics & Precision Medicine: 13 papers

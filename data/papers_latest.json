@@ -54,31 +54,13 @@
     "source": "arxiv"
   },
   {
-    "title": "AgentPatient: Simulating Patient with Agent for Improving Health Education in Medical Consultations",
-    "url": "https://arxiv.org/abs/2501.00318",
-    "published": "2025-01-02",
-    "year": 2025,
-    "organization": "University of California",
-    "category": "patient_interaction",
-    "source": "arxiv"
-  },
-  {
-    "title": "Advancing Multimodal Large Language Models in Medical Imaging Diagnosis",
-    "url": "https://arxiv.org/abs/2501.00060",
-    "published": "2025-01-01",
-    "year": 2025,
-    "organization": "Johns Hopkins University",
-    "category": "multimodal",
-    "source": "arxiv"
-  },
-  {
-    "title": "MedMax: Mixed-Modal Instruction Tuning for Training Biomedical Assistants",
-    "url": "https://arxiv.org/abs/2501.00017",
-    "published": "2025-01-01",
+    "title": "Privacy-preserving federated learning for collaborative medical data mining in multi-institutional settings",
+    "url": "https://www.nature.com/articles/s41598-025-97565-4",
+    "published": "2025-01-09",
     "year": 2025,
     "organization": "Stanford University",
-    "category": "foundation_models",
-    "source": "arxiv"
+    "category": "data_security_privacy",
+    "source": "nature"
   },
   {
     "title": "MedCoT: Medical Chain of Thought via Hierarchical Expert",
@@ -107,16 +89,6 @@
     "category": "multimodal",
     "source": "arxiv",
     "code_url": "https://github.com/microsoft/LLaVA-Med"
-  },
-  {
-    "title": "MedEdit: Model Editing for Medical Question Answering with External Knowledge Bases",
-    "url": "https://arxiv.org/abs/2309.16035",
-    "published": "2024-09-28",
-    "year": 2024,
-    "organization": "UCLA",
-    "category": "foundation_models",
-    "source": "arxiv",
-    "code_url": "https://github.com/cyzhh/MedEdit"
   },
   {
     "title": "MentaLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models",
@@ -346,15 +318,6 @@
     "code_url": "https://github.com/bowang-lab/scGPT"
   },
   {
-    "title": "EHRXQA: A Multi-Modal Question Answering Dataset for Electronic Health Records",
-    "url": "https://arxiv.org/abs/2401.13120",
-    "published": "2024-01-24",
-    "year": 2024,
-    "organization": "University of Illinois",
-    "category": "clinical_documentation",
-    "source": "arxiv"
-  },
-  {
     "title": "HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution",
     "url": "https://arxiv.org/abs/2306.15794",
     "published": "2024-01-23",
@@ -460,6 +423,16 @@
     "source": "nature"
   },
   {
+    "title": "MKRAG: Medical Knowledge Retrieval Augmented Generation for Medical Question Answering",
+    "url": "https://arxiv.org/abs/2309.16035",
+    "published": "2023-09-28",
+    "year": 2023,
+    "organization": "UCLA",
+    "category": "clinical_llm",
+    "source": "arxiv",
+    "code_url": "https://github.com/cyzhh/MKRAG"
+  },
+  {
     "title": "Cell2Sentence: Learning the Language of Life",
     "url": "https://www.biorxiv.org/content/10.1101/2023.09.11.557287v1",
     "published": "2023-09-11",
@@ -467,6 +440,15 @@
     "organization": "ETH Zurich",
     "category": "genomics",
     "source": "biorxiv"
+  },
+  {
+    "title": "Digital Therapeutics for Mental Health and Addiction: The State of the Science and Vision for the Future",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2772588723000905",
+    "published": "2023-08-01",
+    "year": 2023,
+    "organization": "University of Wisconsin",
+    "category": "digital_therapeutics",
+    "source": "pubmed"
   },
   {
     "title": "MultiMedBench: Large-Scale Benchmarking of Multimodal Medical AI",
@@ -487,21 +469,21 @@
     "source": "arxiv"
   },
   {
-    "title": "Conversational AI for mental health: A systematic review",
-    "url": "https://www.sciencedirect.com/science/article/pii/S1532046423001478",
-    "published": "2023-07-15",
-    "year": 2023,
-    "organization": "University of Cambridge",
-    "category": "patient_interaction",
-    "source": "pubmed"
-  },
-  {
-    "title": "Patients' perceptions of receiving a diagnosis of a hematological malignancy from an artificial intelligence diagnostic tool",
-    "url": "https://www.nature.com/articles/s41746-023-00853-4",
-    "published": "2023-06-12",
+    "title": "Virtual care for improved global surgical care: a perspective from the COVID-19 pandemic",
+    "url": "https://www.nature.com/articles/s41746-023-00868-x",
+    "published": "2023-07-10",
     "year": 2023,
     "organization": "Harvard Medical School",
-    "category": "patient_interaction",
+    "category": "telemedicine",
+    "source": "nature"
+  },
+  {
+    "title": "A systematic review of artificial intelligence and machine learning applications to wearable sensors for COVID-19",
+    "url": "https://www.nature.com/articles/s41746-023-00852-5",
+    "published": "2023-06-14",
+    "year": 2023,
+    "organization": "University of California San Diego",
+    "category": "telemedicine",
     "source": "nature"
   },
   {
@@ -638,6 +620,15 @@
     "code_url": "https://github.com/microsoft/BiomedCLIP"
   },
   {
+    "title": "Digital therapeutics: an integral component of digital innovation in drug development",
+    "url": "https://www.nature.com/articles/s41746-023-00777-z",
+    "published": "2023-02-28",
+    "year": 2023,
+    "organization": "Duke University",
+    "category": "digital_therapeutics",
+    "source": "nature"
+  },
+  {
     "title": "LLaMA: Open and Efficient Foundation Language Models",
     "url": "https://arxiv.org/abs/2302.13971",
     "published": "2023-02-27",
@@ -645,6 +636,15 @@
     "organization": "Meta AI",
     "category": "foundation_models",
     "source": "arxiv"
+  },
+  {
+    "title": "Detection of COVID-19 from smartphone-recorded coughs using artificial intelligence",
+    "url": "https://www.nature.com/articles/s41598-023-29065-2",
+    "published": "2023-02-08",
+    "year": 2023,
+    "organization": "MIT",
+    "category": "telemedicine",
+    "source": "nature"
   },
   {
     "title": "Language models can predict public health trends",
@@ -712,6 +712,15 @@
     "code_url": "https://github.com/Project-MONAI/MONAI"
   },
   {
+    "title": "Digital therapeutic care apps with decision-support interventions improve outcomes for type 2 diabetes",
+    "url": "https://www.nature.com/articles/s41746-022-00703-9",
+    "published": "2022-11-02",
+    "year": 2022,
+    "organization": "Cedars-Sinai Medical Center",
+    "category": "digital_therapeutics",
+    "source": "nature"
+  },
+  {
     "title": "Medical Image Segmentation with Diffusion Probabilistic Model",
     "url": "https://arxiv.org/abs/2211.00611",
     "published": "2022-11-01",
@@ -729,6 +738,15 @@
     "organization": "University of Toronto",
     "category": "synthetic_data",
     "source": "arxiv"
+  },
+  {
+    "title": "Prescription digital therapeutics: A review of the current landscape and future directions",
+    "url": "https://www.frontiersin.org/articles/10.3389/fdgth.2022.1007219",
+    "published": "2022-10-14",
+    "year": 2022,
+    "organization": "Boston University",
+    "category": "digital_therapeutics",
+    "source": "pubmed"
   },
   {
     "title": "Diffusion Steps, Twists, and Turns for Molecular Docking",
@@ -790,15 +808,6 @@
     "code_url": "https://github.com/facebookresearch/esm"
   },
   {
-    "title": "A digital health platform for diabetes prevention and management based on machine learning",
-    "url": "https://www.nature.com/articles/s41746-022-00626-5",
-    "published": "2022-07-11",
-    "year": 2022,
-    "organization": "Mount Sinai",
-    "category": "patient_interaction",
-    "source": "nature"
-  },
-  {
     "title": "Using social media and internet search data for public health surveillance",
     "url": "https://www.nature.com/articles/s41746-022-00616-7",
     "published": "2022-06-20",
@@ -824,6 +833,15 @@
     "organization": "DeepMind",
     "category": "multimodal",
     "source": "arxiv"
+  },
+  {
+    "title": "Machine learning for healthcare wearable devices: The big picture",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9038375/",
+    "published": "2022-04-22",
+    "year": 2022,
+    "organization": "University of Edinburgh",
+    "category": "wearables",
+    "source": "pubmed"
   },
   {
     "title": "Natural Language Processing Applied to Mental Illness Detection: A Narrative Review",
@@ -854,6 +872,15 @@
     "code_url": "https://github.com/uf-hobi-informatics-lab/GatorTron"
   },
   {
+    "title": "Federated learning and differential privacy for medical image analysis",
+    "url": "https://www.nature.com/articles/s41598-022-05539-7",
+    "published": "2022-02-01",
+    "year": 2022,
+    "organization": "University of Pennsylvania",
+    "category": "data_security_privacy",
+    "source": "nature"
+  },
+  {
     "title": "Clinical-Longformer and Clinical-BigBird: Transformers for long clinical sequences",
     "url": "https://arxiv.org/abs/2201.11838",
     "published": "2022-01-27",
@@ -862,6 +889,15 @@
     "category": "clinical_documentation",
     "source": "arxiv",
     "code_url": "https://huggingface.co/yikuan8/Clinical-Longformer"
+  },
+  {
+    "title": "Autonomous robotic surgery: Has the future arrived?",
+    "url": "https://www.science.org/doi/10.1126/scirobotics.abm6519",
+    "published": "2022-01-26",
+    "year": 2022,
+    "organization": "Johns Hopkins University",
+    "category": "surgical_robotics",
+    "source": "science"
   },
   {
     "title": "Clinical-T5: Large Language Models Built Using MIMIC Clinical Text",
@@ -900,6 +936,24 @@
     "source": "pubmed"
   },
   {
+    "title": "Truly privacy-preserving federated analytics for precision medicine with multiparty homomorphic encryption",
+    "url": "https://www.nature.com/articles/s41467-021-25972-y",
+    "published": "2021-10-06",
+    "year": 2021,
+    "organization": "EPFL",
+    "category": "data_security_privacy",
+    "source": "nature"
+  },
+  {
+    "title": "Federated learning for predicting clinical outcomes in patients with COVID-19",
+    "url": "https://www.nature.com/articles/s41591-021-01506-3",
+    "published": "2021-09-15",
+    "year": 2021,
+    "organization": "Mass General Brigham",
+    "category": "data_security_privacy",
+    "source": "nature"
+  },
+  {
     "title": "Enformer: a transformer for gene expression prediction",
     "url": "https://www.nature.com/articles/s41592-021-01252-x",
     "published": "2021-09-08",
@@ -908,6 +962,15 @@
     "category": "genomics",
     "source": "nature",
     "code_url": "https://github.com/deepmind/deepmind-research/tree/master/enformer"
+  },
+  {
+    "title": "Surgical robotics: Reviewing the past, analysing the present, imagining the future",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2666991921000294",
+    "published": "2021-09-01",
+    "year": 2021,
+    "organization": "Imperial College London",
+    "category": "surgical_robotics",
+    "source": "pubmed"
   },
   {
     "title": "On the Opportunities and Risks of Foundation Models",
@@ -956,6 +1019,24 @@
     "category": "public_health",
     "source": "nature",
     "code_url": "https://github.com/lindawangg/COVID-Net"
+  },
+  {
+    "title": "Swarm Learning for decentralized and confidential clinical machine learning",
+    "url": "https://www.nature.com/articles/s41586-021-03583-3",
+    "published": "2021-05-26",
+    "year": 2021,
+    "organization": "University of Warwick",
+    "category": "data_security_privacy",
+    "source": "nature"
+  },
+  {
+    "title": "Da Vinci SP robotic approach to colorectal surgery: two specific indications and short-term results",
+    "url": "https://link.springer.com/article/10.1007/s10151-021-02449-0",
+    "published": "2021-05-13",
+    "year": 2021,
+    "organization": "Mayo Clinic",
+    "category": "surgical_robotics",
+    "source": "pubmed"
   },
   {
     "title": "GANs for medical image synthesis: An empirical study",
@@ -1014,6 +1095,15 @@
     "category": "medical_imaging",
     "source": "nature",
     "code_url": "https://github.com/MIC-DKFZ/nnUNet"
+  },
+  {
+    "title": "Wearable sensor data and self-reported symptoms for COVID-19 detection",
+    "url": "https://www.nature.com/articles/s41591-020-1123-x",
+    "published": "2021-01-07",
+    "year": 2021,
+    "organization": "Scripps Research",
+    "category": "wearables",
+    "source": "nature"
   },
   {
     "title": "Machine learning in mental health: A systematic review",
@@ -1082,12 +1172,30 @@
     "code_url": "https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract"
   },
   {
+    "title": "Internet of Medical Things (IoMT) for orthopaedic in COVID-19 pandemic: Roles, challenges, and applications",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2452414X20300029",
+    "published": "2020-06-01",
+    "year": 2020,
+    "organization": "University of Oxford",
+    "category": "surgical_robotics",
+    "source": "pubmed"
+  },
+  {
     "title": "Language Models are Few-Shot Learners",
     "url": "https://arxiv.org/abs/2005.14165",
     "published": "2020-05-28",
     "year": 2020,
     "organization": "OpenAI",
     "category": "foundation_models",
+    "source": "arxiv"
+  },
+  {
+    "title": "A federated learning framework for healthcare IoT devices",
+    "url": "https://arxiv.org/abs/2005.05083",
+    "published": "2020-05-11",
+    "year": 2020,
+    "organization": "MIT",
+    "category": "data_security_privacy",
     "source": "arxiv"
   },
   {
@@ -1118,6 +1226,15 @@
     "category": "drug_discovery",
     "source": "arxiv",
     "code_url": "https://github.com/ardigen/MAT"
+  },
+  {
+    "title": "Large-scale assessment of a smartwatch to identify atrial fibrillation",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1901183",
+    "published": "2019-11-14",
+    "year": 2019,
+    "organization": "Stanford University",
+    "category": "wearables",
+    "source": "pubmed"
   },
   {
     "title": "Dissecting racial bias in an algorithm used to manage the health of populations",
@@ -1324,5 +1441,14 @@
     "category": "medical_imaging",
     "source": "pubmed",
     "code_url": "https://github.com/Slicer/Slicer"
+  },
+  {
+    "title": "Effectiveness of telemedicine: A systematic review of reviews",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1386505610001699",
+    "published": "2010-11-01",
+    "year": 2010,
+    "organization": "University of Queensland",
+    "category": "telemedicine",
+    "source": "pubmed"
   }
 ]

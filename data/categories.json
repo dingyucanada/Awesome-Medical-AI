@@ -1,0 +1,20 @@
+{
+  "foundation_models": "🔬 Foundation Models",
+  "clinical_llm": "🏥 Clinical LLMs & Decision Support",
+  "medical_imaging": "🩺 Medical Imaging & Vision",
+  "patient_interaction": "🤝 Patient Interaction & Engagement",
+  "clinical_documentation": "📝 Clinical Documentation & NLP",
+  "drug_discovery": "💊 Drug Discovery & Development",
+  "ethics_fairness": "⚖️ Ethics, Fairness & Regulation",
+  "multimodal": "🎯 Multimodal AI",
+  "radiology": "🔍 Radiology & Diagnostics",
+  "mental_health": "🧠 Mental Health & Psychiatry",
+  "synthetic_data": "📊 Synthetic Data Generation",
+  "public_health": "🌍 Public Health & Epidemiology",
+  "genomics": "🧬 Genomics & Precision Medicine",
+  "data_security_privacy": "🔒 Medical Data Security & Privacy",
+  "surgical_robotics": "🤖 Surgical Robotics & IoMT",
+  "telemedicine": "📱 Telemedicine & Remote Monitoring",
+  "digital_therapeutics": "💊 Digital Therapeutics",
+  "wearables": "⌚ Wearable Devices & Health Monitoring"
+}
