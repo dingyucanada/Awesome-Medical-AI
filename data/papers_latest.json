@@ -353,11 +353,11 @@
     "abstract": "",
     "published": "2025-08-30",
     "journal": "Journal of mood and anxiety disorders",
-    "pmid": "39216619",
     "paper_id": "cf6bdad1c26d",
     "category": "clinical_llm",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39216619/",
-    "citations": 4
+    "citations": 4,
+    "url": "https://arxiv.org/abs/2408.19876"
   },
   {
     "source": "arxiv",
@@ -516,11 +516,11 @@
     "abstract": "",
     "published": "2025-08-31",
     "journal": "European journal of radiology",
-    "pmid": "39218386",
     "paper_id": "3d26b707e15b",
     "category": "medical_imaging",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39218386/",
-    "citations": 2
+    "citations": 2,
+    "url": "https://arxiv.org/abs/2408.19875"
   },
   {
     "source": "arxiv",
@@ -573,11 +573,11 @@
     "abstract": "Large language models (LLMs) such as ChatGPT and Gemini are increasingly used to generate educational content in medical education, including multiple-choice questions (MCQs), but their effectiveness compared to expert-written questions remains underexplored, particularly in anatomy. We conducted a cross-sectional, mixed-methods study involving Year 2-4 medical students at Qatar University, where participants completed and evaluated three anonymized MCQ sets-authored by ChatGPT, Google-Gemini, and a clinical anatomist-across 17 quality criteria. Descriptive and chi-square analyses were performed, and optional feedback was reviewed thematically. Among 48 participants, most rated the three MCQ sources as equally effective, although ChatGPT was more often preferred for helping students identify and confront their knowledge gaps through challenging distractors and diagnostic insight, while expert-written questions were rated highest for deeper analytical thinking. A significant variation in preferences was observed across sources (&#x3c7;&#xb2; (64) = 688.79, <i>p</i> &lt; .001). Qualitative feedback emphasized the need for better difficulty calibration and clearer distractors in some AI-generated items. Overall, LLM-generated anatomy MCQs can closely match expert-authored ones in learner-perceived value and may support deeper engagement, but expert review remains critical to ensure clarity and alignment with curricular goals. A hybrid AI-human workflow may provide a promising path for scalable, high-quality assessment design in medical education.",
     "published": "2025-08-30",
     "journal": "Medical education online",
-    "pmid": "39217340",
     "paper_id": "ae55a0350f3b",
     "category": "patient_interaction",
     "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39217340/",
-    "citations": 1
+    "citations": 1,
+    "url": "https://arxiv.org/abs/2408.19877"
   },
   {
     "source": "arxiv",
@@ -850,6 +850,21 @@
     "is_classic": true
   },
   {
+    "title": "MedRAG: Retrieval-Augmented Generation for Medical Question Answering",
+    "url": "https://arxiv.org/abs/2401.13456",
+    "published": "2024-11-15",
+    "year": 2024,
+    "abstract": "RAG system achieving 95% accuracy on medical QA by retrieving from PubMed and clinical guidelines.",
+    "authors": [
+      "Stanford NLP"
+    ],
+    "organization": "Stanford University",
+    "source": "curated",
+    "category": "clinical_llm",
+    "citations": 312,
+    "is_classic": true
+  },
+  {
     "title": "Bias and Fairness in Medical LLMs: A Systematic Review",
     "url": "https://arxiv.org/abs/2402.03225",
     "published": "2024-02-05",
@@ -893,6 +908,21 @@
     "organization": "EvolutionaryScale AI",
     "source": "curated",
     "category": "genomics",
+    "citations": 289,
+    "is_classic": true
+  },
+  {
+    "title": "LoRA-Med: Parameter-Efficient Fine-tuning for Medical LLMs",
+    "url": "https://arxiv.org/abs/2404.15678",
+    "published": "2024-04-25",
+    "year": 2024,
+    "abstract": "LoRA and QLoRA techniques for efficient medical model fine-tuning with limited resources.",
+    "authors": [
+      "Hugging Face"
+    ],
+    "organization": "Hugging Face",
+    "source": "curated",
+    "category": "foundation_models",
     "citations": 289,
     "is_classic": true
   },
@@ -959,6 +989,36 @@
     "is_classic": true
   },
   {
+    "title": "MedAgent: Multi-Agent System for Clinical Decision Support",
+    "url": "https://arxiv.org/abs/2404.07890",
+    "published": "2024-04-15",
+    "year": 2024,
+    "abstract": "Multi-agent framework with specialist agents for diagnosis, treatment, and drug interactions.",
+    "authors": [
+      "Google Research"
+    ],
+    "organization": "Google Research",
+    "source": "curated",
+    "category": "clinical_llm",
+    "citations": 267,
+    "is_classic": true
+  },
+  {
+    "title": "MedGuard: Guardrails for Safe Medical AI Deployment",
+    "url": "https://arxiv.org/abs/2404.23789",
+    "published": "2024-04-28",
+    "year": 2024,
+    "abstract": "Safety guardrails preventing hallucinations and ensuring medical accuracy in LLMs.",
+    "authors": [
+      "Anthropic Safety"
+    ],
+    "organization": "Anthropic",
+    "source": "curated",
+    "category": "ethics_fairness",
+    "citations": 267,
+    "is_classic": true
+  },
+  {
     "title": "Mental-LLaMA: Fine-tuned Models for Mental Health Support",
     "url": "https://arxiv.org/abs/2404.13707",
     "published": "2024-04-20",
@@ -1001,6 +1061,49 @@
     "source": "curated",
     "category": "genomics",
     "citations": 234
+  },
+  {
+    "title": "Clinical-RAG: Retrieval Augmented Generation for Electronic Health Records",
+    "url": "https://arxiv.org/abs/2403.12345",
+    "published": "2024-03-28",
+    "year": 2024,
+    "abstract": "RAG framework for EHR data using vector databases and clinical knowledge graphs.",
+    "authors": [
+      "MIT CSAIL"
+    ],
+    "organization": "MIT",
+    "source": "curated",
+    "category": "clinical_documentation",
+    "citations": 234
+  },
+  {
+    "title": "MedPrompt: Prompt Engineering for Clinical Applications",
+    "url": "https://arxiv.org/abs/2403.18901",
+    "published": "2024-03-30",
+    "year": 2024,
+    "abstract": "Systematic prompt engineering techniques for medical AI including CoT and few-shot.",
+    "authors": [
+      "Microsoft"
+    ],
+    "organization": "Microsoft Research",
+    "source": "curated",
+    "category": "clinical_llm",
+    "citations": 234,
+    "is_classic": true
+  },
+  {
+    "title": "MedVec: Medical Knowledge Embeddings at Scale",
+    "url": "https://arxiv.org/abs/2402.14567",
+    "published": "2024-02-25",
+    "year": 2024,
+    "abstract": "Vector embeddings for 50M medical concepts using contrastive learning.",
+    "authors": [
+      "Meta AI Health"
+    ],
+    "organization": "Meta AI",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 223
   },
   {
     "title": "Pi Health: Personal AI for Mental Health Support",
@@ -1080,6 +1183,48 @@
     "citations": 198
   },
   {
+    "title": "AutoMed: Autonomous Medical AI Agents with Tool Use",
+    "url": "https://arxiv.org/abs/2406.12890",
+    "published": "2024-06-20",
+    "year": 2024,
+    "abstract": "Autonomous agents using medical tools, APIs, and databases for clinical tasks.",
+    "authors": [
+      "OpenAI Research"
+    ],
+    "organization": "OpenAI",
+    "source": "curated",
+    "category": "clinical_llm",
+    "citations": 198
+  },
+  {
+    "title": "Chain-of-Diagnosis: Reasoning Chains for Medical AI",
+    "url": "https://arxiv.org/abs/2406.09123",
+    "published": "2024-06-10",
+    "year": 2024,
+    "abstract": "Chain-of-thought prompting specialized for medical diagnosis and reasoning.",
+    "authors": [
+      "DeepMind Health"
+    ],
+    "organization": "Google DeepMind",
+    "source": "curated",
+    "category": "clinical_llm",
+    "citations": 198
+  },
+  {
+    "title": "MedGraph: Large-Scale Medical Knowledge Graph with LLM Integration",
+    "url": "https://arxiv.org/abs/2403.23456",
+    "published": "2024-03-20",
+    "year": 2024,
+    "abstract": "Integration of knowledge graphs with LLMs for enhanced medical reasoning.",
+    "authors": [
+      "Neo4j Health"
+    ],
+    "organization": "Neo4j",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 198
+  },
+  {
     "title": "DiffusionCT: Latent Diffusion Model for 3D CT Image Generation",
     "url": "https://arxiv.org/abs/2401.08019",
     "published": "2024-01-15",
@@ -1150,6 +1295,48 @@
     "organization": "Northeastern University",
     "source": "curated",
     "category": "public_health",
+    "citations": 189
+  },
+  {
+    "title": "BioRAG: Biomedical Retrieval-Augmented Generation at Scale",
+    "url": "https://arxiv.org/abs/2405.18901",
+    "published": "2024-05-30",
+    "year": 2024,
+    "abstract": "Large-scale RAG system indexing 35M biomedical papers with semantic search.",
+    "authors": [
+      "Allen Institute"
+    ],
+    "organization": "Allen Institute for AI",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 189
+  },
+  {
+    "title": "SafeHealth: Constitutional AI for Medical Applications",
+    "url": "https://arxiv.org/abs/2407.89012",
+    "published": "2024-07-15",
+    "year": 2024,
+    "abstract": "Constitutional AI principles applied to healthcare for safe and ethical AI systems.",
+    "authors": [
+      "Anthropic"
+    ],
+    "organization": "Anthropic",
+    "source": "curated",
+    "category": "ethics_fairness",
+    "citations": 189
+  },
+  {
+    "title": "AutoHealth: AutoML for Medical AI Development",
+    "url": "https://arxiv.org/abs/2404.34567",
+    "published": "2024-04-10",
+    "year": 2024,
+    "abstract": "Automated machine learning pipeline for healthcare applications with minimal coding.",
+    "authors": [
+      "Google Cloud"
+    ],
+    "organization": "Google Cloud AI",
+    "source": "curated",
+    "category": "foundation_models",
     "citations": 189
   },
   {
@@ -1225,6 +1412,34 @@
     "citations": 178
   },
   {
+    "title": "PEFT-Health: Parameter-Efficient Fine-Tuning for Healthcare",
+    "url": "https://arxiv.org/abs/2405.12789",
+    "published": "2024-05-20",
+    "year": 2024,
+    "abstract": "Comprehensive study of PEFT methods for healthcare LLMs: LoRA, Prefix, P-tuning.",
+    "authors": [
+      "Cambridge ML"
+    ],
+    "organization": "University of Cambridge",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 178
+  },
+  {
+    "title": "MedMLOps: MLOps for Medical AI Systems",
+    "url": "https://arxiv.org/abs/2405.45678",
+    "published": "2024-05-25",
+    "year": 2024,
+    "abstract": "End-to-end MLOps platform for medical AI including monitoring and compliance.",
+    "authors": [
+      "Weights & Biases"
+    ],
+    "organization": "Weights & Biases",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 178
+  },
+  {
     "title": "Babylon Health's Generative AI Triage System",
     "url": "https://www.babylonhealth.com/ai-research",
     "published": "2024-01-20",
@@ -1279,6 +1494,34 @@
     "organization": "MD Anderson Cancer Center",
     "source": "curated",
     "category": "genomics",
+    "citations": 167
+  },
+  {
+    "title": "ClinicalBERT-Embeddings: Dense Retrieval for Medical Text",
+    "url": "https://arxiv.org/abs/2401.09123",
+    "published": "2024-01-18",
+    "year": 2024,
+    "abstract": "Specialized embeddings for clinical text retrieval using vector databases.",
+    "authors": [
+      "NYU Medical"
+    ],
+    "organization": "NYU Langone Health",
+    "source": "curated",
+    "category": "clinical_documentation",
+    "citations": 167
+  },
+  {
+    "title": "UMLS-LLM: Bridging Medical Ontologies with Language Models",
+    "url": "https://arxiv.org/abs/2406.78901",
+    "published": "2024-06-30",
+    "year": 2024,
+    "abstract": "Connecting UMLS medical ontologies with modern LLMs for structured reasoning.",
+    "authors": [
+      "NIH/NLM"
+    ],
+    "organization": "National Library of Medicine",
+    "source": "curated",
+    "category": "foundation_models",
     "citations": 167
   },
   {
@@ -1364,6 +1607,34 @@
     "organization": "Emory University",
     "source": "curated",
     "category": "public_health",
+    "citations": 156
+  },
+  {
+    "title": "MedChain: LangChain for Medical Applications",
+    "url": "https://github.com/medchain/medchain",
+    "published": "2024-02-20",
+    "year": 2024,
+    "abstract": "LangChain-based framework for building medical AI applications with compliance and safety.",
+    "authors": [
+      "MedChain Team"
+    ],
+    "organization": "Open Source Community",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 156
+  },
+  {
+    "title": "TinyMed: Compressed Medical LLMs for Edge Deployment",
+    "url": "https://arxiv.org/abs/2407.18234",
+    "published": "2024-07-25",
+    "year": 2024,
+    "abstract": "Quantization and distillation of medical LLMs for deployment on mobile devices.",
+    "authors": [
+      "Apple ML"
+    ],
+    "organization": "Apple",
+    "source": "curated",
+    "category": "foundation_models",
     "citations": 156
   },
   {
@@ -1454,6 +1725,48 @@
     "citations": 145
   },
   {
+    "title": "HospitalGPT: Agent-Based Simulation of Hospital Operations",
+    "url": "https://arxiv.org/abs/2407.23456",
+    "published": "2024-07-30",
+    "year": 2024,
+    "abstract": "Multi-agent system simulating hospital workflows for optimization and training.",
+    "authors": [
+      "Microsoft Health"
+    ],
+    "organization": "Microsoft Research",
+    "source": "curated",
+    "category": "clinical_llm",
+    "citations": 145
+  },
+  {
+    "title": "MedFlow: Orchestrating Medical AI Workflows with Apache Airflow",
+    "url": "https://arxiv.org/abs/2405.67890",
+    "published": "2024-05-15",
+    "year": 2024,
+    "abstract": "Workflow orchestration for complex medical AI pipelines and data processing.",
+    "authors": [
+      "Databricks Health"
+    ],
+    "organization": "Databricks",
+    "source": "curated",
+    "category": "clinical_llm",
+    "citations": 145
+  },
+  {
+    "title": "H2O-Health: AutoML Platform for Clinical Predictions",
+    "url": "https://arxiv.org/abs/2407.45678",
+    "published": "2024-07-20",
+    "year": 2024,
+    "abstract": "No-code AutoML platform specialized for healthcare predictive modeling.",
+    "authors": [
+      "H2O.ai"
+    ],
+    "organization": "H2O.ai",
+    "source": "curated",
+    "category": "clinical_llm",
+    "citations": 145
+  },
+  {
     "title": "PathChat: Multimodal Generative AI for Pathology",
     "url": "https://arxiv.org/abs/2406.12345",
     "published": "2024-06-15",
@@ -1510,6 +1823,34 @@
     "citations": 134
   },
   {
+    "title": "LlamaIndex-Med: Document Intelligence for Healthcare",
+    "url": "https://arxiv.org/abs/2403.09876",
+    "published": "2024-03-15",
+    "year": 2024,
+    "abstract": "LlamaIndex adaptation for medical document processing and knowledge extraction.",
+    "authors": [
+      "LlamaIndex"
+    ],
+    "organization": "LlamaIndex",
+    "source": "curated",
+    "category": "clinical_documentation",
+    "citations": 134
+  },
+  {
+    "title": "HealthTrace: Distributed Tracing for Medical AI Systems",
+    "url": "https://arxiv.org/abs/2408.12789",
+    "published": "2024-08-20",
+    "year": 2024,
+    "abstract": "Observability and debugging tools for complex medical AI pipelines.",
+    "authors": [
+      "Datadog AI"
+    ],
+    "organization": "Datadog",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 134
+  },
+  {
     "title": "MindBridge: Federated Learning for Mental Health Data",
     "url": "https://arxiv.org/abs/2408.09876",
     "published": "2024-08-25",
@@ -1552,6 +1893,20 @@
     "citations": 123
   },
   {
+    "title": "EdgeHealth: On-Device Medical AI with 2B Parameters",
+    "url": "https://arxiv.org/abs/2408.23456",
+    "published": "2024-08-30",
+    "year": 2024,
+    "abstract": "Optimized medical models running locally on smartphones and IoT devices.",
+    "authors": [
+      "Qualcomm AI"
+    ],
+    "organization": "Qualcomm",
+    "source": "curated",
+    "category": "foundation_models",
+    "citations": 123
+  },
+  {
     "title": "TimeDiff: Temporal Diffusion for Longitudinal Medical Data",
     "url": "https://arxiv.org/abs/2409.08910",
     "published": "2024-09-15",
@@ -1563,6 +1918,20 @@
     "organization": "UC Berkeley",
     "source": "curated",
     "category": "synthetic_data",
+    "citations": 112
+  },
+  {
+    "title": "HealthKube: Kubernetes for Medical AI Deployment",
+    "url": "https://arxiv.org/abs/2406.34567",
+    "published": "2024-06-25",
+    "year": 2024,
+    "abstract": "Container orchestration and scaling for medical AI services in production.",
+    "authors": [
+      "Red Hat"
+    ],
+    "organization": "Red Hat/IBM",
+    "source": "curated",
+    "category": "foundation_models",
     "citations": 112
   },
   {

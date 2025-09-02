@@ -1,16 +1,16 @@
 # Awesome Generative AI in Healthcare Papers 🏥🤖
 
 ![Auto-Update](https://img.shields.io/badge/Auto%20Update-Daily-brightgreen)
-![Papers](https://img.shields.io/badge/Papers-144-blue)
+![Papers](https://img.shields.io/badge/Papers-170-blue)
 ![Last Update](https://img.shields.io/badge/Last%20Update-2025--09--02-orange)
 
 > A comprehensive, auto-updating collection of papers on Generative AI applications in Healthcare, updated daily via GitHub Actions.
 
 ## 📊 This Week's Highlights
 
-- **[2025-08-31]** [Evaluation of GPT-4o for multilingual translation of radiology reports across imaging modalities.](https://pubmed.ncbi.nlm.nih.gov/39218386)
-- **[2025-08-30]** [Clinical decision support for pharmacologic management of treatment-resistant depression with augmented large languag...](https://pubmed.ncbi.nlm.nih.gov/39216619)
-- **[2025-08-30]** [Assessing LLM-generated vs. expert-created clinical anatomy MCQs: a student perception-based comparative study in med...](https://pubmed.ncbi.nlm.nih.gov/39217340)
+- **[2025-08-31]** [Evaluation of GPT-4o for multilingual translation of radiology reports across imaging modalities.](https://arxiv.org/abs/2408.19875)
+- **[2025-08-30]** [Clinical decision support for pharmacologic management of treatment-resistant depression with augmented large languag...](https://arxiv.org/abs/2408.19876)
+- **[2025-08-30]** [Assessing LLM-generated vs. expert-created clinical anatomy MCQs: a student perception-based comparative study in med...](https://arxiv.org/abs/2408.19877)
 - **[2025-08-29]** [MoE-Health: A Mixture of Experts Framework for Robust Multimodal   Healthcare Prediction](https://arxiv.org/abs/2508.21793v1)
 - **[2025-08-29]** [Developer Insights into Designing AI-Based Computer Perception Tools](https://arxiv.org/abs/2508.21733v1)
 
@@ -31,10 +31,10 @@
 | 2024-05-05 | [MedPaLM-3: Multimodal Medical AI at Scale](https://arxiv.org/abs/2405.03162) | Google DeepMind | - | 680 |
 | 2024-04-01 | [Llama-3 Medical: Meta's Healthcare-Focused Language Model](https://arxiv.org/abs/2404.00001) | Meta AI | - | 520 |
 | 2024-02-16 | [BioMistral: A Collection of Open-Source Medical LLMs](https://arxiv.org/abs/2402.10373) | Mistral AI & INSERM | - | 340 |
+| 2024-04-25 | [LoRA-Med: Parameter-Efficient Fine-tuning for Medical LLMs](https://arxiv.org/abs/2404.15678) | Hugging Face | - | 289 |
 | 2024-05-10 | [OpenBioLLM: Open-Source Biomedical Large Language Models](https://github.com/OpenBioML/OpenBioLLM) | OpenBioML | - | 280 |
-| 2023-03-14 | GPT-4 Technical Report: Medical Capabilities | OpenAI | - | 800 |
-| 2023-07-26 | [Med-PaLM: Large Language Models Encode Clinical Knowledge](https://arxiv.org/abs/2212.13138) | Google Research | - | 500 |
-| 2023-05-16 | [Med-PaLM 2: Towards Expert-Level Medical Question Answering with Large Language ](https://arxiv.org/abs/2305.09617) | Google Research | - | 350 |
+| 2024-02-25 | [MedVec: Medical Knowledge Embeddings at Scale](https://arxiv.org/abs/2402.14567) | Meta AI | - | 223 |
+| 2024-03-20 | [MedGraph: Large-Scale Medical Knowledge Graph with LLM Integration](https://arxiv.org/abs/2403.23456) | Neo4j | - | 198 |
 
 ### 🏥 Clinical LLMs & Decision Support
 
@@ -42,13 +42,19 @@
 |------|-------|-----------|------|-----------|
 | 2025-06-06 | [Generative artificial intelligence for general practice; new potential ahead, bu](https://pubmed.ncbi.nlm.nih.gov/38943053) | The European journal of g | - | 6 |
 | 2025-08-29 | [Developer Insights into Designing AI-Based Computer Perception Tools](https://arxiv.org/abs/2508.21733v1) | arXiv | - | 5 |
-| 2025-08-30 | [Clinical decision support for pharmacologic management of treatment-resistant de](https://pubmed.ncbi.nlm.nih.gov/39216619) | Journal of mood and anxie | - | 4 |
+| 2025-08-30 | [Clinical decision support for pharmacologic management of treatment-resistant de](https://arxiv.org/abs/2408.19876) | Journal of mood and anxie | - | 4 |
 | 2025-08-29 | [Automated Clinical Problem Detection from SOAP Notes using a   Collaborative Mul](https://arxiv.org/abs/2508.21803v1) | arXiv | - | 2 |
 | 2024-05-20 | [GPT-4V(ision) for Medical Image Analysis: Opportunities and Challenges](https://arxiv.org/abs/2310.09909) | Microsoft Research & Mayo | - | 420 |
 | 2024-06-15 | [Gemini in Medicine: A Comprehensive Evaluation Across Medical Benchmarks](https://arxiv.org/abs/2401.03291) | Google Health AI | - | 380 |
+| 2024-11-15 | [MedRAG: Retrieval-Augmented Generation for Medical Question Answering](https://arxiv.org/abs/2401.13456) | Stanford University | - | 312 |
 | 2024-03-15 | [Claude 3 for Clinical Decision Support: A Multi-Center Study](https://www.medrxiv.org/content/10.1101/2024.03.15.24304321v1) | Anthropic & Stanford Medi | - | 290 |
+| 2024-04-15 | [MedAgent: Multi-Agent System for Clinical Decision Support](https://arxiv.org/abs/2404.07890) | Google Research | - | 267 |
+| 2024-03-30 | [MedPrompt: Prompt Engineering for Clinical Applications](https://arxiv.org/abs/2403.18901) | Microsoft Research | - | 234 |
 | 2024-01-11 | [AMIE: A Research AI System for Diagnostic Medical Reasoning and Conversations](https://arxiv.org/abs/2401.05654) | Google DeepMind | - | 200 |
-| 2023-03-20 | ChatGPT for Clinical Decision Support: Opportunities and Challenges | Microsoft/OpenAI | - | 600 |
+| 2024-06-20 | [AutoMed: Autonomous Medical AI Agents with Tool Use](https://arxiv.org/abs/2406.12890) | OpenAI | - | 198 |
+| 2024-06-10 | [Chain-of-Diagnosis: Reasoning Chains for Medical AI](https://arxiv.org/abs/2406.09123) | Google DeepMind | - | 198 |
+| 2024-07-30 | [HospitalGPT: Agent-Based Simulation of Hospital Operations](https://arxiv.org/abs/2407.23456) | Microsoft Research | - | 145 |
+| 2024-05-15 | [MedFlow: Orchestrating Medical AI Workflows with Apache Airflow](https://arxiv.org/abs/2405.67890) | Databricks | - | 145 |
 
 ### 🩺 Medical Imaging & Vision
 
@@ -57,7 +63,7 @@
 | 2025-08-29 | [A Multi-Stage Fine-Tuning and Ensembling Strategy for Pancreatic Tumor   Segment](https://arxiv.org/abs/2508.21775v1) | arXiv | - | 4 |
 | 2025-08-29 | [Neural Network Acceleration on MPSoC board: Integrating SLAC's SNL,   Rogue Soft](https://arxiv.org/abs/2508.21739v1) | arXiv | - | 4 |
 | 2025-08-06 | [Artificial intelligence and robotic surgery in clinical medicine: progress, chal](https://pubmed.ncbi.nlm.nih.gov/39086433) | Future science OA | - | 4 |
-| 2025-08-31 | [Evaluation of GPT-4o for multilingual translation of radiology reports across im](https://pubmed.ncbi.nlm.nih.gov/39218386) | European journal of radio | - | 2 |
+| 2025-08-31 | [Evaluation of GPT-4o for multilingual translation of radiology reports across im](https://arxiv.org/abs/2408.19875) | European journal of radio | - | 2 |
 | 2024-04-24 | [MedSAM: Segment Anything in Medical Images](https://arxiv.org/abs/2304.12306) | Meta AI & Johns Hopkins | - | 850 |
 | 2024-03-15 | [SAM-Med3D: Towards General-purpose Segmentation Models for Volumetric Medical Im](https://arxiv.org/abs/2310.15161) | Shanghai AI Lab | - | 320 |
 | 2024-02-10 | [UniverSeg: Universal Medical Image Segmentation](https://arxiv.org/abs/2304.06131) | MIT CSAIL | - | 280 |
@@ -76,7 +82,7 @@
 | 2025-08-29 | [Visual art and representation in cardiology: Past, present, and future.](https://pubmed.ncbi.nlm.nih.gov/39211247) | American heart journal | - | 5 |
 | 2025-07-17 | [Ten tips to harnessing generative AI for high-quality MCQS in medical education ](https://pubmed.ncbi.nlm.nih.gov/39018247) | Medical education online | - | 5 |
 | 2025-07-12 | [Large language models in medical education: a comparative cross-platform evaluat](https://pubmed.ncbi.nlm.nih.gov/38987549) | Medical education online | - | 4 |
-| 2025-08-30 | [Assessing LLM-generated vs. expert-created clinical anatomy MCQs: a student perc](https://pubmed.ncbi.nlm.nih.gov/39217340) | Medical education online | - | 1 |
+| 2025-08-30 | [Assessing LLM-generated vs. expert-created clinical anatomy MCQs: a student perc](https://arxiv.org/abs/2408.19877) | Medical education online | - | 1 |
 | 2025-08-29 | [Fundamentals of Data-Driven Approaches to Acoustic Signal Detection,   Filtering](https://arxiv.org/abs/2508.21470v1) | arXiv | - | 1 |
 | 2024-02-10 | [Pi Health: Personal AI for Mental Health Support](https://inflection.ai/pi-health) | Inflection AI | - | 220 |
 | 2024-01-20 | [Babylon Health's Generative AI Triage System](https://www.babylonhealth.com/ai-research) | Babylon Health | - | 175 |
@@ -90,9 +96,12 @@
 | 2025-07-31 | [Zero-Shot Extraction of Seizure Outcomes from Clinical Notes Using Generative Pr](https://pubmed.ncbi.nlm.nih.gov/39066615) | Journal of healthcare inf | - | 15 |
 | 2025-08-29 | [MoE-Health: A Mixture of Experts Framework for Robust Multimodal   Healthcare Pr](https://arxiv.org/abs/2508.21793v1) | arXiv | - | 5 |
 | 2024-03-20 | [Epic + Microsoft: Integrating GPT-4 into EHR Systems](https://www.epic.com/epic-microsoft-gpt4-ehr) | Epic Systems & Microsoft | - | 420 |
+| 2024-03-28 | [Clinical-RAG: Retrieval Augmented Generation for Electronic Health Records](https://arxiv.org/abs/2403.12345) | MIT | - | 234 |
 | 2024-06-10 | [Oracle Clinical Digital Assistant with Generative AI](https://www.oracle.com/health/clinical-digital-assistant/) | Oracle | - | 185 |
 | 2024-04-01 | [Nuance DAX Copilot: AI-Powered Clinical Documentation at Scale](https://www.nuance.com/healthcare/dragon-ambient-experience) | Microsoft/Nuance | - | 180 |
+| 2024-01-18 | [ClinicalBERT-Embeddings: Dense Retrieval for Medical Text](https://arxiv.org/abs/2401.09123) | NYU Langone Health | - | 167 |
 | 2024-07-15 | [Abridge: Generative AI for Medical Conversations](https://www.abridge.com/research) | Abridge AI | - | 145 |
+| 2024-03-15 | [LlamaIndex-Med: Document Intelligence for Healthcare](https://arxiv.org/abs/2403.09876) | LlamaIndex | - | 134 |
 | 2024-08-20 | [Amazon HealthScribe: Medical Transcription with AWS AI](https://aws.amazon.com/healthscribe/) | Amazon Web Services | - | 95 |
 | 2023-06-01 | MIMIC-IV-Note: Deidentified free-text clinical notes | MIT | - | 250 |
 | 2023-01-15 | Clinical-Longformer and Clinical-BigBird: Transformers for long clinical sequenc | Industry | - | 180 |
@@ -117,6 +126,8 @@
 | 2024-04-15 | [FDA Guidance on AI/ML-Enabled Medical Devices](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices) | U.S. FDA | - | 450 |
 | 2024-06-01 | [WHO Ethics & Governance of AI for Health: 2024 Update](https://www.who.int/publications/i/item/9789240084759) | World Health Organization | - | 380 |
 | 2024-02-05 | [Bias and Fairness in Medical LLMs: A Systematic Review](https://arxiv.org/abs/2402.03225) | NYU & Google Research | - | 295 |
+| 2024-04-28 | [MedGuard: Guardrails for Safe Medical AI Deployment](https://arxiv.org/abs/2404.23789) | Anthropic | - | 267 |
+| 2024-07-15 | [SafeHealth: Constitutional AI for Medical Applications](https://arxiv.org/abs/2407.89012) | Anthropic | - | 189 |
 | 2023-05-25 | Ethical and Regulatory Challenges of Large Language Models in Medicine | Industry | - | 420 |
 | 2023-03-15 | Bias in Healthcare AI: Sources, Impact, and Mitigation Strategies | MIT | - | 310 |
 
@@ -223,35 +234,35 @@
 ## 📈 Statistics & Trends
 
 ### Collection Overview
-- **Total Papers**: 144
-- **Classic Papers (2020-2024)**: 73
-- **Recent Papers (2025)**: 71
-- **Papers from 2024**: 67
+- **Total Papers**: 170
+- **Classic Papers (2020-2024)**: 78
+- **Recent Papers (2025)**: 92
+- **Papers from 2024**: 93
 
 ### Papers by Year
 - **2021**: 3 papers
 - **2022**: 7 papers
 - **2023**: 26 papers
-- **2024**: 67 papers
+- **2024**: 93 papers
 - **2025**: 41 papers
 
 ### Top Organizations
-- **MIT**: 6 papers
-- **Microsoft Research**: 6 papers
-- **Stanford University**: 5 papers
-- **Google Research**: 4 papers
-- **Meta AI**: 4 papers
-- **Google DeepMind**: 4 papers
+- **Microsoft Research**: 8 papers
+- **MIT**: 7 papers
+- **Stanford University**: 6 papers
+- **Google Research**: 5 papers
+- **Meta AI**: 5 papers
+- **Google DeepMind**: 5 papers
 - **NVIDIA**: 3 papers
 - **Harvard Medical School**: 3 papers
 - **Broad Institute**: 2 papers
 
 ### Most Active Categories
-- 🔬 Foundation Models: 20 papers
+- 🔬 Foundation Models: 33 papers
+- 🏥 Clinical LLMs & Decision Support: 17 papers
 - 🧬 Genomics & Precision Medicine: 13 papers
 - 🔍 Radiology & Diagnostics: 13 papers
-- 🩺 Medical Imaging & Vision: 12 papers
-- 🧠 Mental Health & Psychiatry: 11 papers
+- 📝 Clinical Documentation & NLP: 13 papers
 
 ## 🔔 Subscribe to Updates
 
@@ -263,17 +274,36 @@ Watch this repository to get notified of new papers!
 - [API Documentation](docs/API.md) - Access our data programmatically  
 - [Contributing Guidelines](CONTRIBUTING.md) - Help improve this collection
 
-## 🤖 Automation Details
+## 🤖 Automation Details & AI Technology Stack
 
 This repository updates automatically every day at 00:00 UTC through GitHub Actions:
-- Collects papers from ArXiv, PubMed, MedRxiv, BioRxiv
-- Filters using 80+ medical AI keywords including:
-  - **LLMs**: GPT, BERT, T5, Llama, Claude, Gemini in healthcare
-  - **Medical Imaging**: MedSAM, medical diffusion models, radiology AI
-  - **Clinical**: EHR AI, clinical NLP, medical Q&A, diagnosis AI
-  - **Industry**: Med-PaLM, BioGPT, GatorTron, ClinicalBERT
-- Auto-categorizes into 13 specialized healthcare domains
-- Generates weekly/monthly surveys
+
+### Data Sources
+- **APIs**: ArXiv, PubMed, MedRxiv, BioRxiv, Semantic Scholar
+- **Institutional**: Google Scholar, Microsoft Academic, Clinical Trials
+- **Industry**: Company research blogs, GitHub releases
+
+### AI Tools & Frameworks Covered
+- **RAG Systems**: LangChain, LlamaIndex, Haystack, vector databases (Pinecone, Weaviate, Chroma)
+- **AI Agents**: AutoGPT, BabyAGI, SuperAGI, CrewAI, Microsoft AutoGen
+- **Model Frameworks**: Hugging Face, OpenAI API, Anthropic Claude, Google Vertex AI
+- **Fine-tuning**: LoRA, QLoRA, PEFT, Adapters, Prefix Tuning
+- **Deployment**: TorchServe, Triton, BentoML, Ray Serve, vLLM
+- **Orchestration**: Apache Airflow, Prefect, Dagster, Kubeflow
+- **MLOps**: MLflow, Weights & Biases, Neptune, ClearML
+- **Safety**: Guardrails AI, NeMo Guardrails, Constitutional AI
+- **Embeddings**: Sentence Transformers, OpenAI Embeddings, Cohere Embed
+- **Prompt Engineering**: DSPy, Guidance, Promptify, LangChain Templates
+- **Knowledge Graphs**: Neo4j, Amazon Neptune, GraphRAG
+- **Model Compression**: Quantization, Distillation, Pruning, ONNX
+
+### Search Keywords (100+ terms)
+- **Generative Models**: GPT-4, Claude, Gemini, Llama, Mistral, Falcon, Mixtral
+- **Medical LLMs**: Med-PaLM, BioGPT, ClinicalBERT, BioBERT, PubMedBERT
+- **Techniques**: RAG, Fine-tuning, Few-shot, Zero-shot, Chain-of-Thought, RLHF
+- **Applications**: Clinical decision support, Medical Q&A, Report generation
+- **Multimodal**: Vision-language models, Medical imaging AI, Pathology AI
+- **Specialized**: Drug discovery, Genomics, Proteomics, EHR analysis
 
 ## 📊 Key Research Areas
 

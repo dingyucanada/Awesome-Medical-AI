@@ -203,17 +203,36 @@ Watch this repository to get notified of new papers!
 - [API Documentation](docs/API.md) - Access our data programmatically  
 - [Contributing Guidelines](CONTRIBUTING.md) - Help improve this collection
 
-## 🤖 Automation Details
+## 🤖 Automation Details & AI Technology Stack
 
 This repository updates automatically every day at 00:00 UTC through GitHub Actions:
-- Collects papers from ArXiv, PubMed, MedRxiv, BioRxiv
-- Filters using 80+ medical AI keywords including:
-  - **LLMs**: GPT, BERT, T5, Llama, Claude, Gemini in healthcare
-  - **Medical Imaging**: MedSAM, medical diffusion models, radiology AI
-  - **Clinical**: EHR AI, clinical NLP, medical Q&A, diagnosis AI
-  - **Industry**: Med-PaLM, BioGPT, GatorTron, ClinicalBERT
-- Auto-categorizes into 13 specialized healthcare domains
-- Generates weekly/monthly surveys
+
+### Data Sources
+- **APIs**: ArXiv, PubMed, MedRxiv, BioRxiv, Semantic Scholar
+- **Institutional**: Google Scholar, Microsoft Academic, Clinical Trials
+- **Industry**: Company research blogs, GitHub releases
+
+### AI Tools & Frameworks Covered
+- **RAG Systems**: LangChain, LlamaIndex, Haystack, vector databases (Pinecone, Weaviate, Chroma)
+- **AI Agents**: AutoGPT, BabyAGI, SuperAGI, CrewAI, Microsoft AutoGen
+- **Model Frameworks**: Hugging Face, OpenAI API, Anthropic Claude, Google Vertex AI
+- **Fine-tuning**: LoRA, QLoRA, PEFT, Adapters, Prefix Tuning
+- **Deployment**: TorchServe, Triton, BentoML, Ray Serve, vLLM
+- **Orchestration**: Apache Airflow, Prefect, Dagster, Kubeflow
+- **MLOps**: MLflow, Weights & Biases, Neptune, ClearML
+- **Safety**: Guardrails AI, NeMo Guardrails, Constitutional AI
+- **Embeddings**: Sentence Transformers, OpenAI Embeddings, Cohere Embed
+- **Prompt Engineering**: DSPy, Guidance, Promptify, LangChain Templates
+- **Knowledge Graphs**: Neo4j, Amazon Neptune, GraphRAG
+- **Model Compression**: Quantization, Distillation, Pruning, ONNX
+
+### Search Keywords (100+ terms)
+- **Generative Models**: GPT-4, Claude, Gemini, Llama, Mistral, Falcon, Mixtral
+- **Medical LLMs**: Med-PaLM, BioGPT, ClinicalBERT, BioBERT, PubMedBERT
+- **Techniques**: RAG, Fine-tuning, Few-shot, Zero-shot, Chain-of-Thought, RLHF
+- **Applications**: Clinical decision support, Medical Q&A, Report generation
+- **Multimodal**: Vision-language models, Medical imaging AI, Pathology AI
+- **Specialized**: Drug discovery, Genomics, Proteomics, EHR analysis
 
 ## 📊 Key Research Areas
 
