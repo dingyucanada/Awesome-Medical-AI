@@ -1,5 +1,5 @@
 {
-  "total_papers": 140,
+  "total_papers": 141,
   "by_year": {
     "2012": 1,
     "2015": 1,
@@ -9,7 +9,7 @@
     "2019": 8,
     "2020": 11,
     "2021": 18,
-    "2022": 23,
+    "2022": 24,
     "2023": 25,
     "2024": 32,
     "2025": 8
@@ -26,8 +26,8 @@
     "drug_discovery": 13,
     "public_health": 6,
     "genomics": 13,
+    "synthetic_data": 6,
     "clinical_documentation": 7,
-    "synthetic_data": 5,
     "wearables": 3
   },
   "by_organization": {
@@ -41,7 +41,7 @@
     "George Mason University": 1,
     "Alibaba": 1,
     "Shanghai Jiao Tong University": 2,
-    "Johns Hopkins University": 1,
+    "Johns Hopkins University": 2,
     "Meta AI": 6,
     "Tsinghua University": 1,
     "University of Washington": 3,
@@ -94,7 +94,7 @@
     "Brigham and Women's Hospital": 1
   },
   "by_source": {
-    "arxiv": 85,
+    "arxiv": 86,
     "nature": 29,
     "science": 4,
     "technical_report": 1,
@@ -102,6 +102,5 @@
     "pubmed": 16,
     "cell": 1
   },
-  "last_updated": "2025-09-02T18:08:08.460999",
-  "note": "Removed SyntheX paper (deleted from arxiv)"
+  "last_updated": "2025-09-02T18:11:35.944381"
 }

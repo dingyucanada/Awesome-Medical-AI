@@ -338,6 +338,15 @@
     "code_url": "https://github.com/Stanford-AIMI/CheXagent"
   },
   {
+    "title": "SyntheX: Scaling Up Learning-based X-ray Image Analysis Through In Silico Experiments",
+    "url": "https://arxiv.org/abs/2206.06127",
+    "published": "2022-06-13",
+    "year": 2022,
+    "organization": "Johns Hopkins University",
+    "category": "synthetic_data",
+    "source": "arxiv"
+  },
+  {
     "title": "HuatuoGPT-II: One-stage Training for Medical Adaption of LLMs",
     "url": "https://arxiv.org/abs/2311.09774",
     "published": "2024-01-15",
