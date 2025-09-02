@@ -5,9 +5,11 @@
     "abstract": "",
     "published": "2025-08-31",
     "journal": "European journal of radiology",
-    "pmid": "",
+    "pmid": "39218386",
     "paper_id": "3d26b707e15b",
-    "category": "medical_imaging"
+    "category": "medical_imaging",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39218386/",
+    "citations": 2
   },
   {
     "source": "pubmed",
@@ -15,9 +17,11 @@
     "abstract": "Large language models (LLMs) such as ChatGPT and Gemini are increasingly used to generate educational content in medical education, including multiple-choice questions (MCQs), but their effectiveness compared to expert-written questions remains underexplored, particularly in anatomy. We conducted a cross-sectional, mixed-methods study involving Year 2-4 medical students at Qatar University, where participants completed and evaluated three anonymized MCQ sets-authored by ChatGPT, Google-Gemini, and a clinical anatomist-across 17 quality criteria. Descriptive and chi-square analyses were performed, and optional feedback was reviewed thematically. Among 48 participants, most rated the three MCQ sources as equally effective, although ChatGPT was more often preferred for helping students identify and confront their knowledge gaps through challenging distractors and diagnostic insight, while expert-written questions were rated highest for deeper analytical thinking. A significant variation in preferences was observed across sources (&#x3c7;&#xb2; (64) = 688.79, <i>p</i> &lt; .001). Qualitative feedback emphasized the need for better difficulty calibration and clearer distractors in some AI-generated items. Overall, LLM-generated anatomy MCQs can closely match expert-authored ones in learner-perceived value and may support deeper engagement, but expert review remains critical to ensure clarity and alignment with curricular goals. A hybrid AI-human workflow may provide a promising path for scalable, high-quality assessment design in medical education.",
     "published": "2025-08-30",
     "journal": "Medical education online",
-    "pmid": "",
+    "pmid": "39217340",
     "paper_id": "ae55a0350f3b",
-    "category": "patient_care"
+    "category": "patient_care",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39217340/",
+    "citations": 1
   },
   {
     "source": "pubmed",
@@ -25,9 +29,11 @@
     "abstract": "",
     "published": "2025-08-30",
     "journal": "Journal of mood and anxiety disorders",
-    "pmid": "",
+    "pmid": "39216619",
     "paper_id": "cf6bdad1c26d",
-    "category": "clinical_apps"
+    "category": "clinical_apps",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39216619/",
+    "citations": 4
   },
   {
     "source": "arxiv",
@@ -46,7 +52,8 @@
       "cs.CV"
     ],
     "paper_id": "954681c76210",
-    "category": "ethics"
+    "category": "ethics",
+    "citations": 1
   },
   {
     "source": "arxiv",
@@ -65,7 +72,8 @@
       "hep-th"
     ],
     "paper_id": "1c8adf02a54c",
-    "category": "foundation"
+    "category": "foundation",
+    "citations": 1
   },
   {
     "source": "arxiv",
@@ -84,7 +92,8 @@
       "math.AP"
     ],
     "paper_id": "5e3e373640cb",
-    "category": "foundation"
+    "category": "foundation",
+    "citations": 2
   },
   {
     "source": "arxiv",
@@ -104,7 +113,8 @@
       "hep-th"
     ],
     "paper_id": "5cfe17cd16ff",
-    "category": "foundation"
+    "category": "foundation",
+    "citations": 0
   },
   {
     "source": "arxiv",
@@ -126,7 +136,8 @@
       "cs.LG"
     ],
     "paper_id": "a28e96e305de",
-    "category": "ethics"
+    "category": "ethics",
+    "citations": 4
   },
   {
     "source": "arxiv",
@@ -147,7 +158,8 @@
       "81R15"
     ],
     "paper_id": "790a82c472c3",
-    "category": "foundation"
+    "category": "foundation",
+    "citations": 1
   },
   {
     "source": "arxiv",
@@ -165,7 +177,8 @@
       "cs.LG"
     ],
     "paper_id": "e75309a888be",
-    "category": "foundation"
+    "category": "foundation",
+    "citations": 5
   },
   {
     "source": "arxiv",
@@ -185,7 +198,8 @@
       "cs.MA"
     ],
     "paper_id": "c8151816e9c4",
-    "category": "clinical_apps"
+    "category": "clinical_apps",
+    "citations": 2
   },
   {
     "source": "arxiv",
@@ -204,7 +218,8 @@
       "cs.IR"
     ],
     "paper_id": "ea044814eb4c",
-    "category": "foundation"
+    "category": "foundation",
+    "citations": 2
   },
   {
     "source": "arxiv",
@@ -227,7 +242,8 @@
       "cs.AI"
     ],
     "paper_id": "85e4a860a42e",
-    "category": "foundation"
+    "category": "foundation",
+    "citations": 2
   },
   {
     "source": "arxiv",
@@ -246,7 +262,8 @@
       "cs.AI"
     ],
     "paper_id": "2595e4ff7d67",
-    "category": "documentation"
+    "category": "documentation",
+    "citations": 5
   },
   {
     "source": "arxiv",
@@ -267,7 +284,8 @@
       "cs.IR"
     ],
     "paper_id": "40b34d4afb8d",
-    "category": "ethics"
+    "category": "ethics",
+    "citations": 0
   },
   {
     "source": "arxiv",
@@ -289,7 +307,8 @@
       "q-fin.EC"
     ],
     "paper_id": "c8e3e55019ea",
-    "category": "foundation"
+    "category": "foundation",
+    "citations": 0
   },
   {
     "source": "arxiv",
@@ -312,7 +331,8 @@
       "cs.AI"
     ],
     "paper_id": "efc7bbffcc60",
-    "category": "ethics"
+    "category": "ethics",
+    "citations": 4
   },
   {
     "source": "arxiv",
@@ -332,7 +352,8 @@
       "cs.AI"
     ],
     "paper_id": "dffa443f461f",
-    "category": "foundation"
+    "category": "foundation",
+    "citations": 3
   },
   {
     "source": "arxiv",
@@ -349,7 +370,8 @@
       "eess.AS"
     ],
     "paper_id": "da0fedc3b938",
-    "category": "patient_care"
+    "category": "patient_care",
+    "citations": 1
   },
   {
     "source": "arxiv",
@@ -369,7 +391,8 @@
       "cs.CV"
     ],
     "paper_id": "f364c1b36ff9",
-    "category": "medical_imaging"
+    "category": "medical_imaging",
+    "citations": 4
   },
   {
     "source": "arxiv",
@@ -391,7 +414,8 @@
       "math.PR"
     ],
     "paper_id": "2e3f3f26d836",
-    "category": "foundation"
+    "category": "foundation",
+    "citations": 0
   },
   {
     "source": "arxiv",
@@ -416,7 +440,8 @@
       "cs.AR"
     ],
     "paper_id": "e970183a6d4c",
-    "category": "medical_imaging"
+    "category": "medical_imaging",
+    "citations": 4
   },
   {
     "source": "arxiv",
@@ -442,7 +467,8 @@
       "cs.CY"
     ],
     "paper_id": "94fcffe9c0ae",
-    "category": "clinical_apps"
+    "category": "clinical_apps",
+    "citations": 5
   },
   {
     "source": "pubmed",
@@ -450,9 +476,11 @@
     "abstract": "Cardiovascular diseases (CVD) have been the leading causes of morbidity and mortality for over three decades, highlighting the necessity of integrating creative methods with traditional and innovative approaches for patient care, education, and prevention. Historically, artistic representations have played a crucial role in shaping our understanding of the anatomy, physiology, and pathologies of the human heart and cardiovascular system. Creative expressions, including visual arts, are linked to improved overall well-being for individuals of all ages. This review explores the evolution of visual arts in cardiovascular medicine over time, the understanding, diagnosis, and communication of cardiovascular disease and health through major domains of visual arts - education (medical illustrations, interactive anatomic models), symbolism (healing), advocacy (heart disease awareness, cardiac-focused exhibitions, interactive murals or art installations) and innovation (3D modeling, digital art, generative art, advanced medical visualization and imaging). We also reviewed the latest advancements in incorporating visual art into personalized cardiac care, the role of portraits in recognizing underrepresented groups, and future applications of visual representations and concepts through artificial intelligence aimed at enhancing cardiovascular care, medical education, and cardiac research.",
     "published": "2025-08-29",
     "journal": "American heart journal",
-    "pmid": "",
+    "pmid": "39211247",
     "paper_id": "b36fd7cac3c7",
-    "category": "patient_care"
+    "category": "patient_care",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39211247/",
+    "citations": 5
   },
   {
     "source": "pubmed",
@@ -460,9 +488,11 @@
     "abstract": "",
     "published": "2025-08-29",
     "journal": "World journal of transplantation",
-    "pmid": "",
+    "pmid": "39167797",
     "paper_id": "45048647fb92",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39167797/",
+    "citations": 1
   },
   {
     "source": "pubmed",
@@ -470,9 +500,11 @@
     "abstract": "The method proposed in this work focused on a multi-level AI framework capable of enhancing the performance of a grid-tied solar PV-fuel cell hybrid energy system. RL-ENN stands for Reinforcement Learning-Driven Evolutionary Neural Network, while T-STFREP is a generalized acronym for Transformer-Based Spatiotemporal Forecasting. FL-DEO stands for Federated Learning-Based Distributed Optimization. GNN-HSCO is Graph Neural Networks Power Router. Q-GAN-ESO is Quantum-Inspired Generative Adversarial Networks. RL-ENN helps minimize Net Present Cost (NPC) and Cost of Energy (COE) in real-time with adaptive energy dispatch strategies; T-STFREP verifies accuracy based on forecasting transformer temporal sequence; FL-DEO allows for optimization in decentralized manner with privacy; and finally, GNN-HSCO considers hybrid networking as energy graphs to diminish transmission losses whereas finally Q-GAN-ESO looks at synthetic degradation scenarios to allow for optimal management of energy storage. The application under consideration was simulated in MATLAB/Simulink and Python with TensorFlow, with a 30-year evaluation of meteorological data. The proposed model has decreased NPC by 27.5 %, COE by 18.2 %, and battery life by 30.2 %. The results validate its capability when compared against traditional methods such as Genetic Algorithms and Particle Swarm Optimization. With this, we now have a scalable and real-time energy-efficient solution for future smart grid systems.&#x2022;<b>Integrated Intelligence Stack</b>: Combines RL-ENN, T-STFREP, FL-DEO, GNN-HSCO, and Q-GAN-ESO into a unified architecture for real-time control, forecasting, decentralized optimization, network routing, and synthetic scenario generation.&#x2022;<b>Real-Time, Scalable, and Privacy-Preserving</b>: Enables adaptive energy dispatch, federated optimization without compromising data privacy, and graph-based power routing, making it suitable for large-scale, smart grid deployments.&#x2022;<b>Proven Long-Term Performance</b>: Achieved significant improvements over traditional methods (GA, PSO) with <b>27.5 % lower NPC, 18.2 % reduction in COE</b>, and <b>30.2 % increase in battery life</b>, validated using 30 years of meteorological data.",
     "published": "2025-08-27",
     "journal": "MethodsX",
-    "pmid": "",
+    "pmid": "39133848",
     "paper_id": "3fe898e0523e",
-    "category": "genomics"
+    "category": "genomics",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39133848/",
+    "citations": 0
   },
   {
     "source": "pubmed",
@@ -480,9 +512,11 @@
     "abstract": "",
     "published": "2025-08-27",
     "journal": "Health information science and systems",
-    "pmid": "",
+    "pmid": "39117868",
     "paper_id": "de3ef7e6f8c4",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39117868/",
+    "citations": 5
   },
   {
     "source": "pubmed",
@@ -490,9 +524,11 @@
     "abstract": "",
     "published": "2025-08-12",
     "journal": "Journal of affective disorders",
-    "pmid": "",
+    "pmid": "39111363",
     "paper_id": "e31fa5ee1b85",
-    "category": "patient_care"
+    "category": "patient_care",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39111363/",
+    "citations": 0
   },
   {
     "source": "pubmed",
@@ -500,9 +536,11 @@
     "abstract": "Recent advances in large language models (LLMs) enable domain-specific question answering using external knowledge. However, addressing information that is not included in training data remains a challenge, particularly in nuclear medicine, where examination protocols are frequently updated and vary across institutions. In this study, we developed a retrieval-augmented generation (RAG) system using 40 internal manuals from a single Japanese hospital, each corresponding to a different examination in nuclear medicine. These institution-specific documents were segmented and indexed using a hybrid retrieval strategy combining dense vector search (text-embedding-3-small) and sparse keyword search (BM25). GPT-3.5 and GPT-4o were used with the OpenAI application programming interface (API) for response generation. The quality of the generated answers was assessed using a four-point Likert scale by three certified radiological technologists, of which one held an additional certification in nuclear medicine and another held an additional certification in medical physics. Automated evaluation was conducted using RAGAS metrics, including factual correctness and context recall. The GPT-4o model combined with hybrid retrieval achieved the highest performance, as per expert evaluations. Although traditional string-based metrics such as ROUGE and the Levenshtein distance poorly align with human ratings, RAGAS provided consistent rankings across system configurations, despite showing only a modest correlation with manual scores. These findings demonstrate that integrating examination-specific institutional manuals into RAG frameworks can effectively support domain-specific question answering in nuclear medicine. Moreover, LLM-based evaluation methods such as RAGAS may serve as practical tools to complement expert reviews in developing healthcare-oriented artificial intelligence systems.",
     "published": "2025-08-11",
     "journal": "Radiological physics and technology",
-    "pmid": "",
+    "pmid": "39110516",
     "paper_id": "2cd75c0f51b4",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39110516/",
+    "citations": 3
   },
   {
     "source": "pubmed",
@@ -510,9 +548,11 @@
     "abstract": "",
     "published": "2025-08-07",
     "journal": "Nurse education today",
-    "pmid": "",
+    "pmid": "39099607",
     "paper_id": "3b4aa1ba5844",
-    "category": "patient_care"
+    "category": "patient_care",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39099607/",
+    "citations": 2
   },
   {
     "source": "pubmed",
@@ -520,9 +560,11 @@
     "abstract": "The rise of artificial intelligence (AI) applications in the modern industry has been shown to boost productivity in many sectors such as manufacturing, mining, finance, marketing, pharmacy, textiles, and a few more industries. AI is a neural network system that is wired to learn by interacting with humans and by repetition of tasks. A sub-category of AI common to many ordinary citizens is the Chat Generative Pre-training Transformer (ChatGPT) a program of OpenAI Global, LLC., that generates human-like dialogue and responses from the user input. &#x2022; ChatGPT can be used to determine colorimetric values for the assessment of environmental pollutants such as congo red (CR) and coomassie brilliant blue (CBB) and prove its ability for consistent reproducibility. &#x2022; Several color models have been developed such as CIE Lab, RGB, and Xyz to quantify colors. &#x2022; We used ChatGPT, in conjunction with Color Grab which is an Android app, to quantitatively determine the RGB values of the pollutant solutions, and investigated the color difference &#x394;E, as well as the hue and chroma that facilitates the color absorption of the pollutants. &#x2022; The results from ChatGPT and Color Grab were confirmed with the well-established ultra-violet visible (UV-Vis) spectrophotometer.",
     "published": "2025-08-06",
     "journal": "MethodsX",
-    "pmid": "",
+    "pmid": "39095906",
     "paper_id": "a2ce05ff2214",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39095906/",
+    "citations": 5
   },
   {
     "source": "pubmed",
@@ -530,9 +572,11 @@
     "abstract": "Technological innovations in medicine are increasingly expected to replicate the diagnostic, decision-making, and procedural skills of experienced physicians. This review explores the evolution, current status, and limitations of artificial intelligence (AI) and robotic surgery in clinical practice. Radiology and pathology have led the way in digital transformation, enabling AI applications through standardized datasets and electronic health records. However, limitations such as algorithmic opacity, legal-ethical uncertainties, and fragmented digital infrastructures continue to hinder broader implementation. In robotic surgery, soft tissue procedures have not yet demonstrated significant advantages over conventional laparoscopy in terms of cost or operative efficiency. Orthopedic applications, particularly in arthroplasty, are promising but still lack long-term validation. Importantly, for any technology to create true value in healthcare, its benefits must clearly outweigh its costs. As healthcare systems face mounting pressure from aging populations and rising procedural demand, particularly for cholecystectomy, prostatectomy, and arthroplasty, the development of efficient and scalable technologies becomes inevitable. While neither AI nor robotic surgery has yet fulfilled its transformative promise, historical trends suggest that innovation will persist toward overcoming these barriers.",
     "published": "2025-08-06",
     "journal": "Future science OA",
-    "pmid": "",
+    "pmid": "39086433",
     "paper_id": "9c762cf424e5",
-    "category": "medical_imaging"
+    "category": "medical_imaging",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39086433/",
+    "citations": 4
   },
   {
     "source": "pubmed",
@@ -540,9 +584,11 @@
     "abstract": "",
     "published": "2025-08-02",
     "journal": "International journal of medical informatics",
-    "pmid": "",
+    "pmid": "39073849",
     "paper_id": "98e99e4f651e",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39073849/",
+    "citations": 3
   },
   {
     "source": "pubmed",
@@ -550,9 +596,11 @@
     "abstract": "",
     "published": "2025-07-31",
     "journal": "Journal of healthcare informatics research",
-    "pmid": "",
+    "pmid": "39066615",
     "paper_id": "17868c4c2434",
-    "category": "documentation"
+    "category": "documentation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39066615/",
+    "citations": 15
   },
   {
     "source": "pubmed",
@@ -560,9 +608,11 @@
     "abstract": "Missing data in climate time series is a significant problem because it complicates the monitoring and prediction of climatic phenomena. The primary objective of this research document is to describe the most relevant imputation methods for missing data in the climate context over the last decade. Results reveal a superior concentration of documents on the use of imputation methods for climate time series in Asia and Europe, with notable examples from Malaysia, China, and Italy. Meanwhile, Brazil and Australia were the countries with a high number of research in America and Oceania. Moreover, temperature and precipitation were the most frequently employed climate variables. Regarding the information source, the monitoring networks were the most commonly used source for extracting data in almost all the research. On the other hand, methods such as mean techniques, simple and multiple linear regression, interpolation, and Principal Component Analysis (PCA) were the conventional statistical techniques used for imputing missing data. Furthermore, artificial neural networks demonstrated the ability to identify complex patterns in the data. Finally, Generative Adversarial Networks excel over other deep learning methods in the imputation of missing climate data.",
     "published": "2025-07-20",
     "journal": "MethodsX",
-    "pmid": "",
+    "pmid": "39049222",
     "paper_id": "b6ae3db32e42",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39049222/",
+    "citations": 2
   },
   {
     "source": "pubmed",
@@ -570,9 +620,11 @@
     "abstract": "In the healthcare industry, the ever-increasing volume of clinical trial data presents challenges for ensuring drug safety and detecting adverse drug reactions (ADRs). This study aims to address the challenge of accurately detecting Serious Adverse Events (SAEs) in pharmacovigilance, a critical component in ensuring drug safety during and after clinical trials. The key problem lies in the underreporting and delayed detection of Adverse Drug Reactions (ADRs) due to the heterogeneous nature of medical data, class imbalance, and the limited scope of traditional monitoring techniques. This study proposes a hybrid AI-driven framework that integrates structured (e.g., patient demographics, lab results) and unstructured data (e.g., clinical notes) to detect ADRs using advanced deep learning and NLP methods. The objective is to outperform traditional signal detection methods and provide interpretable predictions to aid clinicians in real-time. By leveraging advanced Machine Learning (ML) and Deep Learning (DL) techniques, including Random Forests, Gradient Boosting Machines, and Convolutional Neural Networks (CNNs), our model aims to identify potential ADRs across different patient subgroups. Through meticulous feature engineering and the application of techniques to address data imbalance, our model demonstrates improved accuracy and interpretability in predicting ADRs. The CNN model achieved an accuracy of 85 %, outperforming traditional models, such as Logistic Regression (78 %) and Support Vector Machines (80 %). These findings suggest that specific demographic and clinical factors significantly influence the likelihood of adverse reactions, offering valuable insights for targeted monitoring and risk mitigation strategies[11]. This research underscores the potential of predictive modeling to enhance pharmacovigilance efforts and ensure safer clinical trial outcomes.&#x2022;The research methodology includes a comparison of supervised learning algorithms, such as Logistic Regression, Random Forest, Gradient Boost, CNN, and genetic algorithms, to identify patterns and anomalies in clinical trial data. BERT and GPT, were also employed to provide the functionality of textual interactions over medical data.&#x2022;Performance metrics such as accuracy, precision, recall, and F1-score were systematically applied to evaluate each model's performance. Among the models tested, the CNN model with BERT achieved the highest accuracy, providing valuable insights into the potential of deep learning for enhancing pharmacovigilance practices.&#x2022;These findings suggest that an inclusion of diverse clinical data when supplied to advanced ML and NLP techniques can significantly improve the detection of ADRs, leading to better alignment with the fundamental principles of Good Clinical Practice (GCP).",
     "published": "2025-07-20",
     "journal": "MethodsX",
-    "pmid": "",
+    "pmid": "39041877",
     "paper_id": "45f1342606a7",
-    "category": "drug_discovery"
+    "category": "drug_discovery",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39041877/",
+    "citations": 15
   },
   {
     "source": "pubmed",
@@ -580,9 +632,11 @@
     "abstract": "",
     "published": "2025-07-19",
     "journal": "PCN reports : psychiatry and clinical neurosciences",
-    "pmid": "",
+    "pmid": "39033302",
     "paper_id": "14deb6b2fdbd",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39033302/",
+    "citations": 9
   },
   {
     "source": "pubmed",
@@ -590,9 +644,11 @@
     "abstract": "Antibodies play a crucial role in our immune system. Their ability to bind to and neutralize pathogens opens opportunities to develop antibodies for therapeutic and diagnostic use. Computational methods capable of designing antibodies for a target antigen can revolutionize drug discovery, reducing the time and cost required for drug development. Artificial intelligence (AI) methods have recently achieved remarkable advancements in the design of protein sequences and structures, including the ability to generate scaffolds for a given motif and binders for a specific target. These generative methods have been applied to antigen-conditioned antibody design, with experimental binding confirmed for de novo-designed antibodies. This review surveys current AI methods used in antibody development, focusing on those for antigen-conditioned antibody design. The results obtained by AI-based methodologies in antibody and protein research suggest a promising direction for generating de novo binders for various target antigens.",
     "published": "2025-07-18",
     "journal": "mAbs",
-    "pmid": "",
+    "pmid": "39026448",
     "paper_id": "b3a7074a5df4",
-    "category": "drug_discovery"
+    "category": "drug_discovery",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39026448/",
+    "citations": 5
   },
   {
     "source": "pubmed",
@@ -600,9 +656,11 @@
     "abstract": "Generating high quality MCQs is time consuming and expensive. Many strategies are applied to produce high quality items including sharing of item banks, training of item writers and automatic item generation (AIG). Generative AI, when used with precision, has proven to reduce significantly both cost and time without compromising quality. Medical educators encounter numerous obstacles when using AI to generate MCQs of good quality. We searched the fast and recent growing medical education literature for articles related to the use of AI in generating high quality MCQs. Additionally, the development of these tips was guided by our own institutional experience. <b>&#xa0;</b>We created 10 tips for MCQ generation using AI to assist MCQ item writers in both undergraduate and graduate medical education.",
     "published": "2025-07-17",
     "journal": "Medical education online",
-    "pmid": "",
+    "pmid": "39018247",
     "paper_id": "020605bd5d30",
-    "category": "patient_care"
+    "category": "patient_care",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39018247/",
+    "citations": 5
   },
   {
     "source": "pubmed",
@@ -610,9 +668,11 @@
     "abstract": "This study utilizes a Fourier transform infrared spectroscopy (FTIR)-based detection system to obtain and analyze the infrared spectra of cigarette smoke aerosols. To reduce the workload of spectral data acquisition and improve efficiency, we developed the Spectral Attention Denoising Autoencoder (SADA) model, which integrates an autoencoder (AE) architecture with a self-attention mechanism and incorporates a noise injection strategy. Compared to mainstream generative models, the SADA model performs better in generating accurate and high-fidelity spectra. To further validate the effectiveness of the generated spectra, we conducted classification experiments on hybrid datasets. By augmenting real spectral data with generated spectra, we observed significant improvements in classification accuracy across several mainstream classification models. Ablation experiments confirmed the critical roles of the self-attention mechanism and noise injection strategy in feature extraction and stable training. Additionally, the model exhibited excellent generalization capabilities across multiple public spectral datasets. The proposed SADA model not only alleviates the burden of spectral data acquisition but also provides an effective data augmentation strategy for spectral analysis tasks.",
     "published": "2025-07-16",
     "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
-    "pmid": "",
+    "pmid": "39009185",
     "paper_id": "f8860e8bbad5",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39009185/",
+    "citations": 15
   },
   {
     "source": "pubmed",
@@ -620,9 +680,11 @@
     "abstract": "China&#x2019;s standardized residency training (SRT) is confronted with core, urgent challenges such as an uneven distribution of educational resources, a shortage of faculty, limited opportunities for practical training, subjective assessment methods, and widespread physician overwork and burnout.Large language models (LLMs) provide innovative solutions to the challenges faced by China&#x2019;s SRT by conveniently providing extensive resources, acting as virtual mentors, assisting in simulating clinical scenarios, and standardizing assessment systems.Educators must consider the integration of LLMs into SRT with caution, emphasizing their role as a complement to traditional medical education rather than a replacement, ensuring that ethical standards are prioritized and that technology serves as an aid.",
     "published": "2025-07-15",
     "journal": "Annals of medicine",
-    "pmid": "",
+    "pmid": "38994711",
     "paper_id": "71dec169fd6d",
-    "category": "patient_care"
+    "category": "patient_care",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38994711/",
+    "citations": 13
   },
   {
     "source": "pubmed",
@@ -630,9 +692,11 @@
     "abstract": "Large language models (LLMs) have shown promising capabilities across medical disciplines, yet their performance in basic medical sciences remains incompletely characterized. Medical histology, requiring factual knowledge and interpretative skills, provides a unique domain for evaluating AI capabilities in medical education. To evaluate and compare the performance of five current LLMs: GPT-4.1, Claude 3.7 Sonnet, Gemini 2.0 Flash, Copilot, and DeepSeek R1 on correctly answering medical histology multiple choice questions (MCQs). This cross-sectional comparative study used 200 USMLE-style histology MCQs across 20 topics. Each LLM completed all the questions in three separate attempts. Performance metrics included accuracy rates, test-retest reliability (ICC), and topic-specific analysis. Statistical analysis employed ANOVA with post-hoc Tukey's tests and two-way mixed ANOVA for system-topic interactions. All LLMs achieved exceptionally high accuracy (Mean 91.1%, SD 7.2). Gemini performed best (92.0%), followed by Claude (91.5%), Copilot (91.0%), GPT-4 (90.8%), and DeepSeek (90.3%), with no significant differences between systems (<i>p</i>&#x2009;&gt;&#x2009;0.05). Claude showed the highest reliability (ICC&#x2009;=&#x2009;0.931), followed by GPT-4 (ICC&#x2009;=&#x2009;0.882). Complete accuracy and reproducibility (100%) were detected in Histological Methods, Blood and Hemopoiesis, and Circulatory System, while Muscle tissue (76.0%) and Lymphoid System (84.7%) presented the greatest challenges. LLMs demonstrate exceptional accuracy and reliability in answering histological MCQs, significantly outperforming other medical disciplines. Minimal inter-system variability suggests technological maturity, though topic-specific challenges and reliability concerns indicate the continued need for human expertise. These findings reflect rapid AI advancement and identify histology as particularly suitable for AI-assisted medical education.<b>Clinical trial number</b>: The clinical trial number is not pertinent to this study as it does not involve medicinal products or therapeutic interventions.",
     "published": "2025-07-12",
     "journal": "Medical education online",
-    "pmid": "",
+    "pmid": "38987549",
     "paper_id": "7ac40c6c4ede",
-    "category": "patient_care"
+    "category": "patient_care",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38987549/",
+    "citations": 4
   },
   {
     "source": "pubmed",
@@ -640,9 +704,11 @@
     "abstract": "",
     "published": "2025-07-10",
     "journal": "Computer methods and programs in biomedicine",
-    "pmid": "",
+    "pmid": "38976661",
     "paper_id": "bb3619a8f71a",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38976661/",
+    "citations": 12
   },
   {
     "source": "pubmed",
@@ -650,9 +716,11 @@
     "abstract": "",
     "published": "2025-06-27",
     "journal": "Heart &amp; lung : the journal of critical care",
-    "pmid": "",
+    "pmid": "38963714",
     "paper_id": "4ccff42f2c70",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38963714/",
+    "citations": 4
   },
   {
     "source": "pubmed",
@@ -660,9 +728,11 @@
     "abstract": "This scoping review aimed to collect, analyze, synthesize, and interpret the current data concerning antibacterial resin-based composites. The study followed the recommendations of the Joanna Briggs Institute and PRISMA Extension for Scoping Reviews. The searches were conducted in the PubMed, Embase, Web of Science, and Scopus databases. Studies evaluating efficacy, physical and chemical properties, cytotoxicity, and preventive effect against recurrent caries lesions provided by antibacterial resin-based composites published in the last 5 years and without language restriction were included. Fifty-three papers were analyzed. Only <i>in vitro, in situ</i>, and animal studies were published. The DMAHDM (dimethylaminohexadecyl methacrylate) was the most prevalent antibacterial agent in the resin composites and showed efficacy, did not increase cytotoxicity, nor jeopardize chemical and physical properties. The most used biofilm model and the test to evaluate the antibacterial effect was Streptococcus Mutans and the Colony Forming Unit Count. Antibacterial resin-based composites have performed exceedingly well in the large number of <i>in vitro</i> studies evaluated. However, clinical trials assessing the prevention of recurrent caries are absent and need to be further conducted to assure that using an antibacterial resin composite is a valid way to avoid restoration replacement due to recurrent caries.",
     "published": "2025-06-18",
     "journal": "The Japanese dental science review",
-    "pmid": "",
+    "pmid": "38950135",
     "paper_id": "0d23ec9a4c0e",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38950135/",
+    "citations": 9
   },
   {
     "source": "pubmed",
@@ -670,9 +740,11 @@
     "abstract": "Generative AI is expected to have a broad impact on healthcare, including general practice.Innovation is likely expected across three areas: practice support, education support, and clinical decision-making support.A coordinated effort is urgently needed to engage the international primary care academic community to draft a research agenda alongside these three areas.",
     "published": "2025-06-06",
     "journal": "The European journal of general practice",
-    "pmid": "",
+    "pmid": "38943053",
     "paper_id": "18b11cd18124",
-    "category": "clinical_apps"
+    "category": "clinical_apps",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38943053/",
+    "citations": 6
   },
   {
     "source": "pubmed",
@@ -680,9 +752,11 @@
     "abstract": "",
     "published": "2025-05-30",
     "journal": "Renal failure",
-    "pmid": "",
+    "pmid": "38935021",
     "paper_id": "b52d21d9a791",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38935021/",
+    "citations": 28
   },
   {
     "source": "pubmed",
@@ -690,9 +764,11 @@
     "abstract": "",
     "published": "2025-04-10",
     "journal": "Asia-Pacific journal of oncology nursing",
-    "pmid": "",
+    "pmid": "38924502",
     "paper_id": "c817e02fc58d",
-    "category": "foundation"
+    "category": "foundation",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38924502/",
+    "citations": 18
   },
   {
     "source": "pubmed",
@@ -700,8 +776,10 @@
     "abstract": "<b>Main Findings:</b> The study results show that AI-generated health messages exhibit more positive sentiment and are rated slightly lower in clarity compared to human-generated messages but are similarly rated in quality.<b>Added Knowledge:</b> The study demonstrates AI&#x2019;s potential to generate culturally sensitive messages for public communication in a highly diverse Arabic-speaking population.<b>Global Health Impact for Policy and Action:</b> The study provides evidence of the feasibility of using AI-generated content to enhance health campaigns globally, emphasizing the importance of integrating cultural and linguistic adaptability into AI-driven public health messaging.",
     "published": "2025-02-18",
     "journal": "Global health action",
-    "pmid": "",
+    "pmid": "38916231",
     "paper_id": "7d1d03b82f33",
-    "category": "patient_care"
+    "category": "patient_care",
+    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38916231/",
+    "citations": 27
   }
 ]
