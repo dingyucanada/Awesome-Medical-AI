@@ -8,7 +8,11 @@
 
 ## 📊 This Week's Highlights
 
-*No new papers this week. Check back soon!*
+- **[2025-08-20]** [Detecting and Explaining Postpartum Depression in Real-Time with Generative Artificial Intelligence](https://arxiv.org/abs/2508.10025)
+- **[2025-06-28]** [GNN's Uncertainty Quantification using Self-Distillation for Artificial Intelligence in Healthcare](https://arxiv.org/abs/2506.20046)
+- **[2025-05-30]** [MedOrch: Medical Diagnosis with Tool-Augmented Reasoning Agents for Flexible Extensibility](https://arxiv.org/abs/2506.00235)
+- **[2025-05-12]** [The promise and perils of AI in medicine](https://arxiv.org/abs/2505.06971)
+- **[2025-05-10]** [Integrating Explainable AI in Medical Devices: Technical, Clinical and Regulatory Insights and Recommendations](https://arxiv.org/abs/2505.06620)
 
 ## 🎯 Research Categories
 
