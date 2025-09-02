@@ -8,11 +8,11 @@
 
 ## 📊 This Week's Highlights
 
-- **[2025-08-31]** Evaluation of GPT-4o for multilingual translation of radiology reports across imaging modalities. *(Paper under review - link pending)*
-- **[2025-08-30]** Clinical decision support for pharmacologic management of treatment-resistant depression with augmented large languag... *(Paper under review - link pending)*
-- **[2025-08-30]** Assessing LLM-generated vs. expert-created clinical anatomy MCQs: a student perception-based comparative study in med... *(Paper under review - link pending)*
 - **[2025-08-29]** [MoE-Health: A Mixture of Experts Framework for Robust Multimodal   Healthcare Prediction](https://arxiv.org/abs/2508.21793v1)
 - **[2025-08-29]** [Developer Insights into Designing AI-Based Computer Perception Tools](https://arxiv.org/abs/2508.21733v1)
+- **[2025-08-29]** [Visual art and representation in cardiology: Past, present, and future.](https://pubmed.ncbi.nlm.nih.gov/39211247)
+- **[2025-08-27]** [Analyses of different prescriptions for health using artificial intelligence: a critical approach based on the intern...](https://pubmed.ncbi.nlm.nih.gov/39117868)
+- **[2025-08-30]** [Clinical decision support for pharmacologic management of treatment-resistant depression with augmented large languag...](#)
 
 ## 🎯 Research Categories
 
