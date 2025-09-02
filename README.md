@@ -1,7 +1,7 @@
 # Awesome Generative AI in Healthcare Papers 🏥🤖
 
 ![Auto-Update](https://img.shields.io/badge/Auto%20Update-Daily-brightgreen)
-![Papers](https://img.shields.io/badge/Papers-141-blue)
+![Papers](https://img.shields.io/badge/Papers-140-blue)
 ![Last Update](https://img.shields.io/badge/Last%20Update-2025--09--02-orange)
 
 > A comprehensive, auto-updating collection of papers on Generative AI applications in Healthcare, updated daily via GitHub Actions.
@@ -169,7 +169,6 @@
 |------|-------|-----------|------|
 | 2023-04-06 | [Synthetic Data Generation for Healthcare](https://arxiv.org/abs/2304.03243) | MIT | - |
 | 2023-04-04 | [Diffusion Models for Medical Image Synthesis](https://arxiv.org/abs/2304.01593) | Stanford University | - |
-| 2022-06-13 | [SyntheX: Scaling Up Learning-based X-ray Image Analysis Through In Silico Experi](https://arxiv.org/abs/2206.06127) | Johns Hopkins University | - |
 | 2022-10-24 | [Privacy-preserving synthetic health data](https://arxiv.org/abs/2210.13538) | University of Toronto | - |
 | 2021-06-15 | [Synthetic data in machine learning for medicine and healthcare](https://www.nature.com/articles/s41551-021-00751-8) | ETH Zurich | - |
 | 2021-05-11 | [GANs for medical image synthesis: An empirical study](https://arxiv.org/abs/2105.05318) | King's College London | - |
@@ -225,13 +224,13 @@
 ## 📈 Statistics & Trends
 
 ### Collection Overview
-- **Total Papers**: 141
+- **Total Papers**: 140
 - **Papers with Code**: 57
 - **Last Updated**: 2025-09-02
 
 ### Papers by Year
 - **2025**: 8 papers
-- **2024**: 33 papers
+- **2024**: 32 papers
 - **2023**: 25 papers
 - **2022**: 23 papers
 - **2021**: 18 papers

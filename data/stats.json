@@ -1,5 +1,5 @@
 {
-  "total_papers": 141,
+  "total_papers": 140,
   "by_year": {
     "2012": 1,
     "2015": 1,
@@ -11,7 +11,7 @@
     "2021": 18,
     "2022": 23,
     "2023": 25,
-    "2024": 33,
+    "2024": 32,
     "2025": 8
   },
   "by_category": {
@@ -26,8 +26,8 @@
     "drug_discovery": 13,
     "public_health": 6,
     "genomics": 13,
-    "synthetic_data": 6,
     "clinical_documentation": 7,
+    "synthetic_data": 5,
     "wearables": 3
   },
   "by_organization": {
@@ -52,7 +52,6 @@
     "Arc Institute": 1,
     "Georgia Tech": 2,
     "University of Toronto": 5,
-    "MIT CSAIL": 1,
     "Chinese University of Hong Kong": 1,
     "Ohio State University": 1,
     "EPFL": 2,
@@ -95,7 +94,7 @@
     "Brigham and Women's Hospital": 1
   },
   "by_source": {
-    "arxiv": 86,
+    "arxiv": 85,
     "nature": 29,
     "science": 4,
     "technical_report": 1,
@@ -103,6 +102,6 @@
     "pubmed": 16,
     "cell": 1
   },
-  "last_updated": "2025-09-02T17:52:54.867315",
-  "note": "Removed papers with incorrect or unverifiable links"
+  "last_updated": "2025-09-02T18:08:08.460999",
+  "note": "Removed SyntheX paper (deleted from arxiv)"
 }
