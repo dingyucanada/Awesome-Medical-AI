@@ -176,10 +176,6 @@ def generate_readme():
 
 > A comprehensive, auto-updating collection of cutting-edge AI research papers in medicine and healthcare, updated daily via GitHub Actions.
 
-## 📊 This Week's Highlights
-
-{chr(10).join(highlights) if highlights else "*Check back soon for new papers!*"}
-
 ## 🎯 Research Categories
 
 """

@@ -6,10 +6,6 @@
 
 > A comprehensive, auto-updating collection of cutting-edge AI research papers in medicine and healthcare, updated daily via GitHub Actions.
 
-## 📊 This Week's Highlights
-
-*No new papers this week. Check back soon!*
-
 ## 🎯 Research Categories
 
 ### 🔬 Foundation Models
