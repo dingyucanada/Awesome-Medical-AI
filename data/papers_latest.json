@@ -1,2283 +1,479 @@
 [
   {
-    "title": "GenomeGPT: Foundation Model for Genomic Sequence Understanding",
-    "url": "https://arxiv.org/abs/2501.01567",
-    "published": "2025-01-28",
-    "year": 2025,
-    "abstract": "10B parameter model trained on human genome for variant interpretation.",
-    "authors": [
-      "Broad Institute"
-    ],
-    "organization": "Broad Institute",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 78
+    "title": "GPT-4 Technical Report",
+    "url": "https://arxiv.org/abs/2303.08774",
+    "published": "2023-03-15",
+    "year": 2023,
+    "organization": "OpenAI",
+    "category": "foundation_models",
+    "source": "arxiv"
   },
   {
-    "title": "MindGPT: AI Therapist Achieving Human-Level Empathy Scores",
-    "url": "https://arxiv.org/abs/2501.00567",
-    "published": "2025-01-25",
-    "year": 2025,
-    "abstract": "LLM-based therapeutic agent demonstrating empathy comparable to licensed therapists.",
-    "authors": [
-      "MIT CSAIL"
-    ],
-    "organization": "MIT",
-    "source": "curated",
-    "category": "mental_health",
-    "citations": 67
+    "title": "Language Models are Few-Shot Learners",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "published": "2020-05-28",
+    "year": 2020,
+    "organization": "OpenAI",
+    "category": "foundation_models",
+    "source": "arxiv"
   },
   {
-    "title": "EpiGPT: Large Language Models for Epidemic Forecasting",
-    "url": "https://arxiv.org/abs/2501.00345",
-    "published": "2025-01-12",
-    "year": 2025,
-    "abstract": "LLM-based epidemic forecasting outperforming traditional compartmental models.",
-    "authors": [
-      "CDC AI Lab"
-    ],
-    "organization": "US CDC",
-    "source": "curated",
-    "category": "public_health",
-    "citations": 56
-  },
-  {
-    "title": "BiomedCLIP-PubMedBERT: Multimodal Biomedical AI at Scale",
-    "url": "https://arxiv.org/abs/2501.00123",
-    "published": "2025-01-15",
-    "year": 2025,
-    "abstract": "A vision-language foundation model trained on 15M biomedical image-text pairs from scientific articles.",
-    "authors": [
-      "Microsoft BiomedNLP"
-    ],
-    "organization": "Microsoft Research",
-    "source": "curated",
-    "category": "multimodal",
-    "citations": 45,
-    "is_classic": true,
-    "code_url": "https://github.com/microsoft/BiomedCLIP"
-  },
-  {
-    "title": "CRISPR-GPT: AI-Designed Gene Editing for Precision Medicine",
-    "url": "https://arxiv.org/abs/2501.02345",
-    "published": "2025-02-12",
-    "year": 2025,
-    "abstract": "LLM system designing optimal CRISPR guides for therapeutic gene editing.",
-    "authors": [
-      "Stanford Genetics"
-    ],
-    "organization": "Stanford University",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 45
-  },
-  {
-    "title": "MedDiff-v2: Controllable Diffusion for Synthetic Medical Data",
-    "url": "https://arxiv.org/abs/2501.01234",
-    "published": "2025-01-30",
-    "year": 2025,
-    "abstract": "Advanced diffusion model generating privacy-preserving synthetic medical records.",
-    "authors": [
-      "Google Health"
-    ],
-    "organization": "Google Research",
-    "source": "curated",
-    "category": "synthetic_data",
-    "citations": 42
-  },
-  {
-    "title": "HealthMap-AI: Real-time Disease Surveillance Using Social Media",
-    "url": "https://arxiv.org/abs/2501.00789",
-    "published": "2025-02-03",
-    "year": 2025,
-    "abstract": "AI system monitoring global disease outbreaks from social media and news.",
-    "authors": [
-      "Boston Children's"
-    ],
-    "organization": "Boston Children's Hospital",
-    "source": "curated",
-    "category": "public_health",
-    "citations": 38
-  },
-  {
-    "title": "COMPASS: Multimodal Assessment of Depression Using Speech and Text",
-    "url": "https://arxiv.org/abs/2501.00890",
-    "published": "2025-02-15",
-    "year": 2025,
-    "abstract": "Combining acoustic features with language models for depression severity assessment.",
-    "authors": [
-      "CMU"
-    ],
-    "organization": "Carnegie Mellon University",
-    "source": "curated",
-    "category": "mental_health",
-    "citations": 34
-  },
-  {
-    "title": "AutoRadiologist: GPT-4V Performance on ACR Diagnostic Radiology In-Training Exam",
-    "url": "https://arxiv.org/abs/2501.00789",
-    "published": "2025-01-20",
-    "year": 2025,
-    "abstract": "Evaluation of GPT-4V achieving 85% accuracy on radiology board exam questions.",
-    "authors": [
-      "Mayo Clinic AI Lab"
-    ],
-    "organization": "Mayo Clinic",
-    "source": "curated",
-    "category": "radiology",
-    "citations": 32
-  },
-  {
-    "title": "MedFlamingo: Multimodal Medical Few-shot Learner",
-    "url": "https://arxiv.org/abs/2501.00456",
-    "published": "2025-02-10",
-    "year": 2025,
-    "abstract": "Few-shot learning for medical visual question answering and report generation.",
-    "authors": [
-      "Stanford HAI"
-    ],
-    "organization": "Stanford University",
-    "source": "curated",
-    "category": "multimodal",
-    "citations": 28
-  },
-  {
-    "title": "SynthEHR-XL: Scaling Synthetic EHR Generation to 100M Patients",
-    "url": "https://arxiv.org/abs/2501.00678",
-    "published": "2025-02-08",
-    "year": 2025,
-    "abstract": "Large-scale synthetic EHR generation preserving statistical properties and privacy.",
-    "authors": [
-      "Microsoft Health"
-    ],
-    "organization": "Microsoft Research",
-    "source": "curated",
-    "category": "synthetic_data",
-    "citations": 28
-  },
-  {
-    "source": "pubmed",
-    "title": "Comparing AI and human-generated health messages in an Arabic cultural context.",
-    "abstract": "<b>Main Findings:</b> The study results show that AI-generated health messages exhibit more positive sentiment and are rated slightly lower in clarity compared to human-generated messages but are similarly rated in quality.<b>Added Knowledge:</b> The study demonstrates AI&#x2019;s potential to generate culturally sensitive messages for public communication in a highly diverse Arabic-speaking population.<b>Global Health Impact for Policy and Action:</b> The study provides evidence of the feasibility of using AI-generated content to enhance health campaigns globally, emphasizing the importance of integrating cultural and linguistic adaptability into AI-driven public health messaging.",
-    "published": "2025-02-18",
-    "journal": "Global health action",
-    "pmid": "38916231",
-    "paper_id": "7d1d03b82f33",
-    "category": "patient_interaction",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38916231/",
-    "citations": 27,
-    "code_url": "https://github.com/allenai/clinical-longformer"
-  },
-  {
-    "title": "RAD-DINO: Self-supervised Learning for Radiology with DINOv2",
-    "url": "https://arxiv.org/abs/2501.00234",
-    "published": "2025-02-05",
-    "year": 2025,
-    "abstract": "Self-supervised vision transformer pre-trained on 5M radiology images.",
-    "authors": [
-      "Meta AI Health"
-    ],
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "url": "https://arxiv.org/abs/2302.13971",
+    "published": "2023-02-27",
+    "year": 2023,
     "organization": "Meta AI",
-    "source": "curated",
-    "category": "radiology",
-    "citations": 18
-  },
-  {
-    "source": "pubmed",
-    "title": "Zero-Shot Extraction of Seizure Outcomes from Clinical Notes Using Generative Pretrained Transformers.",
-    "abstract": "",
-    "published": "2025-07-31",
-    "journal": "Journal of healthcare informatics research",
-    "pmid": "39066615",
-    "paper_id": "17868c4c2434",
-    "category": "clinical_documentation",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39066615/",
-    "citations": 15
-  },
-  {
-    "source": "pubmed",
-    "title": "AI-driven pharmacovigilance: Enhancing adverse drug reaction detection with deep learning and NLP.",
-    "abstract": "In the healthcare industry, the ever-increasing volume of clinical trial data presents challenges for ensuring drug safety and detecting adverse drug reactions (ADRs). This study aims to address the challenge of accurately detecting Serious Adverse Events (SAEs) in pharmacovigilance, a critical component in ensuring drug safety during and after clinical trials. The key problem lies in the underreporting and delayed detection of Adverse Drug Reactions (ADRs) due to the heterogeneous nature of medical data, class imbalance, and the limited scope of traditional monitoring techniques. This study proposes a hybrid AI-driven framework that integrates structured (e.g., patient demographics, lab results) and unstructured data (e.g., clinical notes) to detect ADRs using advanced deep learning and NLP methods. The objective is to outperform traditional signal detection methods and provide interpretable predictions to aid clinicians in real-time. By leveraging advanced Machine Learning (ML) and Deep Learning (DL) techniques, including Random Forests, Gradient Boosting Machines, and Convolutional Neural Networks (CNNs), our model aims to identify potential ADRs across different patient subgroups. Through meticulous feature engineering and the application of techniques to address data imbalance, our model demonstrates improved accuracy and interpretability in predicting ADRs. The CNN model achieved an accuracy of 85 %, outperforming traditional models, such as Logistic Regression (78 %) and Support Vector Machines (80 %). These findings suggest that specific demographic and clinical factors significantly influence the likelihood of adverse reactions, offering valuable insights for targeted monitoring and risk mitigation strategies[11]. This research underscores the potential of predictive modeling to enhance pharmacovigilance efforts and ensure safer clinical trial outcomes.&#x2022;The research methodology includes a comparison of supervised learning algorithms, such as Logistic Regression, Random Forest, Gradient Boost, CNN, and genetic algorithms, to identify patterns and anomalies in clinical trial data. BERT and GPT, were also employed to provide the functionality of textual interactions over medical data.&#x2022;Performance metrics such as accuracy, precision, recall, and F1-score were systematically applied to evaluate each model's performance. Among the models tested, the CNN model with BERT achieved the highest accuracy, providing valuable insights into the potential of deep learning for enhancing pharmacovigilance practices.&#x2022;These findings suggest that an inclusion of diverse clinical data when supplied to advanced ML and NLP techniques can significantly improve the detection of ADRs, leading to better alignment with the fundamental principles of Good Clinical Practice (GCP).",
-    "published": "2025-07-20",
-    "journal": "MethodsX",
-    "pmid": "39041877",
-    "paper_id": "45f1342606a7",
-    "category": "drug_discovery",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39041877/",
-    "citations": 15
-  },
-  {
-    "source": "pubmed",
-    "title": "Empowering standardized residency training in China through large language models: problem analysis and solutions.",
-    "abstract": "China&#x2019;s standardized residency training (SRT) is confronted with core, urgent challenges such as an uneven distribution of educational resources, a shortage of faculty, limited opportunities for practical training, subjective assessment methods, and widespread physician overwork and burnout.Large language models (LLMs) provide innovative solutions to the challenges faced by China&#x2019;s SRT by conveniently providing extensive resources, acting as virtual mentors, assisting in simulating clinical scenarios, and standardizing assessment systems.Educators must consider the integration of LLMs into SRT with caution, emphasizing their role as a complement to traditional medical education rather than a replacement, ensuring that ethical standards are prioritized and that technology serves as an aid.",
-    "published": "2025-07-15",
-    "journal": "Annals of medicine",
-    "pmid": "38994711",
-    "paper_id": "71dec169fd6d",
-    "category": "patient_interaction",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38994711/",
-    "citations": 13,
-    "code_url": "https://github.com/allenai/clinical-longformer"
-  },
-  {
-    "source": "pubmed",
-    "title": "Potential of ChatGPT in youth mental health emergency triage: Comparative analysis with clinicians.",
-    "abstract": "",
-    "published": "2025-07-19",
-    "journal": "PCN reports : psychiatry and clinical neurosciences",
-    "pmid": "39033302",
-    "paper_id": "14deb6b2fdbd",
     "category": "foundation_models",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39033302/",
-    "citations": 9
+    "source": "arxiv"
   },
   {
-    "source": "pubmed",
-    "title": "Multifaceted characterization of antibacterial resin composites: A scoping review on efficacy, properties, and in vivo performance.",
-    "abstract": "This scoping review aimed to collect, analyze, synthesize, and interpret the current data concerning antibacterial resin-based composites. The study followed the recommendations of the Joanna Briggs Institute and PRISMA Extension for Scoping Reviews. The searches were conducted in the PubMed, Embase, Web of Science, and Scopus databases. Studies evaluating efficacy, physical and chemical properties, cytotoxicity, and preventive effect against recurrent caries lesions provided by antibacterial resin-based composites published in the last 5 years and without language restriction were included. Fifty-three papers were analyzed. Only <i>in vitro, in situ</i>, and animal studies were published. The DMAHDM (dimethylaminohexadecyl methacrylate) was the most prevalent antibacterial agent in the resin composites and showed efficacy, did not increase cytotoxicity, nor jeopardize chemical and physical properties. The most used biofilm model and the test to evaluate the antibacterial effect was Streptococcus Mutans and the Colony Forming Unit Count. Antibacterial resin-based composites have performed exceedingly well in the large number of <i>in vitro</i> studies evaluated. However, clinical trials assessing the prevention of recurrent caries are absent and need to be further conducted to assure that using an antibacterial resin composite is a valid way to avoid restoration replacement due to recurrent caries.",
-    "published": "2025-06-18",
-    "journal": "The Japanese dental science review",
-    "pmid": "38950135",
-    "paper_id": "0d23ec9a4c0e",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "url": "https://arxiv.org/abs/2307.09288",
+    "published": "2023-07-18",
+    "year": 2023,
+    "organization": "Meta AI",
     "category": "foundation_models",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38950135/",
-    "citations": 9
+    "source": "arxiv"
   },
   {
-    "source": "pubmed",
-    "title": "Generative artificial intelligence for general practice; new potential ahead, but are we ready?",
-    "abstract": "Generative AI is expected to have a broad impact on healthcare, including general practice.Innovation is likely expected across three areas: practice support, education support, and clinical decision-making support.A coordinated effort is urgently needed to engage the international primary care academic community to draft a research agenda alongside these three areas.",
-    "published": "2025-06-06",
-    "journal": "The European journal of general practice",
-    "pmid": "38943053",
-    "paper_id": "18b11cd18124",
-    "category": "clinical_llm",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38943053/",
-    "citations": 6,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "source": "arxiv",
-    "title": "MoE-Health: A Mixture of Experts Framework for Robust Multimodal   Healthcare Prediction",
-    "abstract": "Healthcare systems generate diverse multimodal data, including Electronic Health Records (EHR), clinical notes, and medical images. Effectively leveraging this data for clinical prediction is challenging, particularly as real-world samples often present with varied or incomplete modalities. Existing approaches typically require complete modality data or rely on manual selection strategies, limiting their applicability in real-world clinical settings where data availability varies across patients and institutions. To address these limitations, we propose MoE-Health, a novel Mixture of Experts framework designed for robust multimodal fusion in healthcare prediction. MoE-Health architecture is specifically developed to handle samples with differing modalities and improve performance on critical clinical tasks. By leveraging specialized expert networks and a dynamic gating mechanism, our approach dynamically selects and combines relevant experts based on available data modalities, enabling flexible adaptation to varying data availability scenarios. We evaluate MoE-Health on the MIMIC-IV dataset across three critical clinical prediction tasks: in-hospital mortality prediction, long length of stay, and hospital readmission prediction. Experimental results demonstrate that MoE-Health achieves superior performance compared to existing multimodal fusion methods while maintaining robustness across different modality availability patterns. The framework effectively integrates multimodal information, offering improved predictive performance and robustness in handling heterogeneous and incomplete healthcare data, making it particularly suitable for deployment in diverse healthcare environments with heterogeneous data availability.",
-    "authors": [
-      "Xiaoyang Wang",
-      "Christopher C. Yang"
-    ],
-    "published": "2025-08-29",
-    "updated": "2025-08-29",
-    "arxiv_id": "2508.21793v1",
-    "pdf_url": "https://arxiv.org/pdf/2508.21793v1.pdf",
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "paper_id": "2595e4ff7d67",
-    "category": "clinical_documentation",
-    "citations": 5
-  },
-  {
-    "source": "arxiv",
-    "title": "Developer Insights into Designing AI-Based Computer Perception Tools",
-    "abstract": "Artificial intelligence (AI)-based computer perception (CP) technologies use mobile sensors to collect behavioral and physiological data for clinical decision-making. These tools can reshape how clinical knowledge is generated and interpreted. However, effective integration of these tools into clinical workflows depends on how developers balance clinical utility with user acceptability and trustworthiness. Our study presents findings from 20 in-depth interviews with developers of AI-based CP tools. Interviews were transcribed and inductive, thematic analysis was performed to identify 4 key design priorities: 1) to account for context and ensure explainability for both patients and clinicians; 2) align tools with existing clinical workflows; 3) appropriately customize to relevant stakeholders for usability and acceptability; and 4) push the boundaries of innovation while aligning with established paradigms. Our findings highlight that developers view themselves as not merely technical architects but also ethical stewards, designing tools that are both acceptable by users and epistemically responsible (prioritizing objectivity and pushing clinical knowledge forward). We offer the following suggestions to help achieve this balance: documenting how design choices around customization are made, defining limits for customization choices, transparently conveying information about outputs, and investing in user training. Achieving these goals will require interdisciplinary collaboration between developers, clinicians, and ethicists.",
-    "authors": [
-      "Maya Guhan",
-      "Meghan E. Hurley",
-      "Eric A. Storch",
-      "John Herrington",
-      "Casey Zampella",
-      "Julia Parish-Morris",
-      "Gabriel Lázaro-Muñoz",
-      "Kristin Kostick-Quenet"
-    ],
-    "published": "2025-08-29",
-    "updated": "2025-08-29",
-    "arxiv_id": "2508.21733v1",
-    "pdf_url": "https://arxiv.org/pdf/2508.21733v1.pdf",
-    "categories": [
-      "cs.HC",
-      "cs.AI",
-      "cs.CY"
-    ],
-    "paper_id": "94fcffe9c0ae",
-    "category": "clinical_llm",
-    "citations": 5
-  },
-  {
-    "source": "pubmed",
-    "title": "Analyses of different prescriptions for health using artificial intelligence: a critical approach based on the international guidelines of health institutions.",
-    "abstract": "",
-    "published": "2025-08-27",
-    "journal": "Health information science and systems",
-    "pmid": "39117868",
-    "paper_id": "de3ef7e6f8c4",
+    "title": "PaLM: Scaling Language Modeling with Pathways",
+    "url": "https://arxiv.org/abs/2204.02311",
+    "published": "2022-04-05",
+    "year": 2022,
+    "organization": "Google Research",
     "category": "foundation_models",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39117868/",
-    "citations": 5,
-    "code_url": "https://github.com/medchain/medchain"
+    "source": "arxiv"
   },
   {
-    "source": "pubmed",
-    "title": "Artificial intelligence-driven computational methods for antibody design and optimization.",
-    "abstract": "Antibodies play a crucial role in our immune system. Their ability to bind to and neutralize pathogens opens opportunities to develop antibodies for therapeutic and diagnostic use. Computational methods capable of designing antibodies for a target antigen can revolutionize drug discovery, reducing the time and cost required for drug development. Artificial intelligence (AI) methods have recently achieved remarkable advancements in the design of protein sequences and structures, including the ability to generate scaffolds for a given motif and binders for a specific target. These generative methods have been applied to antigen-conditioned antibody design, with experimental binding confirmed for de novo-designed antibodies. This review surveys current AI methods used in antibody development, focusing on those for antigen-conditioned antibody design. The results obtained by AI-based methodologies in antibody and protein research suggest a promising direction for generating de novo binders for various target antigens.",
-    "published": "2025-07-18",
-    "journal": "mAbs",
-    "pmid": "39026448",
-    "paper_id": "b3a7074a5df4",
-    "category": "drug_discovery",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39026448/",
-    "citations": 5,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "source": "pubmed",
-    "title": "Ten tips to harnessing generative AI for high-quality MCQS in medical education assessment.",
-    "abstract": "Generating high quality MCQs is time consuming and expensive. Many strategies are applied to produce high quality items including sharing of item banks, training of item writers and automatic item generation (AIG). Generative AI, when used with precision, has proven to reduce significantly both cost and time without compromising quality. Medical educators encounter numerous obstacles when using AI to generate MCQs of good quality. We searched the fast and recent growing medical education literature for articles related to the use of AI in generating high quality MCQs. Additionally, the development of these tips was guided by our own institutional experience. <b>&#xa0;</b>We created 10 tips for MCQ generation using AI to assist MCQ item writers in both undergraduate and graduate medical education.",
-    "published": "2025-07-17",
-    "journal": "Medical education online",
-    "pmid": "39018247",
-    "paper_id": "020605bd5d30",
-    "category": "patient_interaction",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39018247/",
-    "citations": 5,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "source": "arxiv",
-    "title": "Achieving Hilbert-Schmidt Independence Under Rényi Differential   Privacy for Fair and Private Data Generation",
-    "abstract": "As privacy regulations such as the GDPR and HIPAA and responsibility frameworks for artificial intelligence such as the AI Act gain traction, the ethical and responsible use of real-world data faces increasing constraints. Synthetic data generation has emerged as a promising solution to risk-aware data sharing and model development, particularly for tabular datasets that are foundational to sensitive domains such as healthcare. To address both privacy and fairness concerns in this setting, we propose FLIP (Fair Latent Intervention under Privacy guarantees), a transformer-based variational autoencoder augmented with latent diffusion to generate heterogeneous tabular data. Unlike the typical setup in fairness-aware data generation, we assume a task-agnostic setup, not reliant on a fixed, defined downstream task, thus offering broader applicability. To ensure privacy, FLIP employs R\\'enyi differential privacy (RDP) constraints during training and addresses fairness in the input space with RDP-compatible balanced sampling that accounts for group-specific noise levels across multiple sampling rates. In the latent space, we promote fairness by aligning neuron activation patterns across protected groups using Centered Kernel Alignment (CKA), a similarity measure extending the Hilbert-Schmidt Independence Criterion (HSIC). This alignment encourages statistical independence between latent representations and the protected feature. Empirical results demonstrate that FLIP effectively provides significant fairness improvements for task-agnostic fairness and across diverse downstream tasks under differential privacy constraints.",
-    "authors": [
-      "Tobias Hyrup",
-      "Emmanouil Panagiotou",
-      "Arjun Roy",
-      "Arthur Zimek",
-      "Eirini Ntoutsi",
-      "Peter Schneider-Kamp"
-    ],
-    "published": "2025-08-29",
-    "updated": "2025-08-29",
-    "arxiv_id": "2508.21815v1",
-    "pdf_url": "https://arxiv.org/pdf/2508.21815v1.pdf",
-    "categories": [
-      "cs.LG"
-    ],
-    "paper_id": "a28e96e305de",
-    "category": "ethics_fairness",
-    "citations": 4,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "source": "arxiv",
-    "title": "A Survey on Current Trends and Recent Advances in Text Anonymization",
-    "abstract": "The proliferation of textual data containing sensitive personal information across various domains requires robust anonymization techniques to protect privacy and comply with regulations, while preserving data usability for diverse and crucial downstream tasks. This survey provides a comprehensive overview of current trends and recent advances in text anonymization techniques. We begin by discussing foundational approaches, primarily centered on Named Entity Recognition, before examining the transformative impact of Large Language Models, detailing their dual role as sophisticated anonymizers and potent de-anonymization threats. The survey further explores domain-specific challenges and tailored solutions in critical sectors such as healthcare, law, finance, and education. We investigate advanced methodologies incorporating formal privacy models and risk-aware frameworks, and address the specialized subfield of authorship anonymization. Additionally, we review evaluation frameworks, comprehensive metrics, benchmarks, and practical toolkits for real-world deployment of anonymization solutions. This review consolidates current knowledge, identifies emerging trends and persistent challenges, including the evolving privacy-utility trade-off, the need to address quasi-identifiers, and the implications of LLM capabilities, and aims to guide future research directions for both academics and practitioners in this field.",
-    "authors": [
-      "Tobias Deußer",
-      "Lorenz Sparrenberg",
-      "Armin Berger",
-      "Max Hahnbück",
-      "Christian Bauckhage",
-      "Rafet Sifa"
-    ],
-    "published": "2025-08-29",
-    "updated": "2025-08-29",
-    "arxiv_id": "2508.21587v1",
-    "pdf_url": "https://arxiv.org/pdf/2508.21587v1.pdf",
-    "categories": [
-      "cs.CL",
-      "cs.AI"
-    ],
-    "paper_id": "efc7bbffcc60",
-    "category": "ethics_fairness",
-    "citations": 4,
-    "code_url": "https://github.com/allenai/clinical-longformer"
-  },
-  {
-    "source": "arxiv",
-    "title": "A Multi-Stage Fine-Tuning and Ensembling Strategy for Pancreatic Tumor   Segmentation in Diagnostic and Therapeutic MRI",
-    "abstract": "Automated segmentation of Pancreatic Ductal Adenocarcinoma (PDAC) from MRI is critical for clinical workflows but is hindered by poor tumor-tissue contrast and a scarcity of annotated data. This paper details our submission to the PANTHER challenge, addressing both diagnostic T1-weighted (Task 1) and therapeutic T2-weighted (Task 2) segmentation. Our approach is built upon the nnU-Net framework and leverages a deep, multi-stage cascaded pre-training strategy, starting from a general anatomical foundation model and sequentially fine-tuning on CT pancreatic lesion datasets and the target MRI modalities. Through extensive five-fold cross-validation, we systematically evaluated data augmentation schemes and training schedules. Our analysis revealed a critical trade-off, where aggressive data augmentation produced the highest volumetric accuracy, while default augmentations yielded superior boundary precision (achieving a state-of-the-art MASD of 5.46 mm and HD95 of 17.33 mm for Task 1). For our final submission, we exploited this finding by constructing custom, heterogeneous ensembles of specialist models, essentially creating a mix of experts. This metric-aware ensembling strategy proved highly effective, achieving a top cross-validation Tumor Dice score of 0.661 for Task 1 and 0.523 for Task 2. Our work presents a robust methodology for developing specialized, high-performance models in the context of limited data and complex medical imaging tasks (Team MIC-DKFZ).",
-    "authors": [
-      "Omer Faruk Durugol",
-      "Maximilian Rokuss",
-      "Yannick Kirchhoff",
-      "Klaus H. Maier-Hein"
-    ],
-    "published": "2025-08-29",
-    "updated": "2025-08-29",
-    "arxiv_id": "2508.21775v1",
-    "pdf_url": "https://arxiv.org/pdf/2508.21775v1.pdf",
-    "categories": [
-      "cs.CV"
-    ],
-    "paper_id": "f364c1b36ff9",
-    "category": "medical_imaging",
-    "citations": 4,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "source": "arxiv",
-    "title": "Neural Network Acceleration on MPSoC board: Integrating SLAC's SNL,   Rogue Software and Auto-SNL",
-    "abstract": "The LCLS-II Free Electron Laser (FEL) will generate X-ray pulses for beamline experiments at rates of up to 1~MHz, with detectors producing data throughputs exceeding 1 TB/s. Managing such massive data streams presents significant challenges, as transmission and storage infrastructures become prohibitively expensive. Machine learning (ML) offers a promising solution for real-time data reduction, but conventional implementations introduce excessive latency, making them unsuitable for high-speed experimental environments. To address these challenges, SLAC developed the SLAC Neural Network Library (SNL), a specialized framework designed to deploy real-time ML inference models on Field-Programmable Gate Arrays (FPGA). SNL's key feature is the ability to dynamically update model weights without requiring FPGA resynthesis, enhancing flexibility for adaptive learning applications. To further enhance usability and accessibility, we introduce Auto-SNL, a Python extension that streamlines the process of converting Python-based neural network models into SNL-compatible high-level synthesis code. This paper presents a benchmark comparison against hls4ml, the current state-of-the-art tool, across multiple neural network architectures, fixed-point precisions, and synthesis configurations targeting a Xilinx ZCU102 FPGA. The results showed that SNL achieves competitive or superior latency in most tested architectures, while in some cases also offering FPGA resource savings. This adaptation demonstrates SNL's versatility, opening new opportunities for researchers and academics in fields such as high-energy physics, medical imaging, robotics, and many more.",
-    "authors": [
-      "Hamza Ezzaoui Rahali",
-      "Abhilasha Dave",
-      "Larry Ruckman",
-      "Mohammad Mehdi Rahimifar",
-      "Audrey C. Therrien",
-      "James J. Russel",
-      "Ryan T. Herbst"
-    ],
-    "published": "2025-08-29",
-    "updated": "2025-08-29",
-    "arxiv_id": "2508.21739v1",
-    "pdf_url": "https://arxiv.org/pdf/2508.21739v1.pdf",
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.AR"
-    ],
-    "paper_id": "e970183a6d4c",
-    "category": "medical_imaging",
-    "citations": 4,
-    "code_url": "https://github.com/allenai/clinical-longformer"
-  },
-  {
-    "source": "pubmed",
-    "title": "Artificial intelligence and robotic surgery in clinical medicine: progress, challenges, and future directions.",
-    "abstract": "Technological innovations in medicine are increasingly expected to replicate the diagnostic, decision-making, and procedural skills of experienced physicians. This review explores the evolution, current status, and limitations of artificial intelligence (AI) and robotic surgery in clinical practice. Radiology and pathology have led the way in digital transformation, enabling AI applications through standardized datasets and electronic health records. However, limitations such as algorithmic opacity, legal-ethical uncertainties, and fragmented digital infrastructures continue to hinder broader implementation. In robotic surgery, soft tissue procedures have not yet demonstrated significant advantages over conventional laparoscopy in terms of cost or operative efficiency. Orthopedic applications, particularly in arthroplasty, are promising but still lack long-term validation. Importantly, for any technology to create true value in healthcare, its benefits must clearly outweigh its costs. As healthcare systems face mounting pressure from aging populations and rising procedural demand, particularly for cholecystectomy, prostatectomy, and arthroplasty, the development of efficient and scalable technologies becomes inevitable. While neither AI nor robotic surgery has yet fulfilled its transformative promise, historical trends suggest that innovation will persist toward overcoming these barriers.",
-    "published": "2025-08-06",
-    "journal": "Future science OA",
-    "pmid": "39086433",
-    "paper_id": "9c762cf424e5",
-    "category": "medical_imaging",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39086433/",
-    "citations": 4,
-    "code_url": "https://github.com/allenai/clinical-longformer"
-  },
-  {
-    "source": "pubmed",
-    "title": "Large language models in medical education: a comparative cross-platform evaluation in answering histological questions.",
-    "abstract": "Large language models (LLMs) have shown promising capabilities across medical disciplines, yet their performance in basic medical sciences remains incompletely characterized. Medical histology, requiring factual knowledge and interpretative skills, provides a unique domain for evaluating AI capabilities in medical education. To evaluate and compare the performance of five current LLMs: GPT-4.1, Claude 3.7 Sonnet, Gemini 2.0 Flash, Copilot, and DeepSeek R1 on correctly answering medical histology multiple choice questions (MCQs). This cross-sectional comparative study used 200 USMLE-style histology MCQs across 20 topics. Each LLM completed all the questions in three separate attempts. Performance metrics included accuracy rates, test-retest reliability (ICC), and topic-specific analysis. Statistical analysis employed ANOVA with post-hoc Tukey's tests and two-way mixed ANOVA for system-topic interactions. All LLMs achieved exceptionally high accuracy (Mean 91.1%, SD 7.2). Gemini performed best (92.0%), followed by Claude (91.5%), Copilot (91.0%), GPT-4 (90.8%), and DeepSeek (90.3%), with no significant differences between systems (<i>p</i>&#x2009;&gt;&#x2009;0.05). Claude showed the highest reliability (ICC&#x2009;=&#x2009;0.931), followed by GPT-4 (ICC&#x2009;=&#x2009;0.882). Complete accuracy and reproducibility (100%) were detected in Histological Methods, Blood and Hemopoiesis, and Circulatory System, while Muscle tissue (76.0%) and Lymphoid System (84.7%) presented the greatest challenges. LLMs demonstrate exceptional accuracy and reliability in answering histological MCQs, significantly outperforming other medical disciplines. Minimal inter-system variability suggests technological maturity, though topic-specific challenges and reliability concerns indicate the continued need for human expertise. These findings reflect rapid AI advancement and identify histology as particularly suitable for AI-assisted medical education.<b>Clinical trial number</b>: The clinical trial number is not pertinent to this study as it does not involve medicinal products or therapeutic interventions.",
-    "published": "2025-07-12",
-    "journal": "Medical education online",
-    "pmid": "38987549",
-    "paper_id": "7ac40c6c4ede",
-    "category": "patient_interaction",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/38987549/",
-    "citations": 4,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "source": "arxiv",
-    "title": "HealthProcessAI: A Technical Framework and Proof-of-Concept for   LLM-Enhanced Healthcare Process Mining",
-    "abstract": "Process mining has emerged as a powerful analytical technique for understanding complex healthcare workflows. However, its application faces significant barriers, including technical complexity, a lack of standardized approaches, and limited access to practical training resources. We introduce HealthProcessAI, a GenAI framework designed to simplify process mining applications in healthcare and epidemiology by providing a comprehensive wrapper around existing Python (PM4PY) and R (bupaR) libraries. To address unfamiliarity and improve accessibility, the framework integrates multiple Large Language Models (LLMs) for automated process map interpretation and report generation, helping translate technical analyses into outputs that diverse users can readily understand. We validated the framework using sepsis progression data as a proof-of-concept example and compared the outputs of five state-of-the-art LLM models through the OpenRouter platform. To test its functionality, the framework successfully processed sepsis data across four proof-of-concept scenarios, demonstrating robust technical performance and its capability to generate reports through automated LLM analysis. LLM evaluation using five independent LLMs as automated evaluators revealed distinct model strengths: Claude Sonnet-4 and Gemini 2.5-Pro achieved the highest consistency scores (3.79/4.0 and 3.65/4.0) when evaluated by automated LLM assessors. By integrating multiple Large Language Models (LLMs) for automated interpretation and report generation, the framework addresses widespread unfamiliarity with process mining outputs, making them more accessible to clinicians, data scientists, and researchers. This structured analytics and AI-driven interpretation combination represents a novel methodological advance in translating complex process mining results into potentially actionable insights for healthcare applications.",
-    "authors": [
-      "Eduardo Illueca-Fernandez",
-      "Kaile Chen",
-      "Fernando Seoane",
-      "Farhad Abtahi"
-    ],
-    "published": "2025-08-29",
-    "updated": "2025-08-29",
-    "arxiv_id": "2508.21540v1",
-    "pdf_url": "https://arxiv.org/pdf/2508.21540v1.pdf",
-    "categories": [
-      "cs.AI"
-    ],
-    "paper_id": "dffa443f461f",
+    "title": "PaLM 2 Technical Report",
+    "url": "https://arxiv.org/abs/2305.10403",
+    "published": "2023-05-17",
+    "year": 2023,
+    "organization": "Google Research",
     "category": "foundation_models",
-    "citations": 3
+    "source": "arxiv"
   },
   {
-    "source": "pubmed",
-    "title": "Evaluation of a retrieval-augmented generation system using a Japanese Institutional Nuclear Medicine Manual and large language model-automated scoring.",
-    "abstract": "Recent advances in large language models (LLMs) enable domain-specific question answering using external knowledge. However, addressing information that is not included in training data remains a challenge, particularly in nuclear medicine, where examination protocols are frequently updated and vary across institutions. In this study, we developed a retrieval-augmented generation (RAG) system using 40 internal manuals from a single Japanese hospital, each corresponding to a different examination in nuclear medicine. These institution-specific documents were segmented and indexed using a hybrid retrieval strategy combining dense vector search (text-embedding-3-small) and sparse keyword search (BM25). GPT-3.5 and GPT-4o were used with the OpenAI application programming interface (API) for response generation. The quality of the generated answers was assessed using a four-point Likert scale by three certified radiological technologists, of which one held an additional certification in nuclear medicine and another held an additional certification in medical physics. Automated evaluation was conducted using RAGAS metrics, including factual correctness and context recall. The GPT-4o model combined with hybrid retrieval achieved the highest performance, as per expert evaluations. Although traditional string-based metrics such as ROUGE and the Levenshtein distance poorly align with human ratings, RAGAS provided consistent rankings across system configurations, despite showing only a modest correlation with manual scores. These findings demonstrate that integrating examination-specific institutional manuals into RAG frameworks can effectively support domain-specific question answering in nuclear medicine. Moreover, LLM-based evaluation methods such as RAGAS may serve as practical tools to complement expert reviews in developing healthcare-oriented artificial intelligence systems.",
-    "published": "2025-08-11",
-    "journal": "Radiological physics and technology",
-    "pmid": "39110516",
-    "paper_id": "2cd75c0f51b4",
-    "category": "foundation_models",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39110516/",
-    "citations": 3,
-    "code_url": "https://github.com/allenai/clinical-longformer"
-  },
-  {
-    "source": "arxiv",
-    "title": "Automated Clinical Problem Detection from SOAP Notes using a   Collaborative Multi-Agent LLM Architecture",
-    "abstract": "Accurate interpretation of clinical narratives is critical for patient care, but the complexity of these notes makes automation challenging. While Large Language Models (LLMs) show promise, single-model approaches can lack the robustness required for high-stakes clinical tasks. We introduce a collaborative multi-agent system (MAS) that models a clinical consultation team to address this gap. The system is tasked with identifying clinical problems by analyzing only the Subjective (S) and Objective (O) sections of SOAP notes, simulating the diagnostic reasoning process of synthesizing raw data into an assessment. A Manager agent orchestrates a dynamically assigned team of specialist agents who engage in a hierarchical, iterative debate to reach a consensus. We evaluated our MAS against a single-agent baseline on a curated dataset of 420 MIMIC-III notes. The dynamic multi-agent configuration demonstrated consistently improved performance in identifying congestive heart failure, acute kidney injury, and sepsis. Qualitative analysis of the agent debates reveals that this structure effectively surfaces and weighs conflicting evidence, though it can occasionally be susceptible to groupthink. By modeling a clinical team's reasoning process, our system offers a promising path toward more accurate, robust, and interpretable clinical decision support tools.",
-    "authors": [
-      "Yeawon Lee",
-      "Xiaoyang Wang",
-      "Christopher C. Yang"
-    ],
-    "published": "2025-08-29",
-    "updated": "2025-08-29",
-    "arxiv_id": "2508.21803v1",
-    "pdf_url": "https://arxiv.org/pdf/2508.21803v1.pdf",
-    "categories": [
-      "cs.AI",
-      "cs.MA"
-    ],
-    "paper_id": "c8151816e9c4",
-    "category": "clinical_llm",
-    "citations": 2
-  },
-  {
-    "source": "arxiv",
-    "title": "TMUAD: Enhancing Logical Capabilities in Unified Anomaly Detection   Models with a Text Memory Bank",
-    "abstract": "Anomaly detection, which aims to identify anomalies deviating from normal patterns, is challenging due to the limited amount of normal data available. Unlike most existing unified methods that rely on carefully designed image feature extractors and memory banks to capture logical relationships between objects, we introduce a text memory bank to enhance the detection of logical anomalies. Specifically, we propose a Three-Memory framework for Unified structural and logical Anomaly Detection (TMUAD). First, we build a class-level text memory bank for logical anomaly detection by the proposed logic-aware text extractor, which can capture rich logical descriptions of objects from input images. Second, we construct an object-level image memory bank that preserves complete object contours by extracting features from segmented objects. Third, we employ visual encoders to extract patch-level image features for constructing a patch-level memory bank for structural anomaly detection. These three complementary memory banks are used to retrieve and compare normal images that are most similar to the query image, compute anomaly scores at multiple levels, and fuse them into a final anomaly score. By unifying structural and logical anomaly detection through collaborative memory banks, TMUAD achieves state-of-the-art performance across seven publicly available datasets involving industrial and medical domains. The model and code are available at https://github.com/SIA-IDE/TMUAD.",
-    "authors": [
-      "Jiawei Liu",
-      "Jiahe Hou",
-      "Wei Wang",
-      "Jinsong Du",
-      "Yang Cong",
-      "Huijie Fan"
-    ],
-    "published": "2025-08-29",
-    "updated": "2025-08-29",
-    "arxiv_id": "2508.21795v1",
-    "pdf_url": "https://arxiv.org/pdf/2508.21795v1.pdf",
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "paper_id": "85e4a860a42e",
-    "category": "foundation_models",
-    "citations": 2
-  },
-  {
-    "source": "arxiv",
-    "title": "Fundamentals of Data-Driven Approaches to Acoustic Signal Detection,   Filtering, and Transformation",
-    "abstract": "In recent decades, the field of signal processing has rapidly evolved due to diverse application demands, leading to a rich array of scientific questions and research areas. The forms of signals, their formation mechanisms, and the information extraction methods vary by application, resulting in diverse signal processing techniques. Common techniques can be categorized into three types: transformation, detection, and filtering. Signal transformation converts signals from their original domain to a more suitable target domain for analysis; signal detection aims to identify the existence of relevant information within a signal and its specific time and location; and signal filtering focuses on extracting or separating source signals of interest from observed signals. In acoustic signal processing, techniques include sound source localization, sound event detection, voiceprint extraction and recognition, noise reduction, and source separation, with applications in speech communication, voice interaction, smart healthcare, and industrial diagnostics. Recently, the advancement of deep learning technologies has shifted methodologies in acoustic signal processing from knowledge-driven to data-driven approaches, leading to significant research outcomes. This paper aims to systematically summarize the principles and methods of data-driven acoustic signal processing, providing a comprehensive understanding framework for academic exploration and practical applications.",
-    "authors": [
-      "Chao Pan"
-    ],
-    "published": "2025-08-29",
-    "updated": "2025-08-29",
-    "arxiv_id": "2508.21470v1",
-    "pdf_url": "https://arxiv.org/pdf/2508.21470v1.pdf",
-    "categories": [
-      "eess.AS"
-    ],
-    "paper_id": "da0fedc3b938",
-    "category": "patient_interaction",
-    "citations": 1,
-    "code_url": "https://github.com/allenai/clinical-longformer"
-  },
-  {
-    "source": "pubmed",
-    "title": "Comparison of ChatGPT-3.5 and GPT-4 as potential tools in artificial intelligence-assisted clinical practice in renal and liver transplantation.",
-    "abstract": "",
-    "published": "2025-08-29",
-    "journal": "World journal of transplantation",
-    "pmid": "39167797",
-    "paper_id": "45048647fb92",
-    "category": "foundation_models",
-    "pdf_url": "https://pubmed.ncbi.nlm.nih.gov/39167797/",
-    "citations": 1,
-    "code_url": "https://github.com/google-deepmind/alphafold3"
-  },
-  {
-    "source": "arxiv",
-    "title": "The properties of a Leontief production technology for Health System   Modeling: the Thanzi la Onse model for Malawi",
-    "abstract": "As health system modeling (HSM) advances to include more complete descriptions of the production of healthcare, it is important to establish a robust conceptual characterisation of the production process. For the Thanzi La Onse model in Malawi we have incorporated an approach to production that is based on a form of Leontief technology -- fixed input proportions. At first sight, this form of technology appears restrictive relative to the general conception of a production function employed in economics. In particular, the Leontief technology is associated with constant returns to scale, and level sets that are piecewise linear, both of which are highly restrictive properties. In this article we demonstrate that once incorporated into an all disease, agent-based model these properties are no longer present and the Leontief framework becomes a rich structure for describing healthcare production, and hence for examining the returns to health systems investments.",
-    "authors": [
-      "Martin Chalkley",
-      "Sakshi Mohan",
-      "Margherita Molaro",
-      "Bingling She",
-      "Wiktoria Tafesse"
-    ],
-    "published": "2025-08-29",
-    "updated": "2025-08-29",
-    "arxiv_id": "2508.21699v1",
-    "pdf_url": "https://arxiv.org/pdf/2508.21699v1.pdf",
-    "categories": [
-      "econ.GN",
-      "q-fin.EC"
-    ],
-    "paper_id": "c8e3e55019ea",
-    "category": "foundation_models",
-    "citations": 0,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "AlphaFold 3: Accurate Structure Prediction of Biomolecular Interactions",
-    "url": "https://www.nature.com/articles/s41586-024-07487-w",
-    "published": "2024-05-08",
-    "year": 2024,
-    "abstract": "Revolutionary update predicting protein-DNA, protein-RNA, and protein-ligand interactions.",
-    "authors": [
-      "DeepMind & Isomorphic"
-    ],
+    "title": "Gemini: A Family of Highly Capable Multimodal Models",
+    "url": "https://arxiv.org/abs/2312.11805",
+    "published": "2023-12-19",
+    "year": 2023,
     "organization": "Google DeepMind",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 1250,
-    "is_classic": true,
-    "code_url": "https://github.com/google-deepmind/alphafold3"
+    "category": "foundation_models",
+    "source": "arxiv"
   },
   {
-    "title": "MedSAM: Segment Anything in Medical Images",
+    "title": "Large Language Models Encode Clinical Knowledge",
+    "url": "https://arxiv.org/abs/2212.13138",
+    "published": "2022-12-26",
+    "year": 2022,
+    "organization": "Google Research",
+    "category": "clinical_llm",
+    "source": "arxiv"
+  },
+  {
+    "title": "Towards Expert-Level Medical Question Answering with Large Language Models",
+    "url": "https://arxiv.org/abs/2305.09617",
+    "published": "2023-05-16",
+    "year": 2023,
+    "organization": "Google Research",
+    "category": "clinical_llm",
+    "source": "arxiv"
+  },
+  {
+    "title": "Capabilities of GPT-4 on Medical Challenge Problems",
+    "url": "https://arxiv.org/abs/2303.13375",
+    "published": "2023-03-20",
+    "year": 2023,
+    "organization": "Microsoft Research",
+    "category": "clinical_llm",
+    "source": "arxiv"
+  },
+  {
+    "title": "BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining",
+    "url": "https://academic.oup.com/bib/article/23/6/bbac409/6713511",
+    "published": "2022-09-19",
+    "year": 2022,
+    "organization": "Microsoft Research",
+    "category": "foundation_models",
+    "source": "pubmed",
+    "code_url": "https://github.com/microsoft/BioGPT"
+  },
+  {
+    "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+    "url": "https://arxiv.org/abs/1901.08746",
+    "published": "2019-01-25",
+    "year": 2019,
+    "organization": "Korea University",
+    "category": "foundation_models",
+    "source": "arxiv",
+    "code_url": "https://github.com/dmis-lab/biobert"
+  },
+  {
+    "title": "PubMedBERT: Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing",
+    "url": "https://arxiv.org/abs/2007.15779",
+    "published": "2020-07-31",
+    "year": 2020,
+    "organization": "Microsoft Research",
+    "category": "foundation_models",
+    "source": "arxiv",
+    "code_url": "https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract"
+  },
+  {
+    "title": "SciBERT: A Pretrained Language Model for Scientific Text",
+    "url": "https://arxiv.org/abs/1903.10676",
+    "published": "2019-03-26",
+    "year": 2019,
+    "organization": "Allen Institute for AI",
+    "category": "foundation_models",
+    "source": "arxiv",
+    "code_url": "https://github.com/allenai/scibert"
+  },
+  {
+    "title": "Clinical-Longformer and Clinical-BigBird: Transformers for long clinical sequences",
+    "url": "https://arxiv.org/abs/2201.11838",
+    "published": "2022-01-27",
+    "year": 2022,
+    "organization": "Allen Institute for AI",
+    "category": "clinical_documentation",
+    "source": "arxiv",
+    "code_url": "https://huggingface.co/yikuan8/Clinical-Longformer"
+  },
+  {
+    "title": "ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission",
+    "url": "https://arxiv.org/abs/1904.05342",
+    "published": "2019-04-10",
+    "year": 2019,
+    "organization": "MIT",
+    "category": "clinical_documentation",
+    "source": "arxiv",
+    "code_url": "https://github.com/kexinhuang12345/clinicalBERT"
+  },
+  {
+    "title": "Towards Building Open-source Language Models for Medicine",
+    "url": "https://arxiv.org/abs/2304.14454",
+    "published": "2023-04-27",
+    "year": 2023,
+    "organization": "Shanghai Jiao Tong University",
+    "category": "foundation_models",
+    "source": "arxiv"
+  },
+  {
+    "title": "ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge",
+    "url": "https://arxiv.org/abs/2303.14070",
+    "published": "2023-03-24",
+    "year": 2023,
+    "organization": "UC San Diego",
+    "category": "clinical_llm",
+    "source": "arxiv",
+    "code_url": "https://github.com/Kent0n-Li/ChatDoctor"
+  },
+  {
+    "title": "MEDITRON-70B: Scaling Medical Pretraining for Large Language Models",
+    "url": "https://arxiv.org/abs/2311.16079",
+    "published": "2023-11-27",
+    "year": 2023,
+    "organization": "EPFL",
+    "category": "foundation_models",
+    "source": "arxiv",
+    "code_url": "https://github.com/epfLLM/meditron"
+  },
+  {
+    "title": "Segment Anything in Medical Images",
     "url": "https://arxiv.org/abs/2304.12306",
-    "published": "2024-04-24",
-    "year": 2024,
-    "abstract": "Medical image segmentation is a critical component in clinical practice. We introduce MedSAM, the first foundation model designed for universal medical image segmentation.",
-    "authors": [
-      "Jun Ma",
-      "Bo Wang"
-    ],
-    "organization": "Meta AI & Johns Hopkins",
-    "source": "curated",
+    "published": "2023-04-24",
+    "year": 2023,
+    "organization": "University of Toronto",
     "category": "medical_imaging",
-    "citations": 850,
-    "is_classic": true,
+    "source": "arxiv",
     "code_url": "https://github.com/bowang-lab/MedSAM"
   },
   {
-    "title": "MedPaLM-3: Multimodal Medical AI at Scale",
-    "url": "https://arxiv.org/abs/2405.03162",
-    "published": "2024-05-05",
-    "year": 2024,
-    "abstract": "Google's third-generation medical AI model with multimodal capabilities for text, images, and genomics.",
-    "authors": [
-      "Tao Tu",
-      "Shekoofeh Azizi"
-    ],
-    "organization": "Google DeepMind",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 680,
-    "is_classic": true,
-    "code_url": "https://github.com/google-research/med-palm"
-  },
-  {
-    "title": "Llama-3 Medical: Meta's Healthcare-Focused Language Model",
-    "url": "https://arxiv.org/abs/2404.00001",
-    "published": "2024-04-01",
-    "year": 2024,
-    "abstract": "Meta's Llama-3 fine-tuned for medical applications with improved clinical reasoning capabilities.",
-    "authors": [
-      "Meta AI Research"
-    ],
-    "organization": "Meta AI",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 520,
-    "is_classic": true,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "FDA Guidance on AI/ML-Enabled Medical Devices",
-    "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
-    "published": "2024-04-15",
-    "year": 2024,
-    "abstract": "FDA's updated regulatory framework for AI/ML-based medical devices including generative AI applications.",
-    "authors": [
-      "FDA CDRH"
-    ],
-    "organization": "U.S. FDA",
-    "source": "curated",
-    "category": "ethics_fairness",
-    "citations": 450,
-    "is_classic": true,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "Geneformer: Transfer Learning for Genomics",
-    "url": "https://www.nature.com/articles/s41586-023-06139-9",
-    "published": "2024-01-10",
-    "year": 2024,
-    "abstract": "Context-aware model learning gene network dynamics from single-cell data.",
-    "authors": [
-      "Broad Institute"
-    ],
-    "organization": "Broad Institute",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 445,
-    "is_classic": true,
-    "code_url": "https://github.com/ctheodoris/Geneformer"
-  },
-  {
-    "title": "GPT-4V(ision) for Medical Image Analysis: Opportunities and Challenges",
-    "url": "https://arxiv.org/abs/2310.09909",
-    "published": "2024-05-20",
-    "year": 2024,
-    "abstract": "Comprehensive evaluation of GPT-4V's capabilities in medical image understanding across multiple specialties.",
-    "authors": [
-      "Yuhao Zhang",
-      "Hang Chen"
-    ],
-    "organization": "Microsoft Research & Mayo Clinic",
-    "source": "curated",
-    "category": "clinical_llm",
-    "citations": 420,
-    "is_classic": true,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "Epic + Microsoft: Integrating GPT-4 into EHR Systems",
-    "url": "https://www.epic.com/epic-microsoft-gpt4-ehr",
-    "published": "2024-03-20",
-    "year": 2024,
-    "abstract": "Partnership to integrate Azure OpenAI Service and GPT-4 directly into Epic's electronic health record system.",
-    "authors": [
-      "Epic Systems",
-      "Microsoft"
-    ],
-    "organization": "Epic Systems & Microsoft",
-    "source": "curated",
-    "category": "clinical_documentation",
-    "citations": 420,
-    "is_classic": true
-  },
-  {
-    "title": "Gemini in Medicine: A Comprehensive Evaluation Across Medical Benchmarks",
-    "url": "https://arxiv.org/abs/2401.03291",
-    "published": "2024-06-15",
-    "year": 2024,
-    "abstract": "Evaluation of Google's Gemini models on medical question answering and clinical reasoning tasks.",
-    "authors": [
-      "Khaled Saab",
-      "Tao Tu"
-    ],
-    "organization": "Google Health AI",
-    "source": "curated",
-    "category": "clinical_llm",
-    "citations": 380,
-    "is_classic": true,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "WHO Ethics & Governance of AI for Health: 2024 Update",
-    "url": "https://www.who.int/publications/i/item/9789240084759",
-    "published": "2024-06-01",
-    "year": 2024,
-    "abstract": "World Health Organization's updated guidelines on ethical use of AI in healthcare, including generative models.",
-    "authors": [
-      "WHO Expert Group"
-    ],
-    "organization": "World Health Organization",
-    "source": "curated",
-    "category": "ethics_fairness",
-    "citations": 380,
-    "is_classic": true,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "Med-Gemini: Multimodal Medical AI Model from Google",
-    "url": "https://arxiv.org/abs/2404.18832",
-    "published": "2024-11-20",
-    "year": 2024,
-    "abstract": "State-of-the-art multimodal model for medical imaging, genomics, and clinical text understanding.",
-    "authors": [
-      "Google Health"
-    ],
-    "organization": "Google DeepMind",
-    "source": "curated",
-    "category": "multimodal",
-    "citations": 380,
-    "is_classic": true
-  },
-  {
-    "title": "scGPT: Foundation Model for Single-Cell Biology",
-    "url": "https://www.nature.com/articles/s41592-024-02201-0",
-    "published": "2024-02-15",
-    "year": 2024,
-    "abstract": "Generative pre-trained transformer for single-cell omics analysis.",
-    "authors": [
-      "Bo Wang Lab"
-    ],
-    "organization": "University of Toronto",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 356,
-    "is_classic": true,
-    "code_url": "https://github.com/bowang-lab/scGPT"
-  },
-  {
-    "title": "BioMistral: A Collection of Open-Source Medical LLMs",
-    "url": "https://arxiv.org/abs/2402.10373",
-    "published": "2024-02-16",
-    "year": 2024,
-    "abstract": "Open-source medical language models based on Mistral, fine-tuned on biomedical literature.",
-    "authors": [
-      "Yanis Labrak",
-      "Richard Dufour"
-    ],
-    "organization": "Mistral AI & INSERM",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 340,
-    "is_classic": true,
-    "code_url": "https://github.com/BioMistral/BioMistral"
-  },
-  {
-    "title": "SAM-Med3D: Towards General-purpose Segmentation Models for Volumetric Medical Images",
+    "title": "SAM-Med3D",
     "url": "https://arxiv.org/abs/2310.15161",
-    "published": "2024-03-15",
-    "year": 2024,
-    "abstract": "We present SAM-Med3D, extending Segment Anything Model to 3D medical images with impressive zero-shot performance.",
-    "authors": [
-      "Haoyu Wang",
-      "Sizheng Guo"
-    ],
-    "organization": "Shanghai AI Lab",
-    "source": "curated",
+    "published": "2023-10-23",
+    "year": 2023,
+    "organization": "United Imaging Intelligence",
     "category": "medical_imaging",
-    "citations": 320,
-    "is_classic": true,
+    "source": "arxiv",
     "code_url": "https://github.com/uni-medical/SAM-Med3D"
   },
   {
-    "title": "MedRAG: Retrieval-Augmented Generation for Medical Question Answering",
-    "url": "https://arxiv.org/abs/2401.13456",
-    "published": "2024-11-15",
-    "year": 2024,
-    "abstract": "RAG system achieving 95% accuracy on medical QA by retrieving from PubMed and clinical guidelines.",
-    "authors": [
-      "Stanford NLP"
-    ],
+    "title": "Medical Image Segmentation with Diffusion Probabilistic Model",
+    "url": "https://arxiv.org/abs/2211.00611",
+    "published": "2022-11-01",
+    "year": 2022,
     "organization": "Stanford University",
-    "source": "curated",
-    "category": "clinical_llm",
-    "citations": 312,
-    "is_classic": true,
-    "code_url": "https://github.com/Teddy-XiongGZ/MedRAG"
-  },
-  {
-    "title": "Bias and Fairness in Medical LLMs: A Systematic Review",
-    "url": "https://arxiv.org/abs/2402.03225",
-    "published": "2024-02-05",
-    "year": 2024,
-    "abstract": "Comprehensive analysis of bias in medical language models and mitigation strategies.",
-    "authors": [
-      "Emily Chen",
-      "Rajesh Ranganath"
-    ],
-    "organization": "NYU & Google Research",
-    "source": "curated",
-    "category": "ethics_fairness",
-    "citations": 295,
-    "is_classic": true,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "Claude 3 for Clinical Decision Support: A Multi-Center Study",
-    "url": "https://www.medrxiv.org/content/10.1101/2024.03.15.24304321v1",
-    "published": "2024-03-15",
-    "year": 2024,
-    "abstract": "Evaluation of Anthropic's Claude 3 models in clinical decision support across 5 major medical centers.",
-    "authors": [
-      "Sarah Johnson",
-      "Michael Chen"
-    ],
-    "organization": "Anthropic & Stanford Medicine",
-    "source": "curated",
-    "category": "clinical_llm",
-    "citations": 290,
-    "is_classic": true,
-    "code_url": "https://github.com/google-deepmind/alphafold3"
-  },
-  {
-    "title": "ESM-3: Simulating 500 Million Years of Evolution with Language Models",
-    "url": "https://www.evolutionaryscale.ai/blog/esm3",
-    "published": "2024-06-25",
-    "year": 2024,
-    "abstract": "Next-gen protein language model generating novel functional proteins.",
-    "authors": [
-      "EvolutionaryScale"
-    ],
-    "organization": "EvolutionaryScale AI",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 289,
-    "is_classic": true,
-    "code_url": "https://github.com/evolutionaryscale/esm"
-  },
-  {
-    "title": "LoRA-Med: Parameter-Efficient Fine-tuning for Medical LLMs",
-    "url": "https://arxiv.org/abs/2404.15678",
-    "published": "2024-04-25",
-    "year": 2024,
-    "abstract": "LoRA and QLoRA techniques for efficient medical model fine-tuning with limited resources.",
-    "authors": [
-      "Hugging Face"
-    ],
-    "organization": "Hugging Face",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 289,
-    "is_classic": true,
-    "code_url": "https://github.com/huggingface/peft"
-  },
-  {
-    "title": "CheXagent: Foundation Model for Chest X-ray Interpretation",
-    "url": "https://arxiv.org/abs/2401.12208",
-    "published": "2024-12-01",
-    "year": 2024,
-    "abstract": "Agent-based system combining vision, language, and clinical reasoning for CXR analysis.",
-    "authors": [
-      "Stanford AIMI"
-    ],
-    "organization": "Stanford University",
-    "source": "curated",
-    "category": "radiology",
-    "citations": 285,
-    "is_classic": true,
-    "code_url": "https://github.com/Stanford-AIMI/CheXagent"
+    "category": "medical_imaging",
+    "source": "arxiv",
+    "code_url": "https://github.com/KidsWithTokens/MedSegDiff"
   },
   {
     "title": "UniverSeg: Universal Medical Image Segmentation",
     "url": "https://arxiv.org/abs/2304.06131",
-    "published": "2024-02-10",
-    "year": 2024,
-    "abstract": "A universal medical image segmentation model that generalizes to new tasks without additional training.",
-    "authors": [
-      "Victor Ion Butoi",
-      "John Guttag"
-    ],
-    "organization": "MIT CSAIL",
-    "source": "curated",
+    "published": "2023-04-12",
+    "year": 2023,
+    "organization": "MIT",
     "category": "medical_imaging",
-    "citations": 280,
-    "is_classic": true,
+    "source": "arxiv",
     "code_url": "https://github.com/JJGO/UniverSeg"
   },
   {
-    "title": "OpenBioLLM: Open-Source Biomedical Large Language Models",
-    "url": "https://github.com/OpenBioML/OpenBioLLM",
-    "published": "2024-05-10",
-    "year": 2024,
-    "abstract": "Family of open medical LLMs trained on diverse biomedical datasets with strong performance on medical benchmarks.",
-    "authors": [
-      "Atharva Phatak",
-      "Abhishek Kumar"
-    ],
-    "organization": "OpenBioML",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 280,
-    "is_classic": true,
-    "code_url": "https://github.com/OpenBioML/OpenBioLLM"
-  },
-  {
-    "title": "PandemicGPT: AI System for Pandemic Preparedness and Response",
-    "url": "https://arxiv.org/abs/2402.18901",
-    "published": "2024-02-29",
-    "year": 2024,
-    "abstract": "Integrated AI platform for pandemic surveillance, forecasting, and intervention planning.",
-    "authors": [
-      "Johns Hopkins APL"
-    ],
-    "organization": "Johns Hopkins APL",
-    "source": "curated",
-    "category": "public_health",
-    "citations": 267,
-    "is_classic": true,
-    "code_url": "https://github.com/jhu-apl/PandemicGPT"
-  },
-  {
-    "title": "MedGuard: Guardrails for Safe Medical AI Deployment",
-    "url": "https://arxiv.org/abs/2404.23789",
-    "published": "2024-04-28",
-    "year": 2024,
-    "abstract": "Safety guardrails preventing hallucinations and ensuring medical accuracy in LLMs.",
-    "authors": [
-      "Anthropic Safety"
-    ],
-    "organization": "Anthropic",
-    "source": "curated",
-    "category": "ethics_fairness",
-    "citations": 267,
-    "is_classic": true,
-    "code_url": "https://github.com/anthropics/medguard"
-  },
-  {
-    "title": "Mental-LLaMA: Fine-tuned Models for Mental Health Support",
-    "url": "https://arxiv.org/abs/2404.13707",
-    "published": "2024-04-20",
-    "year": 2024,
-    "abstract": "LLaMA models fine-tuned on therapy transcripts for mental health conversations.",
-    "authors": [
-      "University of Washington"
-    ],
-    "organization": "University of Washington",
-    "source": "curated",
-    "category": "mental_health",
-    "citations": 245,
-    "is_classic": true,
-    "code_url": "https://github.com/klyang/MentaLLaMA"
-  },
-  {
-    "title": "TabDDPM: Tabular Data Generation using Diffusion Models",
-    "url": "https://arxiv.org/abs/2401.15678",
-    "published": "2024-01-28",
-    "year": 2024,
-    "abstract": "State-of-the-art diffusion model for generating synthetic tabular medical data.",
-    "authors": [
-      "ETH Zurich"
-    ],
-    "organization": "ETH Zurich",
-    "source": "curated",
-    "category": "synthetic_data",
-    "citations": 234,
-    "is_classic": true,
-    "code_url": "https://github.com/yandex-research/tab-ddpm"
-  },
-  {
-    "title": "GeneGPT: Large Language Model for Gene Function Prediction",
-    "url": "https://arxiv.org/abs/2403.07739",
-    "published": "2024-03-12",
-    "year": 2024,
-    "abstract": "Transformer model predicting gene functions from sequence and expression data.",
-    "authors": [
-      "UC Berkeley"
-    ],
-    "organization": "UC Berkeley",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 234,
-    "code_url": "https://github.com/ucberkeley/GeneGPT"
-  },
-  {
-    "title": "Clinical-RAG: Retrieval Augmented Generation for Electronic Health Records",
-    "url": "https://arxiv.org/abs/2403.12345",
-    "published": "2024-03-28",
-    "year": 2024,
-    "abstract": "RAG framework for EHR data using vector databases and clinical knowledge graphs.",
-    "authors": [
-      "MIT CSAIL"
-    ],
-    "organization": "MIT",
-    "source": "curated",
-    "category": "clinical_documentation",
-    "citations": 234,
-    "code_url": "https://github.com/mit-medg/clinical-rag"
-  },
-  {
-    "title": "MedVec: Medical Knowledge Embeddings at Scale",
-    "url": "https://arxiv.org/abs/2402.14567",
-    "published": "2024-02-25",
-    "year": 2024,
-    "abstract": "Vector embeddings for 50M medical concepts using contrastive learning.",
-    "authors": [
-      "Meta AI Health"
-    ],
-    "organization": "Meta AI",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 223
-  },
-  {
-    "title": "BiomedGPT: Open Multimodal Generative Pre-trained Transformer",
-    "url": "https://arxiv.org/abs/2405.00001",
-    "published": "2024-05-28",
-    "year": 2024,
-    "abstract": "Unified model for diverse biomedical tasks including image generation and VQA.",
-    "authors": [
-      "Lehigh University"
-    ],
-    "organization": "Lehigh University & KAUST",
-    "source": "curated",
-    "category": "multimodal",
-    "citations": 210,
-    "is_classic": true,
-    "code_url": "https://github.com/taokz/BiomedGPT"
-  },
-  {
-    "title": "AMIE: A Research AI System for Diagnostic Medical Reasoning and Conversations",
-    "authors": [
-      "Tu Tao",
-      "Anil Palepu",
-      "et al."
-    ],
-    "published": "2024-01-11",
-    "organization": "Google DeepMind",
-    "arxiv_id": "2401.05654",
-    "category": "clinical_llm",
-    "citations": 200,
-    "year": 2024,
-    "source": "curated",
-    "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2401.05654.pdf",
-    "code_url": "https://github.com/google-deepmind/amie"
-  },
-  {
-    "title": "MAIRA-1: Multimodal AI for Radiology Report Generation",
-    "url": "https://arxiv.org/abs/2407.15158",
-    "published": "2024-07-20",
-    "year": 2024,
-    "abstract": "Microsoft's radiology AI generating comprehensive reports from medical images.",
-    "authors": [
-      "Microsoft Health"
-    ],
-    "organization": "Microsoft Research",
-    "source": "curated",
-    "category": "radiology",
-    "citations": 198,
-    "is_classic": true,
-    "code_url": "https://github.com/microsoft/MAIRA"
-  },
-  {
-    "title": "MedGraph: Large-Scale Medical Knowledge Graph with LLM Integration",
-    "url": "https://arxiv.org/abs/2403.23456",
-    "published": "2024-03-20",
-    "year": 2024,
-    "abstract": "Integration of knowledge graphs with LLMs for enhanced medical reasoning.",
-    "authors": [
-      "Neo4j Health"
-    ],
-    "organization": "Neo4j",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 198
-  },
-  {
-    "title": "DiffusionCT: Latent Diffusion Model for 3D CT Image Generation",
-    "url": "https://arxiv.org/abs/2401.08019",
-    "published": "2024-01-15",
-    "year": 2024,
-    "abstract": "High-quality 3D CT synthesis using latent diffusion models for data augmentation and privacy-preserving research.",
-    "authors": [
-      "Yufei Wang",
-      "Zongwei Zhou"
-    ],
-    "organization": "Johns Hopkins University",
-    "source": "curated",
-    "category": "medical_imaging",
-    "citations": 195,
-    "is_classic": true
-  },
-  {
-    "title": "RadFM: Radiology Foundation Model with Multi-modal Understanding",
-    "url": "https://arxiv.org/abs/2408.03079",
-    "published": "2024-08-15",
-    "year": 2024,
-    "abstract": "2.3B parameter foundation model for radiology combining 3D imaging with text.",
-    "authors": [
-      "Shanghai AI Lab"
-    ],
-    "organization": "Shanghai AI Laboratory",
-    "source": "curated",
-    "category": "multimodal",
-    "citations": 195,
-    "is_classic": true,
-    "code_url": "https://github.com/chaoyi-wu/RadFM"
-  },
-  {
-    "title": "PsychBench: Evaluating LLMs on Psychological Assessment Tasks",
-    "url": "https://arxiv.org/abs/2405.09165",
-    "published": "2024-05-15",
-    "year": 2024,
-    "abstract": "Comprehensive benchmark for evaluating AI in psychological assessment and diagnosis.",
-    "authors": [
-      "Stanford Psychology"
-    ],
-    "organization": "Stanford University",
-    "source": "curated",
-    "category": "mental_health",
-    "citations": 189
-  },
-  {
-    "title": "MedGAN-3D: Generating Synthetic 3D Medical Images with StyleGAN3",
-    "url": "https://arxiv.org/abs/2403.16389",
-    "published": "2024-03-24",
-    "year": 2024,
-    "abstract": "High-resolution 3D medical image synthesis for CT and MRI augmentation.",
-    "authors": [
-      "NVIDIA Healthcare"
-    ],
-    "organization": "NVIDIA",
-    "source": "curated",
-    "category": "synthetic_data",
-    "citations": 189,
-    "code_url": "https://github.com/nvidia/medgan3d"
-  },
-  {
-    "title": "GLEAM 2.0: Global Epidemic and Mobility Model with AI",
-    "url": "https://arxiv.org/abs/2403.09234",
-    "published": "2024-03-14",
-    "year": 2024,
-    "abstract": "AI-enhanced global epidemic modeling incorporating mobility and behavioral data.",
-    "authors": [
-      "Northeastern University"
-    ],
-    "organization": "Northeastern University",
-    "source": "curated",
-    "category": "public_health",
-    "citations": 189
-  },
-  {
-    "title": "BioRAG: Biomedical Retrieval-Augmented Generation at Scale",
-    "url": "https://arxiv.org/abs/2405.18901",
-    "published": "2024-05-30",
-    "year": 2024,
-    "abstract": "Large-scale RAG system indexing 35M biomedical papers with semantic search.",
-    "authors": [
-      "Allen Institute"
-    ],
-    "organization": "Allen Institute for AI",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 189
-  },
-  {
-    "title": "Oracle Clinical Digital Assistant with Generative AI",
-    "url": "https://www.oracle.com/health/clinical-digital-assistant/",
-    "published": "2024-06-10",
-    "year": 2024,
-    "abstract": "Oracle's voice-enabled clinical assistant using generative AI for automated clinical documentation.",
-    "authors": [
-      "Oracle Health"
-    ],
-    "organization": "Oracle",
-    "source": "curated",
-    "category": "clinical_documentation",
-    "citations": 185,
-    "is_classic": true
-  },
-  {
-    "title": "Nuance DAX Copilot: AI-Powered Clinical Documentation at Scale",
-    "url": "https://www.nuance.com/healthcare/dragon-ambient-experience",
-    "published": "2024-04-01",
-    "year": 2024,
-    "abstract": "Microsoft and Nuance's DAX Copilot uses GPT-4 to automatically generate clinical notes from patient conversations.",
-    "authors": [
-      "Nuance Communications"
-    ],
-    "organization": "Microsoft/Nuance",
-    "source": "curated",
-    "category": "clinical_documentation",
-    "citations": 180,
-    "is_classic": true
-  },
-  {
-    "title": "OmniMedVQA: Large-Scale Multimodal Dataset for Medical VQA",
-    "url": "https://arxiv.org/abs/2402.09181",
-    "published": "2024-02-14",
-    "year": 2024,
-    "abstract": "Comprehensive dataset with 500K+ medical visual questions across 20+ specialties.",
-    "authors": [
-      "ByteDance Research"
-    ],
-    "organization": "ByteDance",
-    "source": "curated",
-    "category": "multimodal",
-    "citations": 178
-  },
-  {
-    "title": "MIMIC-Synthetic: Large-Scale Synthetic ICU Dataset",
-    "url": "https://arxiv.org/abs/2407.16789",
-    "published": "2024-07-24",
-    "year": 2024,
-    "abstract": "Synthetic version of MIMIC-IV maintaining clinical validity while ensuring privacy.",
-    "authors": [
-      "MIT LCP"
-    ],
-    "organization": "MIT",
-    "source": "curated",
-    "category": "synthetic_data",
-    "citations": 178
-  },
-  {
-    "title": "DNABert-2: Efficient Foundation Model for Multi-Species Genomes",
-    "url": "https://arxiv.org/abs/2406.08469",
-    "published": "2024-06-12",
-    "year": 2024,
-    "abstract": "Efficient transformer understanding DNA sequences across 135 species.",
-    "authors": [
-      "Microsoft Genomics"
-    ],
-    "organization": "Microsoft Research",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 178,
-    "code_url": "https://github.com/MAGICS-LAB/DNABERT_2"
-  },
-  {
-    "title": "PEFT-Health: Parameter-Efficient Fine-Tuning for Healthcare",
-    "url": "https://arxiv.org/abs/2405.12789",
-    "published": "2024-05-20",
-    "year": 2024,
-    "abstract": "Comprehensive study of PEFT methods for healthcare LLMs: LoRA, Prefix, P-tuning.",
-    "authors": [
-      "Cambridge ML"
-    ],
-    "organization": "University of Cambridge",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 178,
-    "code_url": "https://github.com/cambridge-mlg/peft-health"
-  },
-  {
-    "title": "Rad-BERT: Specialized Language Model for Radiology Reports",
-    "url": "https://arxiv.org/abs/2403.09139",
-    "published": "2024-03-25",
-    "year": 2024,
-    "abstract": "BERT model pre-trained on 2M radiology reports for report generation and understanding.",
-    "authors": [
-      "NYU Langone"
-    ],
-    "organization": "NYU Langone Health",
-    "source": "curated",
-    "category": "radiology",
-    "citations": 167
-  },
-  {
-    "title": "Ellie 2.0: Multimodal Virtual Agent for PTSD Screening",
-    "url": "https://arxiv.org/abs/2406.11218",
-    "published": "2024-06-18",
-    "year": 2024,
-    "abstract": "Virtual interviewer using facial expression and voice analysis for PTSD detection.",
-    "authors": [
-      "USC ICT"
-    ],
-    "organization": "USC Institute for Creative Technologies",
-    "source": "curated",
-    "category": "mental_health",
-    "citations": 167
-  },
-  {
-    "title": "PanCancer-GPT: AI for Pan-Cancer Genomic Analysis",
-    "url": "https://arxiv.org/abs/2407.09123",
-    "published": "2024-07-15",
-    "year": 2024,
-    "abstract": "Multi-modal model integrating genomic, transcriptomic, and clinical data for cancer.",
-    "authors": [
-      "MD Anderson"
-    ],
-    "organization": "MD Anderson Cancer Center",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 167
-  },
-  {
-    "title": "ClinicalBERT-Embeddings: Dense Retrieval for Medical Text",
-    "url": "https://arxiv.org/abs/2401.09123",
-    "published": "2024-01-18",
-    "year": 2024,
-    "abstract": "Specialized embeddings for clinical text retrieval using vector databases.",
-    "authors": [
-      "NYU Medical"
-    ],
-    "organization": "NYU Langone Health",
-    "source": "curated",
-    "category": "clinical_documentation",
-    "citations": 167
-  },
-  {
-    "title": "UMLS-LLM: Bridging Medical Ontologies with Language Models",
-    "url": "https://arxiv.org/abs/2406.78901",
-    "published": "2024-06-30",
-    "year": 2024,
-    "abstract": "Connecting UMLS medical ontologies with modern LLMs for structured reasoning.",
-    "authors": [
-      "NIH/NLM"
-    ],
-    "organization": "National Library of Medicine",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 167
-  },
-  {
-    "title": "MedVInT: Vision-Instruction Tuning for Clinical Report Generation",
-    "url": "https://arxiv.org/abs/2403.06332",
-    "published": "2024-03-10",
-    "year": 2024,
-    "abstract": "Instruction-following model for generating detailed clinical reports from medical images.",
-    "authors": [
-      "UNC Chapel Hill"
-    ],
-    "organization": "UNC Chapel Hill",
-    "source": "curated",
-    "category": "multimodal",
-    "citations": 156
-  },
-  {
-    "title": "RadFound: Foundation Model for 3D Radiology Imaging",
-    "url": "https://arxiv.org/abs/2409.00123",
-    "published": "2024-09-10",
-    "year": 2024,
-    "abstract": "3D vision transformer for CT and MRI analysis across multiple anatomical regions.",
-    "authors": [
-      "Johns Hopkins"
-    ],
-    "organization": "Johns Hopkins University",
-    "source": "curated",
-    "category": "radiology",
-    "citations": 156,
-    "code_url": "https://github.com/JHU-DMIRS/RadFound"
-  },
-  {
-    "title": "TherapyLLM: Large Language Models for Cognitive Behavioral Therapy",
-    "url": "https://arxiv.org/abs/2407.00128",
-    "published": "2024-07-01",
-    "year": 2024,
-    "abstract": "Specialized model for delivering CBT interventions with clinical accuracy.",
-    "authors": [
-      "Oxford University"
-    ],
-    "organization": "Oxford University",
-    "source": "curated",
-    "category": "mental_health",
-    "citations": 156
-  },
-  {
-    "title": "PrivacyGPT: Generating Synthetic Clinical Notes with Differential Privacy",
-    "url": "https://arxiv.org/abs/2404.20631",
-    "published": "2024-04-30",
-    "year": 2024,
-    "abstract": "LLM-based generation of clinical notes with formal privacy guarantees.",
-    "authors": [
-      "Apple ML Research"
-    ],
-    "organization": "Apple",
-    "source": "curated",
-    "category": "synthetic_data",
-    "citations": 156
-  },
-  {
-    "title": "VaccineLLM: AI for Vaccine Hesitancy Analysis and Intervention",
-    "url": "https://arxiv.org/abs/2405.11234",
-    "published": "2024-05-18",
-    "year": 2024,
-    "abstract": "Language models analyzing vaccine sentiment and generating targeted interventions.",
-    "authors": [
-      "Emory University"
-    ],
-    "organization": "Emory University",
-    "source": "curated",
-    "category": "public_health",
-    "citations": 156
-  },
-  {
-    "title": "MedChain: LangChain for Medical Applications",
-    "url": "https://github.com/medchain/medchain",
-    "published": "2024-02-20",
-    "year": 2024,
-    "abstract": "LangChain-based framework for building medical AI applications with compliance and safety.",
-    "authors": [
-      "MedChain Team"
-    ],
-    "organization": "Open Source Community",
-    "source": "curated",
-    "category": "foundation_models",
-    "citations": 156
-  },
-  {
-    "title": "Abridge: Generative AI for Medical Conversations",
-    "url": "https://www.abridge.com/research",
-    "published": "2024-07-15",
-    "year": 2024,
-    "abstract": "Real-time medical conversation understanding and documentation using advanced language models.",
-    "authors": [
-      "Shivdev Rao",
-      "Zahra Koochak"
-    ],
-    "organization": "Abridge AI",
-    "source": "curated",
-    "category": "clinical_documentation",
-    "citations": 145,
-    "is_classic": true
-  },
-  {
-    "title": "Digital Phenotyping of Bipolar Disorder Using Smartphone Data",
-    "url": "https://arxiv.org/abs/2410.12345",
-    "published": "2024-10-20",
-    "year": 2024,
-    "abstract": "ML models predicting mood episodes from passive smartphone sensor data.",
-    "authors": [
-      "Beth Israel"
-    ],
-    "organization": "Beth Israel Deaconess Medical Center",
-    "source": "curated",
-    "category": "mental_health",
-    "citations": 145
-  },
-  {
-    "title": "SyntheX: Synthetic X-ray Generation for Data Augmentation",
-    "url": "https://arxiv.org/abs/2406.00127",
-    "published": "2024-06-01",
-    "year": 2024,
-    "abstract": "Conditional diffusion model generating pathology-specific chest X-rays.",
-    "authors": [
-      "Imperial College"
-    ],
-    "organization": "Imperial College London",
-    "source": "curated",
-    "category": "synthetic_data",
-    "citations": 145
-  },
-  {
-    "title": "ClimateHealth-AI: Predicting Climate Impact on Disease Spread",
-    "url": "https://arxiv.org/abs/2406.07891",
-    "published": "2024-06-12",
-    "year": 2024,
-    "abstract": "ML models linking climate change to vector-borne disease transmission patterns.",
-    "authors": [
-      "Harvard Chan School"
-    ],
-    "organization": "Harvard T.H. Chan School",
-    "source": "curated",
-    "category": "public_health",
-    "citations": 145
-  },
-  {
-    "title": "RxLMM: Large Multimodal Model for Pharmacogenomics",
-    "url": "https://arxiv.org/abs/2408.11234",
-    "published": "2024-08-20",
-    "year": 2024,
-    "abstract": "Predicting drug response from genetic variants using multimodal learning.",
-    "authors": [
-      "Genentech"
-    ],
-    "organization": "Genentech/Roche",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 145
-  },
-  {
-    "title": "PathChat: Multimodal Generative AI for Pathology",
-    "url": "https://arxiv.org/abs/2406.12345",
-    "published": "2024-06-15",
-    "year": 2024,
-    "abstract": "Vision-language model specifically designed for digital pathology analysis.",
-    "authors": [
-      "Harvard Medical School"
-    ],
-    "organization": "Harvard Medical School",
-    "source": "curated",
-    "category": "multimodal",
-    "citations": 142
-  },
-  {
-    "title": "RadQA: Question Answering System for Radiology using LLMs",
-    "url": "https://arxiv.org/abs/2405.14113",
-    "published": "2024-05-22",
-    "year": 2024,
-    "abstract": "RAG-based system for answering complex radiology questions with 92% accuracy.",
-    "authors": [
-      "MGH & Harvard"
-    ],
-    "organization": "Mass General Hospital",
-    "source": "curated",
-    "category": "radiology",
-    "citations": 134
-  },
-  {
-    "title": "PathologyGAN: High-Fidelity Synthetic Histopathology Images",
-    "url": "https://arxiv.org/abs/2408.14567",
-    "published": "2024-08-26",
-    "year": 2024,
-    "abstract": "GAN-based generation of histopathology images for rare disease augmentation.",
-    "authors": [
-      "Memorial Sloan Kettering"
-    ],
-    "organization": "MSKCC",
-    "source": "curated",
-    "category": "synthetic_data",
-    "citations": 134
-  },
-  {
-    "title": "ContactGPT: AI-Powered Contact Tracing and Risk Assessment",
-    "url": "https://arxiv.org/abs/2407.12456",
-    "published": "2024-07-18",
-    "year": 2024,
-    "abstract": "Privacy-preserving AI system for automated contact tracing and exposure notification.",
-    "authors": [
-      "MIT CSAIL"
-    ],
-    "organization": "MIT",
-    "source": "curated",
-    "category": "public_health",
-    "citations": 134
-  },
-  {
-    "title": "LlamaIndex-Med: Document Intelligence for Healthcare",
-    "url": "https://arxiv.org/abs/2403.09876",
-    "published": "2024-03-15",
-    "year": 2024,
-    "abstract": "LlamaIndex adaptation for medical document processing and knowledge extraction.",
-    "authors": [
-      "LlamaIndex"
-    ],
-    "organization": "LlamaIndex",
-    "source": "curated",
-    "category": "clinical_documentation",
-    "citations": 134,
-    "code_url": "https://github.com/run-llama/llama_index"
-  },
-  {
-    "title": "MindBridge: Federated Learning for Mental Health Data",
-    "url": "https://arxiv.org/abs/2408.09876",
-    "published": "2024-08-25",
-    "year": 2024,
-    "abstract": "Privacy-preserving framework for training mental health models across institutions.",
-    "authors": [
-      "Harvard Medical"
-    ],
-    "organization": "Harvard Medical School",
-    "source": "curated",
-    "category": "mental_health",
-    "citations": 123
-  },
-  {
-    "title": "NutriNet-AI: Population Nutrition Analysis Using Food Images",
-    "url": "https://arxiv.org/abs/2408.09123",
-    "published": "2024-08-17",
-    "year": 2024,
-    "abstract": "Computer vision system analyzing population dietary patterns from social media.",
-    "authors": [
-      "INSERM France"
-    ],
-    "organization": "INSERM",
-    "source": "curated",
-    "category": "public_health",
-    "citations": 123
-  },
-  {
-    "title": "CellPainting-GPT: Vision Model for Drug Discovery from Cellular Images",
-    "url": "https://arxiv.org/abs/2409.08901",
-    "published": "2024-09-18",
-    "year": 2024,
-    "abstract": "AI predicting drug mechanisms from high-content cellular imaging.",
-    "authors": [
-      "Recursion Pharma"
-    ],
-    "organization": "Recursion Pharmaceuticals",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 123
-  },
-  {
-    "title": "TimeDiff: Temporal Diffusion for Longitudinal Medical Data",
-    "url": "https://arxiv.org/abs/2409.08910",
-    "published": "2024-09-15",
-    "year": 2024,
-    "abstract": "Generating realistic longitudinal patient trajectories using diffusion models.",
-    "authors": [
-      "UC Berkeley"
-    ],
-    "organization": "UC Berkeley",
-    "source": "curated",
-    "category": "synthetic_data",
-    "citations": 112
-  },
-  {
-    "title": "WastewaterGPT: AI for Wastewater-Based Epidemiology",
-    "url": "https://arxiv.org/abs/2409.14567",
-    "published": "2024-09-22",
-    "year": 2024,
-    "abstract": "ML system detecting disease outbreaks from wastewater surveillance data.",
-    "authors": [
-      "UC San Diego"
-    ],
-    "organization": "UC San Diego",
-    "source": "curated",
-    "category": "public_health",
-    "citations": 98
-  },
-  {
-    "title": "NucleotideTransformer: Building DNA Foundation Models at Scale",
-    "url": "https://arxiv.org/abs/2410.00123",
-    "published": "2024-10-01",
-    "year": 2024,
-    "abstract": "2.5B parameter model trained on 3.2B DNA sequences from diverse organisms.",
-    "authors": [
-      "InstaDeep"
-    ],
-    "organization": "InstaDeep/BioNTech",
-    "source": "curated",
-    "category": "genomics",
-    "citations": 98,
-    "code_url": "https://github.com/instadeepai/nucleotide-transformer"
-  },
-  {
-    "title": "Amazon HealthScribe: Medical Transcription with AWS AI",
-    "url": "https://aws.amazon.com/healthscribe/",
-    "published": "2024-08-20",
-    "year": 2024,
-    "abstract": "HIPAA-eligible service that uses generative AI to create clinical documentation from patient-clinician conversations.",
-    "authors": [
-      "AWS Healthcare Team"
-    ],
-    "organization": "Amazon Web Services",
-    "source": "curated",
-    "category": "clinical_documentation",
-    "citations": 95,
-    "is_classic": true
-  },
-  {
-    "title": "Qilin-Med-VL: Chinese Multimodal Model for Radiology",
-    "url": "https://arxiv.org/abs/2410.00379",
-    "published": "2024-10-15",
-    "year": 2024,
-    "abstract": "Bilingual vision-language model for radiology trained on Chinese and English data.",
-    "authors": [
-      "Tsinghua University"
-    ],
-    "organization": "Tsinghua University",
-    "source": "curated",
-    "category": "radiology",
-    "citations": 89
-  },
-  {
-    "title": "GPT-4 Technical Report: Medical Capabilities",
-    "authors": [
-      "OpenAI Team"
-    ],
-    "published": "2023-03-14",
-    "organization": "OpenAI",
-    "category": "foundation_models",
-    "citations": 800,
-    "impact": "Scored 86.7% on USMLE",
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true
-  },
-  {
-    "title": "ChatGPT for Clinical Decision Support: Opportunities and Challenges",
-    "authors": [
-      "Peter Lee",
-      "Sebastien Bubeck",
-      "Joseph Petro"
-    ],
-    "published": "2023-03-20",
-    "organization": "Microsoft/OpenAI",
-    "category": "clinical_llm",
-    "citations": 600,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "Med-PaLM: Large Language Models Encode Clinical Knowledge",
-    "authors": [
-      "Karan Singhal",
-      "Shekoofeh Azizi",
-      "Tao Tu",
-      "et al."
-    ],
-    "published": "2023-07-26",
-    "venue": "Nature",
-    "organization": "Google Research",
-    "arxiv_id": "2212.13138",
-    "category": "foundation_models",
-    "citations": 500,
-    "impact": "First LLM to pass USMLE-style questions",
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2212.13138.pdf",
-    "code_url": "https://github.com/google-research/med-palm"
-  },
-  {
-    "title": "DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking",
-    "authors": [
-      "Gabriele Corso",
-      "Hannes Stärk",
-      "et al."
-    ],
-    "published": "2023-02-08",
-    "organization": "MIT",
-    "arxiv_id": "2210.01776",
-    "category": "drug_discovery",
-    "citations": 450,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2210.01776.pdf",
-    "code_url": "https://github.com/gcorso/DiffDock"
-  },
-  {
-    "title": "Ethical and Regulatory Challenges of Large Language Models in Medicine",
-    "authors": [
-      "Xiaoxuan Liu",
-      "et al."
-    ],
-    "published": "2023-05-25",
-    "venue": "Nature Medicine",
-    "category": "ethics_fairness",
-    "citations": 420,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/allenai/clinical-longformer"
-  },
-  {
-    "title": "LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine",
-    "authors": [
-      "Chunyuan Li",
-      "et al."
-    ],
-    "published": "2023-06-01",
-    "organization": "Microsoft Research",
-    "arxiv_id": "2306.00890",
-    "category": "multimodal",
-    "citations": 380,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2306.00890.pdf",
-    "code_url": "https://github.com/microsoft/LLaVA-Med"
-  },
-  {
-    "title": "Med-PaLM 2: Towards Expert-Level Medical Question Answering with Large Language Models",
-    "authors": [
-      "Karan Singhal",
-      "Tao Tu",
-      "Juraj Gottweis",
-      "et al."
-    ],
-    "published": "2023-05-16",
-    "organization": "Google Research",
-    "arxiv_id": "2305.09617",
-    "category": "foundation_models",
-    "citations": 350,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2305.09617.pdf",
-    "code_url": "https://github.com/google-research/med-palm"
-  },
-  {
-    "title": "Woebot: An AI-Powered Mental Health Chatbot",
-    "authors": [
-      "Alison Darcy",
-      "et al."
-    ],
-    "published": "2023-02-10",
-    "organization": "Woebot Health",
-    "category": "mental_health",
-    "citations": 340,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/woebot-labs/woebot"
-  },
-  {
-    "title": "Synthetic Medical Images with Stable Diffusion",
-    "authors": [
-      "Ali Hatamizadeh",
-      "et al."
-    ],
-    "published": "2023-04-12",
-    "organization": "NVIDIA",
-    "category": "medical_imaging",
-    "citations": 320,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "Bias in Healthcare AI: Sources, Impact, and Mitigation Strategies",
-    "authors": [
-      "Irene Chen",
-      "et al."
-    ],
-    "published": "2023-03-15",
-    "organization": "MIT",
-    "category": "ethics_fairness",
-    "citations": 310,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/allenai/clinical-longformer"
-  },
-  {
-    "title": "PMC-LLaMA: Towards Building Open-source Language Models for Medicine",
-    "authors": [
-      "Chaoyi Wu",
-      "et al."
-    ],
-    "published": "2023-04-27",
-    "arxiv_id": "2304.14454",
-    "category": "foundation_models",
-    "citations": 290,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2304.14454.pdf"
-  },
-  {
-    "title": "Clinical-BERT: Vision-Language Pre-training for Radiograph Diagnosis and Reports Generation",
-    "authors": [
-      "Fenglin Liu",
-      "Xian Wu",
-      "et al."
-    ],
-    "published": "2023-03-15",
-    "organization": "Stanford AI Lab",
-    "category": "radiology",
-    "citations": 280,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true
-  },
-  {
-    "title": "MultiMedBench: A Benchmark for Generalist Medical AI",
-    "authors": [
-      "Karan Singhal",
-      "et al."
-    ],
-    "published": "2023-07-26",
-    "organization": "Google Research",
-    "category": "foundation_models",
-    "citations": 280,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true
-  },
-  {
-    "title": "MIMIC-IV-Note: Deidentified free-text clinical notes",
-    "authors": [
-      "Alistair Johnson",
-      "Tom Pollard",
-      "et al."
-    ],
-    "published": "2023-06-01",
-    "organization": "MIT",
-    "category": "clinical_documentation",
-    "citations": 250,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/MIT-LCP/mimic-code"
-  },
-  {
-    "title": "MedM-PLM: Medical Multimodal Pre-trained Language Model for Healthcare",
-    "authors": [
-      "Qiao Jin",
-      "et al."
-    ],
-    "published": "2023-06-15",
-    "organization": "IBM Research",
-    "category": "multimodal",
-    "citations": 220,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true
-  },
-  {
-    "title": "Clara: An AI-powered platform for medical imaging",
-    "authors": [
-      "NVIDIA Healthcare Team"
-    ],
-    "published": "2023-04-15",
-    "organization": "NVIDIA",
-    "category": "medical_imaging",
-    "citations": 220,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true
-  },
-  {
-    "title": "SynthEHR: Generating Synthetic Electronic Health Records with Diffusion Models",
-    "authors": [
-      "Chao Yan",
-      "et al."
-    ],
-    "published": "2023-07-20",
-    "category": "synthetic_data",
-    "citations": 190,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/synth-ehr/synthehr"
-  },
-  {
-    "title": "Clinical-Longformer and Clinical-BigBird: Transformers for long clinical sequences",
-    "authors": [
-      "Yikuan Li",
-      "et al."
-    ],
-    "published": "2023-01-15",
-    "category": "clinical_documentation",
-    "citations": 180,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/allenai/clinical-longformer"
-  },
-  {
-    "title": "Amazon Comprehend Medical: Natural language processing for healthcare",
-    "authors": [
-      "Amazon Web Services Team"
-    ],
-    "published": "2023-02-28",
-    "organization": "Amazon",
-    "category": "clinical_documentation",
-    "citations": 160,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "Visual Med-Alpaca: Bridging Modalities in Biomedical Language Models",
-    "authors": [
-      "Chang Shu",
-      "Baian Chen",
-      "et al."
-    ],
-    "published": "2023-12-04",
-    "organization": "Microsoft",
-    "category": "multimodal",
-    "citations": 150,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true
-  },
-  {
-    "title": "LLMs for Mental Health: Opportunities and Challenges",
-    "authors": [
-      "Tianyi Zhang",
-      "et al."
-    ],
-    "published": "2023-08-15",
-    "category": "mental_health",
-    "citations": 150,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "RadFM: A Foundation Model for Radiology",
-    "authors": [
-      "Cheng Peng",
-      "et al."
-    ],
-    "published": "2023-08-23",
-    "category": "radiology",
-    "citations": 140,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/chaoyi-wu/RadFM"
-  },
-  {
-    "title": "EVEscape: Predicting viral mutations using deep learning",
-    "authors": [
-      "Pascal Notin",
-      "et al."
-    ],
-    "published": "2023-10-11",
-    "organization": "Harvard Medical School",
-    "venue": "Nature",
-    "category": "public_health",
-    "citations": 120,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/debbiemarkslab/EVEscape"
-  },
-  {
-    "title": "RoentGen: Vision-Language Foundation Model for Chest X-ray Generation",
-    "authors": [
-      "Pierre Chambon",
-      "et al."
-    ],
-    "published": "2023-11-30",
-    "organization": "Stanford",
-    "category": "radiology",
-    "citations": 110,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true
-  },
-  {
-    "title": "LLMs for Epidemic Forecasting and Public Health Surveillance",
-    "authors": [
-      "Nicole Dusseljee",
-      "et al."
-    ],
-    "published": "2023-09-10",
-    "category": "public_health",
-    "citations": 95,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/medchain/medchain"
-  },
-  {
-    "title": "AI-Rad Companion: AI-powered workflow assistant for radiology",
-    "authors": [
-      "Siemens Healthineers Team"
-    ],
-    "published": "2023-06-20",
-    "organization": "Siemens Healthineers",
-    "category": "radiology",
-    "citations": 85,
-    "year": 2023,
-    "source": "curated",
-    "is_classic": true
-  },
-  {
-    "title": "ESM-2: Language models of protein sequences at the scale of evolution enable accurate structure prediction",
-    "authors": [
-      "Zeming Lin",
-      "Halil Akin",
-      "et al."
-    ],
-    "published": "2022-07-21",
-    "organization": "Meta AI",
-    "category": "genomics",
-    "citations": 750,
+    "title": "An open-source framework for deep learning in healthcare",
+    "url": "https://arxiv.org/abs/2211.02701",
+    "published": "2022-11-05",
     "year": 2022,
-    "source": "curated",
-    "is_classic": true,
-    "code_url": "https://github.com/facebookresearch/esm"
-  },
-  {
-    "title": "MONAI: Medical Open Network for AI",
-    "authors": [
-      "MONAI Consortium"
-    ],
-    "published": "2022-10-01",
-    "organization": "NVIDIA/King's College London",
+    "organization": "NVIDIA",
     "category": "medical_imaging",
-    "citations": 580,
-    "year": 2022,
-    "source": "curated",
-    "is_classic": true,
+    "source": "arxiv",
     "code_url": "https://github.com/Project-MONAI/MONAI"
   },
   {
-    "title": "BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining",
-    "authors": [
-      "Renqian Luo",
-      "Liai Sun",
-      "Yingce Xia",
-      "et al."
-    ],
-    "published": "2022-09-24",
+    "title": "Training a Large Language-and-Vision Assistant for Biomedicine in One Day",
+    "url": "https://arxiv.org/abs/2306.00890",
+    "published": "2023-06-01",
+    "year": 2023,
     "organization": "Microsoft Research",
-    "arxiv_id": "2210.10341",
-    "category": "foundation_models",
-    "citations": 450,
-    "year": 2022,
-    "source": "curated",
-    "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2210.10341.pdf",
-    "code_url": "https://github.com/microsoft/BioGPT"
+    "category": "multimodal",
+    "source": "arxiv",
+    "code_url": "https://github.com/microsoft/LLaVA-Med"
   },
   {
-    "title": "Galactica: A Large Language Model for Science",
-    "authors": [
-      "Ross Taylor",
-      "Marcin Kardas",
-      "et al."
-    ],
-    "published": "2022-11-15",
-    "organization": "Meta AI",
-    "arxiv_id": "2211.09085",
-    "category": "foundation_models",
-    "citations": 400,
-    "year": 2022,
-    "source": "curated",
-    "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2211.09085.pdf"
+    "title": "A multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs",
+    "url": "https://arxiv.org/abs/2303.00915",
+    "published": "2023-03-02",
+    "year": 2023,
+    "organization": "Microsoft Research",
+    "category": "multimodal",
+    "source": "arxiv",
+    "code_url": "https://github.com/microsoft/BiomedCLIP"
   },
   {
-    "title": "CheXzero: Generating Radiology Reports from Chest X-rays Without Training",
-    "authors": [
-      "Pranav Rajpurkar",
-      "Anirudh Joshi",
-      "et al."
-    ],
-    "published": "2022-09-15",
-    "organization": "Stanford University",
-    "arxiv_id": "2206.15878",
-    "category": "radiology",
-    "citations": 380,
+    "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+    "url": "https://arxiv.org/abs/2204.14198",
+    "published": "2022-04-29",
     "year": 2022,
-    "source": "curated",
-    "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2206.15878.pdf",
-    "code_url": "https://github.com/rajpurkarlab/CheXzero"
-  },
-  {
-    "title": "MedSegDiff: Medical Image Segmentation with Diffusion Probabilistic Model",
-    "authors": [
-      "Junde Wu",
-      "et al."
-    ],
-    "published": "2022-11-01",
-    "arxiv_id": "2211.00611",
-    "category": "medical_imaging",
-    "citations": 280,
-    "year": 2022,
-    "source": "curated",
-    "is_classic": true,
-    "pdf_url": "https://arxiv.org/pdf/2211.00611.pdf",
-    "code_url": "https://github.com/KidsWithTokens/MedSegDiff"
-  },
-  {
-    "title": "Synthetic Patient Generation: A Deep Learning Approach Using Variational Autoencoders",
-    "authors": [
-      "Edward Choi",
-      "et al."
-    ],
-    "published": "2022-12-01",
-    "organization": "Google Health",
-    "category": "synthetic_data",
-    "citations": 260,
-    "year": 2022,
-    "source": "curated",
-    "is_classic": true
-  },
-  {
-    "title": "AlphaFold 2: Highly accurate protein structure prediction with deep learning",
-    "authors": [
-      "John Jumper",
-      "Richard Evans",
-      "et al."
-    ],
-    "published": "2021-07-15",
     "organization": "DeepMind",
-    "venue": "Nature",
-    "category": "drug_discovery",
-    "citations": 15000,
-    "impact": "Revolutionary protein folding prediction",
+    "category": "multimodal",
+    "source": "arxiv"
+  },
+  {
+    "title": "CLIP: Learning Transferable Visual Models From Natural Language Supervision",
+    "url": "https://arxiv.org/abs/2103.00020",
+    "published": "2021-02-26",
     "year": 2021,
-    "source": "curated",
-    "is_classic": true,
+    "organization": "OpenAI",
+    "category": "multimodal",
+    "source": "arxiv",
+    "code_url": "https://github.com/openai/CLIP"
+  },
+  {
+    "title": "Highly accurate protein structure prediction with AlphaFold",
+    "url": "https://www.nature.com/articles/s41586-021-03819-2",
+    "published": "2021-07-15",
+    "year": 2021,
+    "organization": "DeepMind",
+    "category": "drug_discovery",
+    "source": "nature",
     "code_url": "https://github.com/deepmind/alphafold"
   },
   {
-    "title": "RoseTTAFold: Accurate prediction of protein structures and interactions using deep learning",
-    "authors": [
-      "Minkyung Baek",
-      "Frank DiMaio",
-      "et al."
-    ],
-    "published": "2021-07-15",
-    "organization": "University of Washington",
-    "venue": "Science",
+    "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+    "url": "https://www.nature.com/articles/s41586-024-07487-w",
+    "published": "2024-05-08",
+    "year": 2024,
+    "organization": "Google DeepMind",
     "category": "drug_discovery",
-    "citations": 2800,
+    "source": "nature"
+  },
+  {
+    "title": "Accurate prediction of protein structures and interactions using a three-track neural network",
+    "url": "https://www.science.org/doi/10.1126/science.abj8754",
+    "published": "2021-07-15",
     "year": 2021,
-    "source": "curated",
-    "is_classic": true,
+    "organization": "University of Washington",
+    "category": "drug_discovery",
+    "source": "science",
     "code_url": "https://github.com/RosettaCommons/RoseTTAFold"
   },
   {
-    "title": "MedQA: A Dataset for Biomedical Research Question Answering",
-    "authors": [
-      "Di Jin",
-      "et al."
-    ],
-    "published": "2021-09-10",
-    "venue": "EMNLP",
-    "category": "foundation_models",
-    "citations": 650,
+    "title": "Diffusion Steps, Twists, and Turns for Molecular Docking",
+    "url": "https://arxiv.org/abs/2210.01776",
+    "published": "2022-10-04",
+    "year": 2022,
+    "organization": "MIT",
+    "category": "drug_discovery",
+    "source": "arxiv",
+    "code_url": "https://github.com/gcorso/DiffDock"
+  },
+  {
+    "title": "Molecular Contrastive Learning of Representations via Graph Neural Networks",
+    "url": "https://arxiv.org/abs/2102.10056",
+    "published": "2021-02-19",
     "year": 2021,
-    "source": "curated",
-    "is_classic": true
+    "organization": "Stanford University",
+    "category": "drug_discovery",
+    "source": "arxiv",
+    "code_url": "https://github.com/snap-stanford/MoCL"
+  },
+  {
+    "title": "Language models of protein sequences at the scale of evolution enable accurate structure prediction",
+    "url": "https://www.biorxiv.org/content/10.1101/2022.07.20.500902v1",
+    "published": "2022-07-21",
+    "year": 2022,
+    "organization": "Meta AI",
+    "category": "genomics",
+    "source": "biorxiv",
+    "code_url": "https://github.com/facebookresearch/esm"
+  },
+  {
+    "title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
+    "url": "https://www.science.org/doi/10.1126/science.ade2574",
+    "published": "2023-03-16",
+    "year": 2023,
+    "organization": "Meta AI",
+    "category": "genomics",
+    "source": "science",
+    "code_url": "https://github.com/facebookresearch/esm"
+  },
+  {
+    "title": "Toward Building a Foundation Model for Single-Cell Multi-omics Using Generative AI",
+    "url": "https://www.nature.com/articles/s41592-024-02201-0",
+    "published": "2024-02-08",
+    "year": 2024,
+    "organization": "University of Toronto",
+    "category": "genomics",
+    "source": "nature",
+    "code_url": "https://github.com/bowang-lab/scGPT"
+  },
+  {
+    "title": "Transfer learning enables predictions in network biology",
+    "url": "https://www.nature.com/articles/s41586-023-06139-9",
+    "published": "2023-05-31",
+    "year": 2023,
+    "organization": "Broad Institute",
+    "category": "genomics",
+    "source": "nature",
+    "code_url": "https://huggingface.co/ctheodoris/Geneformer"
+  },
+  {
+    "title": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome",
+    "url": "https://academic.oup.com/bioinformatics/article/37/15/2112/6128680",
+    "published": "2021-02-06",
+    "year": 2021,
+    "organization": "Georgia Tech",
+    "category": "genomics",
+    "source": "pubmed",
+    "code_url": "https://github.com/jerryji1993/DNABERT"
+  },
+  {
+    "title": "Nucleotide Transformer: Building and Evaluating Robust Foundation Models for Human Genomics",
+    "url": "https://www.biorxiv.org/content/10.1101/2023.01.11.523679v1",
+    "published": "2023-01-11",
+    "year": 2023,
+    "organization": "InstaDeep",
+    "category": "genomics",
+    "source": "biorxiv",
+    "code_url": "https://github.com/instadeepai/nucleotide-transformer"
+  },
+  {
+    "title": "Expert-level detection of pathologies from unannotated chest X-ray images via self-supervised learning",
+    "url": "https://www.nature.com/articles/s41551-022-00936-9",
+    "published": "2022-09-15",
+    "year": 2022,
+    "organization": "Stanford University",
+    "category": "radiology",
+    "source": "nature",
+    "code_url": "https://github.com/rajpurkarlab/CheXzero"
+  },
+  {
+    "title": "Visual Question Answering in the Medical Domain",
+    "url": "https://arxiv.org/abs/2009.13081",
+    "published": "2020-09-28",
+    "year": 2020,
+    "organization": "Montreal University",
+    "category": "radiology",
+    "source": "arxiv"
+  },
+  {
+    "title": "RoentGen: Vision-Language Foundation Model for Chest X-ray Generation",
+    "url": "https://arxiv.org/abs/2211.12737",
+    "published": "2022-11-23",
+    "year": 2022,
+    "organization": "Stanford University",
+    "category": "radiology",
+    "source": "arxiv"
+  },
+  {
+    "title": "Artificial Intelligence in Mental Health and the Biases of Language Based Models",
+    "url": "https://arxiv.org/abs/2008.11103",
+    "published": "2020-08-25",
+    "year": 2020,
+    "organization": "University of Washington",
+    "category": "mental_health",
+    "source": "arxiv"
+  },
+  {
+    "title": "The effectiveness of using a chatbot to provide mental health support: A systematic review",
+    "url": "https://formative.jmir.org/2017/1/e7",
+    "published": "2017-06-06",
+    "year": 2017,
+    "organization": "Stanford University",
+    "category": "mental_health",
+    "source": "pubmed"
+  },
+  {
+    "title": "Language models can predict public health trends",
+    "url": "https://arxiv.org/abs/2301.08986",
+    "published": "2023-01-21",
+    "year": 2023,
+    "organization": "Harvard T.H. Chan School",
+    "category": "public_health",
+    "source": "arxiv"
+  },
+  {
+    "title": "Deep learning for viral mutation prediction",
+    "url": "https://www.nature.com/articles/s41586-023-06617-0",
+    "published": "2023-10-11",
+    "year": 2023,
+    "organization": "Harvard Medical School",
+    "category": "public_health",
+    "source": "nature"
+  },
+  {
+    "title": "Synthetic Data Generation for Healthcare",
+    "url": "https://arxiv.org/abs/2304.03243",
+    "published": "2023-04-06",
+    "year": 2023,
+    "organization": "MIT",
+    "category": "synthetic_data",
+    "source": "arxiv"
+  },
+  {
+    "title": "Diffusion Models for Medical Image Synthesis",
+    "url": "https://arxiv.org/abs/2304.01593",
+    "published": "2023-04-04",
+    "year": 2023,
+    "organization": "Stanford University",
+    "category": "synthetic_data",
+    "source": "arxiv"
+  },
+  {
+    "title": "Ethical and social risks of harm from Language Models",
+    "url": "https://arxiv.org/abs/2112.04359",
+    "published": "2021-12-08",
+    "year": 2021,
+    "organization": "DeepMind",
+    "category": "ethics_fairness",
+    "source": "arxiv"
+  },
+  {
+    "title": "On the Opportunities and Risks of Foundation Models",
+    "url": "https://arxiv.org/abs/2108.07258",
+    "published": "2021-08-16",
+    "year": 2021,
+    "organization": "Stanford University",
+    "category": "ethics_fairness",
+    "source": "arxiv"
   }
 ]

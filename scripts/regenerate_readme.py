@@ -99,10 +99,9 @@ def generate_readme():
             else:
                 code = f"[Code]({paper['code_url']})"
         
-        # Citations
-        citations = paper.get("citations", "-")
+        # No citations - we don't have real citation data
         
-        return f"| {date} | {title_link} | {venue} | {code} | {citations} |"
+        return f"| {date} | {title_link} | {venue} | {code} |"
     
     # Get recent papers for highlights
     recent_papers = sorted(
@@ -168,30 +167,31 @@ def generate_readme():
         cat_papers = papers_by_category.get(cat_key, [])[:15]  # Top 15 per category
         
         readme += f"### {cat_name}\n\n"
-        readme += "| Date | Title | Venue/Org | Code | Citations |\n"
-        readme += "|------|-------|-----------|------|-----------|\n"
+        readme += "| Date | Title | Venue/Org | Code |\n"
+        readme += "|------|-------|-----------|------|\n"
         
         if cat_papers:
             for paper in cat_papers:
                 readme += format_paper(paper) + "\n"
         else:
-            readme += "| - | *No papers yet* | - | - | - |\n"
+            readme += "| - | *No papers yet* | - | - |\n"
         
         readme += "\n"
     
     # Add statistics section
+    papers_with_code = len([p for p in papers if p.get("code_url")])
+    
     readme += f"""## 📈 Statistics & Trends
 
 ### Collection Overview
 - **Total Papers**: {stats['total_papers']}
-- **Classic Papers (2020-2024)**: {stats['classic_papers']}
-- **Recent Papers (2025)**: {stats['recent_papers']}
-- **Papers from 2024**: {stats.get('papers_2024', 24)}
+- **Papers with Code**: {papers_with_code}
+- **Last Updated**: {datetime.now().strftime('%Y-%m-%d')}
 
 ### Papers by Year
 """
     
-    for year in sorted(stats['by_year'].keys()):
+    for year in sorted(stats['by_year'].keys(), reverse=True):
         readme += f"- **{year}**: {stats['by_year'][year]} papers\n"
     
     readme += "\n### Top Organizations\n"
