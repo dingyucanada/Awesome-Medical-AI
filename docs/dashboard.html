@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Healthcare AI Papers Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                   color: white; padding: 30px; border-radius: 10px; margin-bottom: 20px; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+                  gap: 20px; margin-bottom: 30px; }
+        .stat-card { background: white; padding: 20px; border-radius: 10px; 
+                      box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .stat-number { font-size: 2em; font-weight: bold; color: #667eea; }
+        .stat-label { color: #666; margin-top: 5px; }
+        .chart { background: white; padding: 20px; border-radius: 10px; 
+                  margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .bar { background: #667eea; height: 30px; margin: 5px 0; 
+                border-radius: 5px; position: relative; }
+        .bar-label { position: absolute; left: 10px; line-height: 30px; color: white; }
+        .bar-value { position: absolute; right: 10px; line-height: 30px; color: white; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #667eea; color: white; padding: 10px; text-align: left; }
+        td { padding: 10px; border-bottom: 1px solid #ddd; }
+        .trend { display: inline-block; padding: 5px 10px; margin: 5px; 
+                  background: #e0e7ff; color: #667eea; border-radius: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏥 Healthcare AI Papers Dashboard</h1>
+            <p>Updated: 2025-09-02 14:27</p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">49</div>
+                <div class="stat-label">Total Papers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">27</div>
+                <div class="stat-label">Last 7 Days</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">32</div>
+                <div class="stat-label">Last 30 Days</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">8</div>
+                <div class="stat-label">Categories</div>
+            </div>
+        </div>
+        
+        <div class="chart">
+            <h2>📊 Papers by Category</h2>
+            <div style="margin: 10px 0;">
+                <div style="display: flex; align-items: center;">
+                    <div style="width: 150px; text-align: right; padding-right: 10px;">foundation</div>
+                    <div style="flex: 1; background: #e0e7ff; border-radius: 5px;">
+                        <div class="bar" style="width: 100.0%;">
+                            <span class="bar-value">23</span>
+                        </div>
+                    </div>
+                </div>
+            </div><div style="margin: 10px 0;">
+                <div style="display: flex; align-items: center;">
+                    <div style="width: 150px; text-align: right; padding-right: 10px;">patient_care</div>
+                    <div style="flex: 1; background: #e0e7ff; border-radius: 5px;">
+                        <div class="bar" style="width: 39.130434782608695%;">
+                            <span class="bar-value">9</span>
+                        </div>
+                    </div>
+                </div>
+            </div><div style="margin: 10px 0;">
+                <div style="display: flex; align-items: center;">
+                    <div style="width: 150px; text-align: right; padding-right: 10px;">medical_imaging</div>
+                    <div style="flex: 1; background: #e0e7ff; border-radius: 5px;">
+                        <div class="bar" style="width: 17.391304347826086%;">
+                            <span class="bar-value">4</span>
+                        </div>
+                    </div>
+                </div>
+            </div><div style="margin: 10px 0;">
+                <div style="display: flex; align-items: center;">
+                    <div style="width: 150px; text-align: right; padding-right: 10px;">clinical_apps</div>
+                    <div style="flex: 1; background: #e0e7ff; border-radius: 5px;">
+                        <div class="bar" style="width: 17.391304347826086%;">
+                            <span class="bar-value">4</span>
+                        </div>
+                    </div>
+                </div>
+            </div><div style="margin: 10px 0;">
+                <div style="display: flex; align-items: center;">
+                    <div style="width: 150px; text-align: right; padding-right: 10px;">ethics</div>
+                    <div style="flex: 1; background: #e0e7ff; border-radius: 5px;">
+                        <div class="bar" style="width: 17.391304347826086%;">
+                            <span class="bar-value">4</span>
+                        </div>
+                    </div>
+                </div>
+            </div><div style="margin: 10px 0;">
+                <div style="display: flex; align-items: center;">
+                    <div style="width: 150px; text-align: right; padding-right: 10px;">documentation</div>
+                    <div style="flex: 1; background: #e0e7ff; border-radius: 5px;">
+                        <div class="bar" style="width: 8.695652173913043%;">
+                            <span class="bar-value">2</span>
+                        </div>
+                    </div>
+                </div>
+            </div><div style="margin: 10px 0;">
+                <div style="display: flex; align-items: center;">
+                    <div style="width: 150px; text-align: right; padding-right: 10px;">drug_discovery</div>
+                    <div style="flex: 1; background: #e0e7ff; border-radius: 5px;">
+                        <div class="bar" style="width: 8.695652173913043%;">
+                            <span class="bar-value">2</span>
+                        </div>
+                    </div>
+                </div>
+            </div><div style="margin: 10px 0;">
+                <div style="display: flex; align-items: center;">
+                    <div style="width: 150px; text-align: right; padding-right: 10px;">genomics</div>
+                    <div style="flex: 1; background: #e0e7ff; border-radius: 5px;">
+                        <div class="bar" style="width: 4.3478260869565215%;">
+                            <span class="bar-value">1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chart">
+            <h2>📈 Monthly Trend</h2>
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap;"><div style="text-align: center; margin: 10px;">
+                <div style="background: #667eea; color: white; width: 60px; height: 10px; 
+                            margin: 0 auto; border-radius: 5px; display: flex; align-items: flex-end; 
+                            justify-content: center; padding: 10px;">
+                    <span>1</span>
+                </div>
+                <div style="margin-top: 5px; font-size: 0.9em;">2025-02</div>
+            </div><div style="text-align: center; margin: 10px;">
+                <div style="background: #667eea; color: white; width: 60px; height: 10px; 
+                            margin: 0 auto; border-radius: 5px; display: flex; align-items: flex-end; 
+                            justify-content: center; padding: 10px;">
+                    <span>1</span>
+                </div>
+                <div style="margin-top: 5px; font-size: 0.9em;">2025-04</div>
+            </div><div style="text-align: center; margin: 10px;">
+                <div style="background: #667eea; color: white; width: 60px; height: 10px; 
+                            margin: 0 auto; border-radius: 5px; display: flex; align-items: flex-end; 
+                            justify-content: center; padding: 10px;">
+                    <span>1</span>
+                </div>
+                <div style="margin-top: 5px; font-size: 0.9em;">2025-05</div>
+            </div><div style="text-align: center; margin: 10px;">
+                <div style="background: #667eea; color: white; width: 60px; height: 30px; 
+                            margin: 0 auto; border-radius: 5px; display: flex; align-items: flex-end; 
+                            justify-content: center; padding: 10px;">
+                    <span>3</span>
+                </div>
+                <div style="margin-top: 5px; font-size: 0.9em;">2025-06</div>
+            </div><div style="text-align: center; margin: 10px;">
+                <div style="background: #667eea; color: white; width: 60px; height: 100px; 
+                            margin: 0 auto; border-radius: 5px; display: flex; align-items: flex-end; 
+                            justify-content: center; padding: 10px;">
+                    <span>10</span>
+                </div>
+                <div style="margin-top: 5px; font-size: 0.9em;">2025-07</div>
+            </div><div style="text-align: center; margin: 10px;">
+                <div style="background: #667eea; color: white; width: 60px; height: 200px; 
+                            margin: 0 auto; border-radius: 5px; display: flex; align-items: flex-end; 
+                            justify-content: center; padding: 10px;">
+                    <span>33</span>
+                </div>
+                <div style="margin-top: 5px; font-size: 0.9em;">2025-08</div>
+            </div></div>
+        </div>
+        
+        <div class="chart">
+            <h2>🔥 Trending Topics</h2>
+            <div>
+                <span class="trend">LLM</span><span class="trend">Clinical AI</span><span class="trend">Medical Imaging</span><span class="trend">Drug Discovery</span><span class="trend">Federated Learning</span><span class="trend">Multimodal Models</span>
+            </div>
+        </div>
+        
+        <div class="chart">
+            <h2>📚 Recent Papers</h2>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Title</th>
+                    <th>Category</th>
+                    <th>Source</th>
+                </tr>
+                <tr>
+                    <td>2025-08-31</td>
+                    <td>Evaluation of GPT-4o for multilingual translation of radiology reports across im...</td>
+                    <td>medical_imaging</td>
+                    <td>pubmed</td>
+                </tr><tr>
+                    <td>2025-08-30</td>
+                    <td>Assessing LLM-generated vs. expert-created clinical anatomy MCQs: a student perc...</td>
+                    <td>patient_care</td>
+                    <td>pubmed</td>
+                </tr><tr>
+                    <td>2025-08-30</td>
+                    <td>Clinical decision support for pharmacologic management of treatment-resistant de...</td>
+                    <td>clinical_apps</td>
+                    <td>pubmed</td>
+                </tr><tr>
+                    <td>2025-08-29</td>
+                    <td>DriveQA: Passing the Driving Knowledge Test...</td>
+                    <td>ethics</td>
+                    <td>arxiv</td>
+                </tr><tr>
+                    <td>2025-08-29</td>
+                    <td>A new characterization of the holographic entropy cone...</td>
+                    <td>foundation</td>
+                    <td>arxiv</td>
+                </tr><tr>
+                    <td>2025-08-29</td>
+                    <td>Scattering for the non-radial inhomogeneous Hartree equation with a   potential...</td>
+                    <td>foundation</td>
+                    <td>arxiv</td>
+                </tr><tr>
+                    <td>2025-08-29</td>
+                    <td>An Introduction to Gravitational Wave Theory...</td>
+                    <td>foundation</td>
+                    <td>arxiv</td>
+                </tr><tr>
+                    <td>2025-08-29</td>
+                    <td>Achieving Hilbert-Schmidt Independence Under Rényi Differential   Privacy for Fa...</td>
+                    <td>ethics</td>
+                    <td>arxiv</td>
+                </tr><tr>
+                    <td>2025-08-29</td>
+                    <td>Unitary induced channels and Tsirelson's problem...</td>
+                    <td>foundation</td>
+                    <td>arxiv</td>
+                </tr><tr>
+                    <td>2025-08-29</td>
+                    <td>QR-LoRA: QR-Based Low-Rank Adaptation for Efficient Fine-Tuning of Large   Langu...</td>
+                    <td>foundation</td>
+                    <td>arxiv</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

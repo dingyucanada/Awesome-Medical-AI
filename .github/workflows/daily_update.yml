@@ -1,0 +1,66 @@
+name: Daily Paper Update
+
+on:
+  schedule:
+    # Run at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allow manual trigger
+  push:
+    branches: [ main ]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
+
+jobs:
+  update_papers:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        pip install openai  # For survey generation
+        pip install matplotlib pandas  # For visualization
+    
+    - name: Collect papers
+      run: |
+        python scripts/collect_papers.py
+      continue-on-error: true  # Don't fail if some sources are unavailable
+    
+    - name: Update README
+      run: |
+        python scripts/update_readme.py
+    
+    - name: Generate survey
+      if: github.event.schedule == '0 0 * * 0' || github.event_name == 'workflow_dispatch'  # Weekly or manual
+      run: |
+        python scripts/generate_survey.py
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      continue-on-error: true
+    
+    - name: Generate visualizations
+      run: |
+        python scripts/generate_viz.py
+      continue-on-error: true
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff --staged --quiet || git commit -m "📚 Daily update: $(date +'%Y-%m-%d')"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

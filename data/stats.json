@@ -1,0 +1,19 @@
+{
+  "total_papers": 49,
+  "new_papers": 60,
+  "by_source": {
+    "pubmed": 29,
+    "arxiv": 20
+  },
+  "by_category": {
+    "medical_imaging": 4,
+    "patient_care": 9,
+    "clinical_apps": 4,
+    "ethics": 4,
+    "foundation": 23,
+    "documentation": 2,
+    "genomics": 1,
+    "drug_discovery": 2
+  },
+  "last_updated": "2025-09-02T14:26:41.759941"
+}

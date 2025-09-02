@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data backups (keep only latest)
+data/papers_2025*.json
+!data/papers_latest.json
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# API Keys (never commit!)
+.env
+secrets.json
+config.ini
+
+# Virtual environments
+bin/
+include/
+lib/
+lib64/
+share/
+pyvenv.cfg
