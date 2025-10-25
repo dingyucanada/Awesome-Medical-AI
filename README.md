@@ -2,7 +2,7 @@
 
 ![Auto-Update](https://img.shields.io/badge/Auto%20Update-Daily-brightgreen)
 ![Papers](https://img.shields.io/badge/Papers-141-blue)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--10--24-orange)
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--10--25-orange)
 
 > A comprehensive, auto-updating collection of cutting-edge AI research papers in medicine and healthcare, updated daily via GitHub Actions.
 
